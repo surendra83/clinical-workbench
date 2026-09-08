@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
 from langchain_openai import AzureChatOpenAI
 from langchain_core.messages import SystemMessage, HumanMessage
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import JsonOutputParser
 from openai import AzureOpenAI
 import time
