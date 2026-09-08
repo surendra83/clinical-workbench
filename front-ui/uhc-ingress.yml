@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: "clinical-workbench-lite-ingress"
+  namespace: "clinical-workbench-lite-uhc-test"
+  annotations:
+    # These 2 annotation will create a SSL certificate for you
+    cert-manager.io/cluster-issuer: "optum-app"
+    cert-manager.io/common-name: "clinical-workbench-lite-uhc-test.hcck8s-ctc.optum.com"
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  tls:
+    - hosts:
+        - "clinical-workbench-lite-uhc-test.hcck8s-ctc.optum.com"
+      secretName: "clinical-workbench-lite-ingress"
+  rules:
+    - host: "aclinical-workbench-lite-uhc-test.hcck8s-ctc.optum.com"
+      http:
+        paths:
+          - pathType: Prefix
+            path: "/"
+            backend:
+              service:
+                name: "clinical-workbench-lite-service"
+                port:
+                  number: 80

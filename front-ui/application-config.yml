@@ -1,0 +1,93 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ${APP_NAME}
+spec:
+  replicas: 1
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app: ${APP_NAME}
+  template:
+    metadata:
+      labels:
+        app: ${APP_NAME}
+    spec:
+      imagePullSecrets:
+      - name: jfrog-registry-secret
+      containers:
+      - name: ${APP_NAME}
+        image: ${IMAGE}
+        imagePullPolicy: Always
+        env:
+        - name: RMQ_USER
+          valueFrom:
+            configMapKeyRef:
+              name: clinical-workbench-config
+              key: RMQ_USER
+        - name: RMQ_PASS
+          valueFrom:
+           secretKeyRef:
+             name: ani-secret
+             key: RMQ_PASS
+        - name: RMQ_USER
+          valueFrom:
+            configMapKeyRef:
+              name: clinical-workbench-config
+              key: RMQ_USER
+        - name: S3_BUCKET
+          valueFrom:
+            configMapKeyRef:
+              name: clinical-workbench-config
+              key: S3_BUCKET
+        - name: S3_ACCESS_KEY_ID
+          valueFrom:
+            configMapKeyRef:
+              name: clinical-workbench-config
+              key: S3_ACCESS_KEY_ID
+        - name: S3_SECRET_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: ani-secret
+              key: S3_SECRET_ACCESS_KEY
+        - name: S3_URL
+          valueFrom:
+            configMapKeyRef:
+              name: clinical-workbench-config
+              key: S3_URL
+        - name: LOKI_URL
+          valueFrom:
+            configMapKeyRef:
+              key: LOKI_URL
+              name: clinical-workbench-config
+        - name: APPLICATION_NAME
+          valueFrom:
+            configMapKeyRef:
+              key: APPLICATION_NAME
+              name: clinical-workbench-config   
+        securityContext:
+          runAsUser: 1000
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          capabilities:
+            drop:
+            - KILL
+            - MKNOD
+            - SYS_CHROOT
+        resources:
+          requests:
+            memory: "184Mi"
+            cpu: "10m"
+          limits:
+            memory: "500Mi"
+            cpu: "200m"
+        readinessProbe:
+          tcpSocket:
+            port: 8080
+          initialDelaySeconds: 100
+          periodSeconds: 10
+        livenessProbe:
+          tcpSocket:
+            port: 8080
+          initialDelaySeconds: 100
+          periodSeconds: 20

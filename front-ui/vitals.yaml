@@ -1,0 +1,7 @@
+apiVersion: v1
+metadata:
+  askId: AIDE_0074990
+  caAgileId: poc
+  componentType: code
+  projectFriendlyName: clinicalworkbench-deployments-ui
+  targetQG: GATE_00

@@ -1,0 +1,231 @@
+@Library("com.optum.jenkins.pipeline.library@master") _
+
+import com.optum.jenkins.pipeline.library.docker.Docker
+
+String k8sAppName = 'clinical-workbench-lite' 
+
+String c_branch = env.BRANCH_NAME
+
+String parentBranch = "common_${env.BRANCH_NAME}"
+echo "Checking out branch: */${parentBranch}"
+
+String dockerCredentialsId = 'ani_deploy'
+String githubAuth = 'mapgithub'
+String dockerHost = 'docker.repo1.uhc.com'
+String dockerNamespace = 'machine-prior-auth'
+String versionPrefix = '1.0'
+String tagBaseVersion = "$dockerHost/$dockerNamespace/$k8sAppName:$versionPrefix"
+String tagBaseLatest = "$dockerHost/$dockerNamespace/$k8sAppName:" + "latest"
+String dockerImageName = "$tagBaseVersion.${BUILD_NUMBER}-$c_branch"
+
+String dev_stg = "hcc_dev"
+String test_stg = "hcc_test"
+String stage_stg = "hcc_stage"
+String prod_stg = "hcc_prod"
+
+String dev_hcc_creds= 'hcc-k8s-id-map-oc-dev'
+String test_hcc_creds= 'hcc-k8s-id-map-oc-test'
+String stage_hcc_creds= 'hcc-k8s-id-map-oc-stage'
+String prod_hcc_creds= 'hcc-k8s-id-map-oc-prod'
+
+String uhc_dev_hcc_creds= 'hcc-k8s-id-map-uhc-dev'
+String uhc_test_hcc_creds= 'hcc-k8s-id-map-uhc-test'
+String uhc_stage_hcc_creds= 'hcc-k8s-id-map-uhc-stage'
+String uhc_prod_hcc_creds= 'hcc-k8s-id-map-uhc-prod'
+
+String k8sCluster = 'hcc-ctc-prd-usr001-0.optum.com'
+String k8sNonProdCluster = 'hcc-ctc-nonprd-usr001-0.optum.com'
+
+String k8sDevNamespace = 'clinical-workbench-ui-oc-dev'
+String k8sTestNamespace = 'clinical-workbench-ui-oc-test'
+String k8sStageNamespace = 'clinical-workbench-ui-oc-stage'
+String k8sProdNamespace = 'clinical-workbench-ui-oc-prod'
+
+String k8sUHCDevNamespace = 'clinical-workbench-ui-uhc-dev'
+String k8sUHCTestNamespace = 'clinical-workbench-ui-uhc-test'
+String k8sUHCStageNamespace = 'clinical-workbench-ui-uhc-stage'
+String k8sUHCProdNamespace = 'clinical-workbench-ui-uhc-prod'
+
+String k8sEnvDev = 'dev'
+
+String hccClusterPort = 443
+
+pipeline {
+    agent {
+        label 'docker-maven-slave'
+    }
+    environment {
+        NOT_REQUIRED = 1        
+    }
+
+  stages {
+   
+    stage ('Build Parent and Child') {
+      steps {
+	    dir('shared-parent') {
+		checkout([
+			$class: 'GitSCM',
+			branches: [[name: "*/${parentBranch}"]],
+			userRemoteConfigs: [[
+				url: 'https://github.com/optum-care/ani-parent.git',
+				credentialsId: '208d0adf-9bbe-4d38-84d3-5ec346459d76'
+			]],
+			extensions: [
+				[$class: 'SparseCheckoutPaths', sparseCheckoutPaths: [[path: 'pom.xml']]],
+				[$class: 'CloneOption', shallow: true, depth: 1, noTags: true, timeout: 5]
+			]
+		])
+        glMavenBuild mavenGoals:'clean install -DskipTests=true',
+                     additionalProps:['ci.env':''],
+                     jacocoMavenPluginVersion:"0.8.5"
+		echo 'parent build done'
+		}
+		glMavenBuild mavenGoals:'clean install -DskipTests=true',
+			additionalProps:['ci.env':''],
+			jacocoMavenPluginVersion:"0.8.5"
+			// sh 'ls -lh target/'
+		echo 'child build done'	
+        stash 'artifacts'
+      }
+    }
+    stage('Sonar Scan') {
+        when {
+            anyOf {
+               branch 'master'
+            }
+        }
+      steps {
+        unstash 'artifacts'
+        glSonarMavenScan gitUserCredentialsId:"$githubAuth"
+      }
+    }
+    stage ('Build Docker Image and Push to DTR') {
+      when {
+        anyOf {
+          branch "$dev_stg"
+          branch "$test_stg"
+          branch "$stage_stg"
+          branch "$prod_stg"
+        }
+        }
+      steps {
+        unstash 'artifacts'
+        glDockerImageBuildPush dockerCredentialsId: dockerCredentialsId, tag:dockerImageName
+      }
+    }
+    stage ('Deploy to the Dev Environment') {
+      when {
+            branch "$dev_stg"
+        }
+          steps {              
+
+			  k8sDeploy(
+                      "$uhc_dev_hcc_creds",
+                      k8sNonProdCluster,
+                      hccClusterPort,
+                      k8sUHCDevNamespace,
+                      k8sAppName,
+                      dockerImageName,
+                      false,
+                      "$k8sEnvDev",
+                      [
+                        APP_NAME: "$k8sAppName",
+                        IMAGE: "$dockerImageName",
+                        NAMESPACE: "k8sUHCDevNamespace"
+                      ]
+                   )
+          }
+    }
+    stage ('Deploy to the Test Environment') {
+      when {
+            branch "$test_stg"
+        }
+          steps {
+
+			k8sDeploy(
+				  "$uhc_test_hcc_creds",
+				  k8sNonProdCluster,
+				  hccClusterPort,
+				  k8sUHCTestNamespace,
+				  k8sAppName,
+				  dockerImageName,
+				  false,
+				  "$k8sEnvDev",
+				  [
+					APP_NAME: "$k8sAppName",
+					IMAGE: "$dockerImageName",
+					NAMESPACE: "k8sUHCTestNamespace"
+				  ]
+			   )
+          }
+    }
+    stage ('Deploy to the Stage Environment') {
+      when {
+            branch "$stage_stg"
+        }
+          steps {
+
+			k8sDeploy(
+                      "$uhc_stage_hcc_creds",
+                      k8sNonProdCluster,
+                      hccClusterPort,
+                      k8sUHCStageNamespace,
+                      k8sAppName,
+                      dockerImageName,
+                      false,
+                      "$k8sEnvDev",
+                      [
+                        APP_NAME: "$k8sAppName",
+                        IMAGE: "$dockerImageName",
+                        NAMESPACE: "k8sUHCStageNamespace"
+                      ]
+                   )
+          }
+    }
+    stage ('Deploy to the Prod Environment') {
+      when {
+            branch "$prod_stg"
+        }
+          steps {
+
+			k8sDeploy(
+                      "$uhc_prod_hcc_creds",
+                      k8sCluster,
+                      hccClusterPort,
+                      k8sUHCProdNamespace,
+                      k8sAppName,
+                      dockerImageName,
+                      true,
+                      "$k8sEnvDev",
+                      [
+                        APP_NAME: "$k8sAppName",
+                        IMAGE: "$dockerImageName",
+                        NAMESPACE: "k8sUHCProdNamespace"
+                      ]
+                   )
+          }
+    }
+  }
+  post {
+    failure {
+      glGitGetInfo()
+      emailext body:  "A Build for URL: ${BUILD_URL} has failed. Please review.",
+        subject: "$currentBuild.currentResult: $JOB_NAME",
+        to: "$GIT_AUTHOR_EMAIL"
+    }
+  }
+}
+
+def k8sDeploy(k8sCredentialsId, cluster, clusterPort, namespace, appName, image,  production, env, envParams) {
+   echo "Deploying Application.. "
+   glKubernetesUpdate credentials: k8sCredentialsId,
+          cluster: cluster,
+          clusterPort: clusterPort,
+          namespace: namespace,
+          kind: "deployment",
+          name: appName,
+          containerImages: ["$appName" : image],
+          env: env,
+          envVars: envParams, 
+          isProduction: production
+}
