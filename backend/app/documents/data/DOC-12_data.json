@@ -1,0 +1,150 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Facet neurotomy (rhizotomy) may be indicated when ALL of the following are present:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Facet neurotomy indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Chronic cervical or lumbar spinal pain (at least 3 months' duration) originating from 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Chronic spinal pain origin",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Cervical spine (eg, following whiplash injury)",
+                        "logical_relation": "NONE",
+                        "question": "Does the patient have chronic cervical or lumbar spinal pain lasting at least 3 months originating from the cervical spine following a whiplash injury?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 2,
+                        "clinical_criteria": "Cervical spine pain"
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Lumbar spine",
+                        "logical_relation": "NONE",
+                        "question": "Does the patient have chronic lumbar spinal pain lasting at least 3 months?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Lumbar spine pain"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Failure of nonoperative management, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Nonoperative management failure",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Exercise program",
+                        "logical_relation": "NONE",
+                        "question": "Has the patient participated in an exercise program as part of nonoperative management?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 5,
+                        "clinical_criteria": "Exercise program participation"
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Pharmacotherapy",
+                        "logical_relation": "NONE",
+                        "question": "Has the patient undergone pharmacotherapy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "Pharmacotherapy undergone"
+                    },
+                    {
+                        "member_id": "mdg_1.2.3",
+                        "content": "Physical therapy or spinal manipulation therapy",
+                        "logical_relation": "NONE",
+                        "question": "Has the patient undergone physical therapy or spinal manipulation therapy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 7,
+                        "clinical_criteria": "Physical therapy undergone"
+                    }
+                ],
+                "seq": 4
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Imaging studies and physical examination have ruled out other causes of spinal pain (eg, herniated disk, spinal stenosis, fracture, tumor).",
+                "logical_relation": "NONE",
+                "question": "Have imaging studies and physical examination ruled out other causes of spinal pain such as herniated disk, spinal stenosis, fracture, or tumor?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 8,
+                "clinical_criteria": "Other causes ruled out"
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Planned procedure, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Planned procedure indication",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.1",
+                        "content": "Initial facet neurotomy when both initial and secondary diagnostic (dual diagnostic blocks are necessary to diagnose facet pain) fluoroscopically guided controlled local anesthetic blocks of medial branches of dorsal spinal nerves, or intra-articular facet joint injections, achieve at least 80% pain relief from baseline pain scores",
+                        "logical_relation": "NONE",
+                        "question": "Has the patient undergone both initial and secondary diagnostic fluoroscopically guided controlled local anesthetic blocks of medial branches of dorsal spinal nerves, or intra-articular facet joint injections, achieving at least 80% pain relief from baseline pain scores?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 10,
+                        "clinical_criteria": "Initial facet neurotomy"
+                    },
+                    {
+                        "member_id": "mdg_1.4.2",
+                        "content": "Repeat facet neurotomy at the same spinal level(s) when there is a prior history of successful facet neurotomy (50% or more reduction in pain documented for at least 3 months)",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation of a prior history of successful facet neurotomy with 50% or more reduction in pain for at least 3 months?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 11,
+                        "clinical_criteria": "Repeat facet neurotomy"
+                    }
+                ],
+                "seq": 9
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "No coagulopathy",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record indicating the absence of coagulopathy?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 12,
+                "clinical_criteria": "Absence of coagulopathy"
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "No current infection",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record indicating that the patient has no current infection?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 13,
+                "clinical_criteria": "Absence of infection"
+            }
+        ],
+        "seq": 0
+    }
+]

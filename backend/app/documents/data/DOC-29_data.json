@@ -1,0 +1,202 @@
+[
+    {
+        "member_id": "mdg_1.1.1",
+        "content": "Moderate to severe radiographic findings (eg, hip joint destruction, severe narrowing, bone deformities, avascular necrosis)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of moderate to severe radiographic findings such as hip joint destruction, severe narrowing, bone deformities, or avascular necrosis in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 0,
+        "clinical_criteria": "Moderate to severe radiographic"
+    },
+    {
+        "member_id": "mdg_1.1.2",
+        "content": "Medical management has been tried and failed (eg, weight loss, NSAIDs, physical therapy, activity modification).",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that medical management, such as weight loss, NSAIDs, physical therapy, or activity modification, has been tried and failed?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 1,
+        "clinical_criteria": "Medical management tried failed"
+    },
+    {
+        "member_id": "mdg_1.1.3.1",
+        "content": "Moderate to severe pain",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of moderate to severe pain in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 2,
+        "clinical_criteria": "Moderate to severe pain"
+    },
+    {
+        "member_id": "mdg_1.1.3.2",
+        "content": "Functional disability",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of functional disability in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 3,
+        "clinical_criteria": "Functional disability"
+    },
+    {
+        "member_id": "mdg_1.2",
+        "content": "Primary or secondary tumors involving proximal femur",
+        "logical_relation": "none",
+        "question": "Is there documentation of primary or secondary tumors involving the proximal femur in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 4,
+        "clinical_criteria": "Tumors involving proximal femur"
+    },
+    {
+        "member_id": "mdg_1.3",
+        "content": "Osteonecrosis of femoral head",
+        "logical_relation": "none",
+        "question": "Is there documentation of osteonecrosis of the femoral head in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 5,
+        "clinical_criteria": "Osteonecrosis of femoral head"
+    },
+    {
+        "member_id": "mdg_1.4",
+        "content": "Developmental dysplasia of hip",
+        "logical_relation": "none",
+        "question": "Is there documentation of developmental dysplasia of the hip in the patient's medical record? If yes, left or right?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 6,
+        "clinical_criteria": "Developmental dysplasia of hip"
+    },
+    {
+        "member_id": "mdg_1.5",
+        "content": "Chronic dislocation of hip",
+        "logical_relation": "none",
+        "question": "Is there documentation of chronic dislocation of the hip in the patient's medical record? If yes, left or right?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 7,
+        "clinical_criteria": "Chronic dislocation of hip"
+    },
+    {
+        "member_id": "mdg_1.6",
+        "content": "Protrusio acetabuli deformity (medial femoral head migration limiting hip motion)",
+        "logical_relation": "none",
+        "question": "Is there evidence in the medical record of protrusio acetabuli deformity with medial femoral head migration limiting hip motion?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 8,
+        "clinical_criteria": "Protrusio acetabuli deformity"
+    },
+    {
+        "member_id": "mdg_1.7",
+        "content": "Fracture necessitating hip replacement",
+        "logical_relation": "none",
+        "question": "Is there documentation in the medical record of a fracture necessitating hip replacement?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 9,
+        "clinical_criteria": "Fracture necessitating hip replacement"
+    },
+    {
+        "member_id": "mdg_1.8",
+        "content": "Failed previous hip fracture fixation",
+        "logical_relation": "none",
+        "question": "Is there documentation in the medical record of a failed previous hip fracture fixation?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 10,
+        "clinical_criteria": "Failed previous hip fracture"
+    },
+    {
+        "member_id": "mdg_1.9",
+        "content": "Failed previous femoral or acetabular osteotomy",
+        "logical_relation": "none",
+        "question": "Is there documentation in the medical record of a failed previous femoral or acetabular osteotomy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 11,
+        "clinical_criteria": "Failed previous osteotomy"
+    },
+    {
+        "member_id": "mdg_1.10",
+        "content": "Revision of hip arthrodesis",
+        "logical_relation": "none",
+        "question": "Is there documentation in the medical record of a revision of hip arthrodesis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 12,
+        "clinical_criteria": "Revision of hip arthrodesis"
+    },
+    {
+        "member_id": "mdg_1.11.1",
+        "content": "Instability of one or both components",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of instability of one or both components in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 13,
+        "clinical_criteria": "Instability of components"
+    },
+    {
+        "member_id": "mdg_1.11.2",
+        "content": "Fracture or mechanical failure of implant",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of a fracture or mechanical failure of an implant in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 14,
+        "clinical_criteria": "Fracture or mechanical failure"
+    },
+    {
+        "member_id": "mdg_1.11.3",
+        "content": "Recurrent or irreducible dislocation",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of recurrent or irreducible dislocation in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 15,
+        "clinical_criteria": "Recurrent or irreducible dislocation"
+    },
+    {
+        "member_id": "mdg_1.11.4",
+        "content": "Infection",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of an infection in the medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 16,
+        "clinical_criteria": "Infection"
+    },
+    {
+        "member_id": "mdg_1.11.5",
+        "content": "Treatment of periprosthetic fracture",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of treatment for a periprosthetic fracture?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 17,
+        "clinical_criteria": "Treatment of periprosthetic fracture"
+    },
+    {
+        "member_id": "mdg_1.11.6",
+        "content": "Tissue or systemic reaction to metal implant",
+        "logical_relation": "ANY",
+        "question": "Is there evidence in the medical record of a tissue or systemic reaction to a metal implant?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 18,
+        "clinical_criteria": "Reaction to metal implant"
+    },
+    {
+        "member_id": "mdg_1.11.7",
+        "content": "Leg-length inequality",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of leg-length inequality in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 19,
+        "clinical_criteria": "Leg-length inequality"
+    }
+]

@@ -1,0 +1,79 @@
+<!DOCTYPE html><html><head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    font-size: '12px';
+}
+.logical-section{
+ display:flex;
+ height:26px;
+}
+.item-type{
+ flex: 0 0 200px;
+}
+.item-logic{
+flex:0 0 75%
+}
+
+.logic-relation{
+ font-size:14px;
+ text-transform: uppercase;
+}
+h1 {
+    color: #2c3e50;
+    text-align:center;
+}
+ul.main-ul {
+    padding-left: 0px;
+    list-style:none;
+    border:1px solid #d1d1d1;
+}
+ul.main-ul li {
+    margin-bottom: 2px;
+    padding: 10px 10px;
+    display:block;
+}
+ul.children-ul {
+      border-left:1px solid #d1d1d1;
+      border-top:1px solid #d1d1d1;
+      list-style: none;
+      display:block;
+      margin-left:30px;
+      margin-top:10px;
+      padding:0px;
+
+   }
+ul.children-ul > li {   padding: 10px 10px; }
+
+.children-ul::before {
+  content: "";
+  position: absolute;
+  height: 1.5px;
+  width:40px;
+  margin-left:-40px;
+  margin-top:20px;
+  background-color: #ccc;
+}
+
+li:has(.logical-section) {
+  border-top:1px solid #d1d1d1;
+  border-bottom:1px solid #d1d1d1;
+}
+
+.node {
+    font-weight: bold;
+    color: #2c3e50;
+}
+.member {
+    color: #2980b9;
+}
+.question {
+    margin-left: 30px;
+    color: #8e44ad;
+}
+.criteria {
+    font-weight:bold;
+    text-transform: capitalize; 
+}
+</style>
+</head><body><h1>AC - Aflibercept</h1><ul class='main-ul'><li><div class='logical-section'><div class='item-type'> Type: <strong>indication</strong></div><div class='item-logic'> Condition Relation: <strong class='logic-relation'>ALL  </strong></div></div><div class='criteria'>Aflibercept indication criteria</div><div class='content'> Aflibercept may be indicated when ALL of the following are present:</div><ul class='children-ul'><li><div class='logical-section'><div class='item-type'> Type: <strong>indication</strong></div><div class='item-logic'> Condition Relation: <strong class='logic-relation'>ANY  </strong></div></div><div class='criteria'>Clinical diagnosis required</div><div class='content'> Clinical diagnosis of 1 or more of the following:</div><ul class='children-ul'><li><div class='criteria'>Diabetic macular edema</div><div class='content'> Diabetic macular edema</div><div class='question'><strong>Question:</strong> Is there documentation of diabetic macular edema in the patient's medical record?</div></li><li><div class='criteria'>Diabetic retinopathy</div><div class='content'> Diabetic retinopathy</div><div class='question'><strong>Question:</strong> Is there documentation of diabetic retinopathy in the patient's medical record?</div></li><li><div class='criteria'>Macular edema post-occlusion</div><div class='content'> Macular edema following central or branch retinal vein occlusion</div><div class='question'><strong>Question:</strong> Is there documentation of macular edema following central or branch retinal vein occlusion in the patient's medical record?</div></li><li><div class='criteria'>Metastatic colorectal cancer</div><div class='content'> Metastatic colorectal cancer with progression of disease on initial therapy</div><div class='question'><strong>Question:</strong> Is there documentation of metastatic colorectal cancer with progression of disease on initial therapy in the patient's medical record?</div></li><li><div class='criteria'>Neovascular macular degeneration</div><div class='content'> Neovascular (wet, or exudative) age-related macular degeneration</div><div class='question'><strong>Question:</strong> Is there documentation of neovascular (wet, or exudative) age-related macular degeneration in the patient's medical record?</div></li><li><div class='criteria'>Retinopathy of prematurity</div><div class='content'> Retinopathy of prematurity</div><div class='question'><strong>Question:</strong> Is there documentation of retinopathy of prematurity in the patient's medical record?</div></li></ul></li><li><div class='criteria'>No active inflammation</div><div class='content'> No active intraocular inflammation</div><div class='question'><strong>Question:</strong> Is there documentation in the medical record indicating no active intraocular inflammation?</div></li><li><div class='criteria'>No concurrent infection</div><div class='content'> No concurrent ocular or periocular infection</div><div class='question'><strong>Question:</strong> Is there documentation in the medical record indicating no concurrent ocular or periocular infection?</div></li></ul></li></ul></body></html>

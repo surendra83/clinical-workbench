@@ -1,0 +1,682 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Continuous positive airway pressure (CPAP) may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "CPAP indication criteria",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Central sleep apnea, and CPAP needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Central sleep apnea criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Primary (ie, idiopathic) central sleep apnea and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Idiopathic central sleep apnea",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.1.1",
+                                "content": "Primary (ie, idiopathic) central sleep apnea on diagnostic polysomnography, as indicated by ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Diagnostic polysomnography criteria",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.1.1.1",
+                                        "content": "Central apnea-hypopnea index of 5 or greater",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have a central apnea-hypopnea index of 5 or greater as documented in the medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Apnea-hypopnea index ≥ 5",
+                                        "seq": 4
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.1.2",
+                                        "content": "Central apneas plus central hypopneas represent 50% or more of all apneas and hypopneas.",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient's diagnostic polysomnography show that central apneas plus central hypopneas represent 50% or more of all apneas and hypopneas, indicating primary (idiopathic) central sleep apnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Central apneas ≥ 50%",
+                                        "seq": 5
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.1.3",
+                                        "content": "No Cheyne-Stokes respiration",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there documentation in the medical record indicating the absence of Cheyne-Stokes respiration in a patient with primary central sleep apnea, central sleep apnea requiring CPAP, or continuous positive airway pressure (CPAP) indication?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Absence of Cheyne-Stokes",
+                                        "seq": 6
+                                    }
+                                ],
+                                "seq": 3
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.2",
+                                "content": "Titration study with polysomnography demonstrates improvement in apnea-hypopnea index while using CPAP.",
+                                "logical_relation": "ALL",
+                                "question": "Does the patient's titration study with polysomnography demonstrate improvement in apnea-hypopnea index while using CPAP?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Improvement with CPAP",
+                                "seq": 15
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.3",
+                                "content": "No evidence of medical disorders or medications that explain symptoms",
+                                "logical_relation": "ALL",
+                                "question": "Is there documentation in the medical record showing no evidence of medical disorders or medications that explain symptoms in the context of primary central sleep apnea and central sleep apnea requiring CPAP?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "No other medical explanation",
+                                "seq": 16
+                            }
+                        ],
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Secondary central sleep apnea due to heart failure, as indicated by ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Heart failure related apnea",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.2.1",
+                                "content": "CPAP shown to be effective during sleep laboratory CPAP titration study, including reduction of apnea-hypopnea index below 15 per hour",
+                                "logical_relation": "ALL",
+                                "question": "Has the patient undergone a sleep laboratory CPAP titration study that showed CPAP to be effective, including reduction of apnea-hypopnea index below 15 per hour?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "CPAP effective in study",
+                                "seq": 18
+                            },
+                            {
+                                "member_id": "mdg_1.1.2.2",
+                                "content": "Inadequate response to aggressive medical management",
+                                "logical_relation": "ALL",
+                                "question": "Has the patient shown an inadequate response to aggressive medical management for secondary central sleep apnea due to heart failure?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Inadequate medical response",
+                                "seq": 19
+                            }
+                        ],
+                        "seq": 17
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Obesity hypoventilation syndrome, and CPAP needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Obesity hypoventilation criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Initial therapy, as indicated by ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Initial therapy criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.1.1",
+                                "content": "BMI greater than 30",
+                                "logical_relation": "ALL",
+                                "question": "Is there documentation in the medical record that the patient has a BMI greater than 30 and is experiencing obesity hypoventilation syndrome with a need for continuous positive airway pressure (CPAP)?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "BMI > 30",
+                                "seq": 22
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.2",
+                                "content": "Daytime hypercapnia with PaCO2 greater than 45 mm Hg (6.0 kPa) without other etiology (eg, kyphoscoliosis, lung parenchymal disease, myopathy, severe hypothyroidism)",
+                                "logical_relation": "ALL",
+                                "question": "Is there documentation of daytime hypercapnia with PaCO2 greater than 45 mm Hg (6.0 kPa) without other etiology such as kyphoscoliosis, lung parenchymal disease, myopathy, or severe hypothyroidism in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Hypercapnia > 45 mm Hg",
+                                "seq": 23
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.3",
+                                "content": "Severe obstructive sleep apnea component on polysomnography (ie, apnea-hypopnea index of 30 or greater)",
+                                "logical_relation": "ALL",
+                                "question": "Is there documentation of severe obstructive sleep apnea with an apnea-hypopnea index of 30 or greater on polysomnography in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Apnea-hypopnea index ≥ 30",
+                                "seq": 24
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.4",
+                                "content": "TSH level does not demonstrate hypothyroidism.",
+                                "logical_relation": "ALL",
+                                "question": "Is there evidence in the medical record that the patient's TSH level does not demonstrate hypothyroidism in the context of obesity hypoventilation syndrome and CPAP needed?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "No hypothyroidism",
+                                "seq": 25
+                            }
+                        ],
+                        "seq": 21
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Subsequent therapy, with annual provider assessment of adherence and effectiveness performed (eg, symptom resolution, tolerance of expiratory pressure, device usage) and potential barriers to adherence or effectiveness addressed",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient undergone subsequent therapy with annual provider assessment of adherence and effectiveness, including symptom resolution, tolerance of expiratory pressure, and device usage, for obesity hypoventilation syndrome?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Annual assessment criteria",
+                        "seq": 26
+                    }
+                ],
+                "seq": 20
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Obstructive sleep apnea, and CPAP needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Obstructive sleep apnea criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Initial therapy, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Initial therapy criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.1.1",
+                                "content": "Adult and 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Adult criteria",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.1.1.1",
+                                        "content": "Obstructive sleep apnea present, as indicated by 1 or more of the following:",
+                                        "logical_relation": "ANY",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "OSA presence criteria",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.3.1.1.1.1",
+                                                "content": "Mild obstructive sleep apnea (ie, apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules) and 1 or more of the following:",
+                                                "logical_relation": "ANY",
+                                                "question": "",
+                                                "classification_type": "indication",
+                                                "category": "",
+                                                "clinical_criteria": "Mild OSA criteria",
+                                                "children": [
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.1",
+                                                        "content": "Cardiovascular disease has been documented (eg, hypertension, ischemic heart disease, heart failure, stroke).",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of cardiovascular disease, such as hypertension, ischemic heart disease, heart failure, or stroke, in the patient's medical record?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Cardiovascular disease present",
+                                                        "seq": 32
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.2",
+                                                        "content": "Excessive daytime sleepiness",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of excessive daytime sleepiness in the patient's medical record, associated with mild obstructive sleep apnea, obstructive sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Daytime sleepiness",
+                                                        "seq": 33
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.3",
+                                                        "content": "Fibromyalgia-like symptoms",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Does the patient exhibit fibromyalgia-like symptoms in conjunction with mild obstructive sleep apnea, as determined by an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, using polysomnography with adult scoring rules?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Fibromyalgia-like symptoms",
+                                                        "seq": 34
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.4",
+                                                        "content": "Headaches upon awakening",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Does the patient experience headaches upon awakening, and is there documentation of mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules, or obstructive sleep apnea with CPAP needed?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Morning headaches",
+                                                        "seq": 35
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.5",
+                                                        "content": "Heartburn and reflux",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of heartburn and reflux in the patient's medical record, particularly in the context of mild obstructive sleep apnea, obstructive sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Heartburn and reflux",
+                                                        "seq": 36
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.6",
+                                                        "content": "Impaired cognition",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of impaired cognition in the patient's medical record in the context of mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Impaired cognition",
+                                                        "seq": 37
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.7",
+                                                        "content": "Mood disorder",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of a mood disorder in the patient's medical record in the context of mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Mood disorder",
+                                                        "seq": 38
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.8",
+                                                        "content": "Night sweats",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of night sweats in the patient's medical record in the context of mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Night sweats",
+                                                        "seq": 39
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.9",
+                                                        "content": "Nocturia or nocturnal enuresis",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of nocturia or nocturnal enuresis in the patient's medical record, particularly in the context of mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, or obstructive sleep apnea where CPAP is needed?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Nocturia/enuresis",
+                                                        "seq": 40
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.10",
+                                                        "content": "Observed apnea or choking episodes",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of observed apnea or choking episodes in the patient's medical record, specifically in the context of mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, or obstructive sleep apnea where CPAP is needed?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Apnea/choking episodes",
+                                                        "seq": 41
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.11",
+                                                        "content": "Patient is commercial vehicle driver.",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation in the medical record that the patient, who is a commercial vehicle driver, has mild obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Commercial driver",
+                                                        "seq": 42
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.1.1.1.12",
+                                                        "content": "Snoring",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of snoring in the patient's medical record, along with mild obstructive sleep apnea (apnea-hypopnea index or respiratory disturbance index between 5 and less than 15, determined with polysomnography using adult scoring rules) or obstructive sleep apnea, and is CPAP needed?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Snoring",
+                                                        "seq": 43
+                                                    }
+                                                ],
+                                                "seq": 31
+                                            },
+                                            {
+                                                "member_id": "mdg_1.3.1.1.1.2",
+                                                "content": "Moderate or severe obstructive sleep apnea (ie, apnea-hypopnea index or respiratory disturbance index 15 or greater, determined with polysomnography using adult scoring rules)",
+                                                "logical_relation": "ANY",
+                                                "question": "Is there documentation in the medical record of moderate or severe obstructive sleep apnea with an apnea-hypopnea index or respiratory disturbance index of 15 or greater, determined with polysomnography using adult scoring rules?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "clinical_criteria": "Moderate/severe OSA",
+                                                "seq": 44
+                                            }
+                                        ],
+                                        "seq": 30
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.1.2",
+                                        "content": "Upper airway resistance syndrome and unexplained excessive daytime sleepiness",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of upper airway resistance syndrome and unexplained excessive daytime sleepiness in an adult?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Upper airway resistance",
+                                        "seq": 45
+                                    }
+                                ],
+                                "seq": 29
+                            },
+                            {
+                                "member_id": "mdg_1.3.1.2",
+                                "content": "Child or adolescent and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Child/adolescent criteria",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1",
+                                        "content": "Age younger than 18 years",
+                                        "logical_relation": "ALL",
+                                        "question": "Is the patient younger than 18 years old and diagnosed with obstructive sleep apnea requiring continuous positive airway pressure (CPAP)?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Age < 18 years",
+                                        "seq": 47
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2",
+                                        "content": "Obstructive sleep apnea present, as indicated by 1 or more of the following:",
+                                        "logical_relation": "ANY",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "OSA presence criteria",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.3.1.2.2.1",
+                                                "content": "Mild obstructive sleep apnea (ie, apnea-hypopnea index from 1 to 5) and 1 or more of the following:",
+                                                "logical_relation": "ANY",
+                                                "question": "",
+                                                "classification_type": "indication",
+                                                "category": "",
+                                                "clinical_criteria": "Mild OSA criteria",
+                                                "children": [
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.1",
+                                                        "content": "Achondroplasia",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of achondroplasia in the patient's medical record, along with mild obstructive sleep apnea and the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Achondroplasia",
+                                                        "seq": 50
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.2",
+                                                        "content": "Behavioral problems",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of behavioral problems in the medical record for a child or adolescent with mild obstructive sleep apnea (apnea-hypopnea index from 1 to 5) and obstructive sleep apnea requiring CPAP?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Behavioral problems",
+                                                        "seq": 51
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.3",
+                                                        "content": "Cardiovascular disease (eg, elevated blood pressure, pulmonary hypertension)",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of cardiovascular disease, such as elevated blood pressure or pulmonary hypertension, in the patient's medical record?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Cardiovascular disease",
+                                                        "seq": 52
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.4",
+                                                        "content": "Chiari malformation",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of Chiari malformation in the patient's medical record, along with mild obstructive sleep apnea or obstructive sleep apnea requiring CPAP?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Chiari malformation",
+                                                        "seq": 53
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.5",
+                                                        "content": "Craniofacial abnormalities",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Does the patient have craniofacial abnormalities with mild obstructive sleep apnea, obstructive sleep apnea, or require continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Craniofacial abnormalities",
+                                                        "seq": 54
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.6",
+                                                        "content": "Down syndrome",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Does the patient with Down syndrome have mild obstructive sleep apnea with an apnea-hypopnea index from 1 to 5?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Down syndrome",
+                                                        "seq": 55
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.7",
+                                                        "content": "Excessive daytime sleepiness",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of excessive daytime sleepiness in the patient's medical record, particularly in the context of mild obstructive sleep apnea, obstructive sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Daytime sleepiness",
+                                                        "seq": 56
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.8",
+                                                        "content": "Impaired cognition",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of impaired cognition in the patient's medical record, specifically in the context of mild obstructive sleep apnea with an apnea-hypopnea index from 1 to 5, obstructive sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Impaired cognition",
+                                                        "seq": 57
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.9",
+                                                        "content": "Inattention or hyperactivity",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of inattention or hyperactivity in the patient's medical record?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Inattention/hyperactivity",
+                                                        "seq": 58
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.10",
+                                                        "content": "Mucopolysaccharidoses",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of mucopolysaccharidoses in the patient's medical record, along with mild obstructive sleep apnea and the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Mucopolysaccharidoses",
+                                                        "seq": 59
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.11",
+                                                        "content": "Neuromuscular disorders",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation of neuromuscular disorders in the patient's medical record, specifically in the context of mild obstructive sleep apnea with an apnea-hypopnea index from 1 to 5, obstructive sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Neuromuscular disorders",
+                                                        "seq": 60
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.3.1.2.2.1.12",
+                                                        "content": "Prader-Willi syndrome",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation in the medical record of Prader-Willi syndrome with mild obstructive sleep apnea, obstructive sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Prader-Willi syndrome",
+                                                        "seq": 61
+                                                    }
+                                                ],
+                                                "seq": 49
+                                            },
+                                            {
+                                                "member_id": "mdg_1.3.1.2.2.2",
+                                                "content": "Moderate or severe obstructive sleep apnea (ie, apnea-hypopnea index greater than 5)",
+                                                "logical_relation": "ANY",
+                                                "question": "Is there documentation in the medical record of moderate or severe obstructive sleep apnea with an apnea-hypopnea index greater than 5?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "clinical_criteria": "Moderate/severe OSA",
+                                                "seq": 62
+                                            },
+                                            {
+                                                "member_id": "mdg_1.3.1.2.2.3",
+                                                "content": "Residual apnea-hypopnea index greater than 5 in pediatric patient after adenotonsillectomy",
+                                                "logical_relation": "ANY",
+                                                "question": "Is there documentation of a residual apnea-hypopnea index greater than 5 in a pediatric patient after adenotonsillectomy?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "clinical_criteria": "Residual apnea post-surgery",
+                                                "seq": 63
+                                            }
+                                        ],
+                                        "seq": 48
+                                    }
+                                ],
+                                "seq": 46
+                            }
+                        ],
+                        "seq": 28
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Subsequent therapy, with annual provider assessment of adherence and effectiveness performed (eg, symptom resolution, tolerance of expiratory pressure, device usage) and potential barriers to adherence or effectiveness addressed",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient undergone subsequent therapy with annual provider assessment of adherence and effectiveness, including symptom resolution, tolerance of expiratory pressure, and device usage, for obstructive sleep apnea with CPAP needed?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Annual assessment criteria",
+                        "seq": 64
+                    }
+                ],
+                "seq": 27
+            }
+        ],
+        "seq": 0
+    },
+    {
+        "member_id": "mdg_1.1.1.1.4.1",
+        "content": "Adult does not have sleep PCO2 greater than 55 mm Hg (7.3 kPa) for 10 minutes or longer, or sleep PCO2 increasing by at least 10 mm Hg (1.3 kPa) (vs awake supine PCO2) and above 50 mm Hg (6.7 kPa) for 10 minutes or longer.",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the patient's medical record indicating that the adult does not have sleep PCO2 greater than 55 mm Hg for 10 minutes or longer, or sleep PCO2 increasing by at least 10 mm Hg and above 50 mm Hg for 10 minutes or longer, in the context of primary central sleep apnea or central sleep apnea with CPAP needed?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "PCO2 criteria for adults",
+        "seq": 7
+    },
+    {
+        "member_id": "mdg_1.1.1.1.4.2",
+        "content": "Child does not have PCO2 greater than 50 mm Hg (6.7 kPa) for more than 25% of total sleep time.",
+        "logical_relation": "ANY",
+        "question": "Is there documentation that the child does not have PCO2 greater than 50 mm Hg (6.7 kPa) for more than 25% of total sleep time in the medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "PCO2 criteria for children",
+        "seq": 8
+    },
+    {
+        "member_id": "mdg_1.1.1.1.5.1",
+        "content": "Daytime sleepiness",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of daytime sleepiness in the patient's medical record in the context of primary idiopathic central sleep apnea on diagnostic polysomnography, primary idiopathic central sleep apnea, central sleep apnea with CPAP needed, or continuous positive airway pressure (CPAP) indication?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "Daytime sleepiness",
+        "seq": 9
+    },
+    {
+        "member_id": "mdg_1.1.1.1.5.2",
+        "content": "Frequent nighttime awakenings",
+        "logical_relation": "ANY",
+        "question": "Does the patient experience frequent nighttime awakenings associated with primary central sleep apnea on diagnostic polysomnography, primary central sleep apnea, central sleep apnea with CPAP needed, or require continuous positive airway pressure (CPAP)?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "Nighttime awakenings",
+        "seq": 10
+    },
+    {
+        "member_id": "mdg_1.1.1.1.5.3",
+        "content": "Gasping during sleep",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of the patient gasping during sleep with primary idiopathic central sleep apnea on diagnostic polysomnography, primary idiopathic central sleep apnea, central sleep apnea with CPAP needed, or continuous positive airway pressure (CPAP) indicated?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "Gasping during sleep",
+        "seq": 11
+    },
+    {
+        "member_id": "mdg_1.1.1.1.5.4",
+        "content": "Insomnia",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of insomnia in the patient's medical record, considering conditions such as primary idiopathic central sleep apnea, central sleep apnea, and the need for continuous positive airway pressure (CPAP)?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "Insomnia",
+        "seq": 12
+    },
+    {
+        "member_id": "mdg_1.1.1.1.5.5",
+        "content": "Respiratory pauses during sleep",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of respiratory pauses during sleep in the patient's medical record, specifically related to primary idiopathic central sleep apnea, central sleep apnea, or the need for continuous positive airway pressure (CPAP)?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "Respiratory pauses",
+        "seq": 13
+    },
+    {
+        "member_id": "mdg_1.1.1.1.5.6",
+        "content": "Restless sleep",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of restless sleep in the patient's medical record in the context of primary idiopathic central sleep apnea on diagnostic polysomnography?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "clinical_criteria": "Restless sleep",
+        "seq": 14
+    }
+]

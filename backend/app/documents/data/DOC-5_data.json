@@ -1,0 +1,320 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Brain positron emission tomography (PET) and PET-CT may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Brain PET or PET-CT",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Autoimmune encephalitis, suspected, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected autoimmune encephalitis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Limbic involvement suspected, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Suspected limbic involvement",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.1.1",
+                                "content": "Behavioral changes (eg, aggression, agitation, disinhibition)",
+                                "logical_relation": "",
+                                "question": "Has the patient exhibited behavioral changes such as aggression, agitation, or disinhibition?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Behavioral changes observed",
+                                "seq": 3
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.2",
+                                "content": "Memory deficits",
+                                "logical_relation": "",
+                                "question": "Is there documentation of memory deficits in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Memory deficits documented",
+                                "seq": 4
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.3",
+                                "content": "Psychiatric symptoms (eg, anxiety, depression, mood changes, psychosis)",
+                                "logical_relation": "",
+                                "question": "Does the patient exhibit psychiatric symptoms such as anxiety, depression, mood changes, or psychosis with suspected limbic involvement or suspected autoimmune encephalitis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Psychiatric symptoms present",
+                                "seq": 5
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.4",
+                                "content": "Seizures",
+                                "logical_relation": "",
+                                "question": "Is there documentation of seizures in the patient's medical record with suspected limbic involvement or suspected autoimmune encephalitis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Seizures documented",
+                                "seq": 6
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.5",
+                                "content": "Sleep changes (eg, insomnia, hypersomnia)",
+                                "logical_relation": "",
+                                "question": "Is there documentation of sleep changes such as insomnia or hypersomnia in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Sleep changes documented",
+                                "seq": 7
+                            }
+                        ],
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "MRI of brain inconclusive, negative, or contraindicated",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record that the patient's MRI of the brain was inconclusive, negative, or contraindicated?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "MRI inconclusive or contraindicated",
+                        "seq": 8
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Dementia or mild cognitive impairment, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Dementia or cognitive impairment",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Need to distinguish between Alzheimer disease and other types of dementia (eg, frontotemporal dementia, dementia with Lewy bodies), and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Distinguish dementia types",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.1.1",
+                                "content": "Other clinical (eg, neurocognitive tests) and imaging tests have been inconclusive.",
+                                "logical_relation": "",
+                                "question": "Have other clinical tests, such as neurocognitive tests, and imaging tests been inconclusive in distinguishing between Alzheimer disease and other types of dementia, such as frontotemporal dementia or dementia with Lewy bodies?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Tests inconclusive",
+                                "seq": 11
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.2",
+                                "content": "Results will impact treatment plan.",
+                                "logical_relation": "",
+                                "question": "Is there a need to distinguish between Alzheimer disease and other types of dementia, such as frontotemporal dementia or dementia with Lewy bodies, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Impact treatment plan",
+                                "seq": 12
+                            }
+                        ],
+                        "seq": 10
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Patient with mild cognitive impairment or mild dementia on neurocognitive testing, and results will impact treatment plan",
+                        "logical_relation": "",
+                        "question": "Does the patient have mild cognitive impairment or mild dementia on neurocognitive testing, and will the results impact the treatment plan?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Mild cognitive impairment",
+                        "seq": 13
+                    }
+                ],
+                "seq": 9
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Epilepsy, with need for presurgical imaging, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Epilepsy presurgical imaging",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Focal epilepsy",
+                        "logical_relation": "",
+                        "question": "Is there documentation of focal epilepsy in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Focal epilepsy documented",
+                        "seq": 15
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Poor or no response to 2 or more anticonvulsant medications at maximal dose (ie, refractory or drug-resistant epilepsy)",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record of poor or no response to 2 or more anticonvulsant medications at maximal dose for a patient with epilepsy requiring presurgical imaging?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Refractory epilepsy",
+                        "seq": 16
+                    },
+                    {
+                        "member_id": "mdg_1.3.3",
+                        "content": "Surgery planned or being considered",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record that surgery is planned or being considered for a patient with epilepsy who needs presurgical imaging?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Surgery planned",
+                        "seq": 17
+                    },
+                    {
+                        "member_id": "mdg_1.3.4",
+                        "content": "Results of brain MRI negative, indeterminate, or discordant with other testing for seizure focus",
+                        "logical_relation": "",
+                        "question": "Are the results of the patient's brain MRI negative, indeterminate, or discordant with other testing for seizure focus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "MRI results discordant",
+                        "seq": 18
+                    }
+                ],
+                "seq": 14
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Primary brain cancer evaluation needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Brain cancer evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.1",
+                        "content": "Post-treatment evaluation needed to differentiate residual or recurrent tumor from treatment effects (eg, radiation injury or \"pseudoprogression\" from radiation and temozolomide)",
+                        "logical_relation": "",
+                        "question": "Is there a need for post-treatment evaluation to differentiate residual or recurrent tumor from treatment effects in the context of primary brain cancer evaluation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Post-treatment evaluation",
+                        "seq": 20
+                    },
+                    {
+                        "member_id": "mdg_1.4.2",
+                        "content": "Preoperative planning needed for tumor resection by defining tumor heterogeneity and extension",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record indicating that preoperative planning is needed for tumor resection by defining tumor heterogeneity and extension in the context of primary brain cancer evaluation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Preoperative planning needed",
+                        "seq": 21
+                    },
+                    {
+                        "member_id": "mdg_1.4.3",
+                        "content": "Primary brain tumor, suspected, with indeterminate MRI",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record of a suspected primary brain tumor with an indeterminate MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Suspected brain tumor",
+                        "seq": 22
+                    }
+                ],
+                "seq": 19
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Symptoms suggestive of Parkinson disease or other neurodegenerative disorder",
+                "logical_relation": "",
+                "question": "Are there symptoms suggestive of Parkinson disease or other neurodegenerative disorder documented in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Symptoms of neurodegenerative disorder",
+                "seq": 23
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Repeat evaluation of specific area or structure with same imaging modality, and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Repeat evaluation needed",
+                "children": [
+                    {
+                        "member_id": "mdg_1.6.1",
+                        "content": "Clinical need for repeat imaging, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Need for repeat imaging",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.6.1.1",
+                                "content": "Change in clinical status (eg, worsening symptoms or new associated symptoms), and findings may impact treatment",
+                                "logical_relation": "",
+                                "question": "Is there documentation of a change in clinical status, such as worsening symptoms or new associated symptoms, that may impact treatment in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Change in clinical status",
+                                "seq": 26
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.2",
+                                "content": "Need for interval reassessment that may impact treatment plan",
+                                "logical_relation": "",
+                                "question": "Is there a documented need for interval reassessment that may impact the treatment plan, specifically involving repeat imaging or evaluation of a specific area or structure with the same imaging modality, or the use of brain positron emission tomography (PET) and PET-CT?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Interval reassessment needed",
+                                "seq": 27
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.3",
+                                "content": "Need for re-imaging either prior to or after performance of invasive procedure",
+                                "logical_relation": "",
+                                "question": "Is there a documented need for re-imaging of the brain using PET or PET-CT either prior to or after an invasive procedure?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Re-imaging needed",
+                                "seq": 28
+                            }
+                        ],
+                        "seq": 25
+                    },
+                    {
+                        "member_id": "mdg_1.6.2",
+                        "content": "Prior imaging results of specific area or structure with same imaging modality documented and available for comparison",
+                        "logical_relation": "",
+                        "question": "Are prior imaging results of the brain using PET or PET-CT documented and available for comparison?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Prior imaging results available",
+                        "seq": 29
+                    }
+                ],
+                "seq": 24
+            }
+        ],
+        "seq": 0
+    }
+]

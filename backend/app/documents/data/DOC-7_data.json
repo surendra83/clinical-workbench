@@ -1,0 +1,372 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Cochlear implant may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Cochlear implant indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Adult with ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Adult criteria for implant",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Intact cochlear nerves confirmed by CT or MRI, or acoustic neuroma (vestibular schwannoma) excision planned and cochlear nerve preservation thought possible",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient undergone a CT or MRI to confirm intact cochlear nerves, or is there a planned excision of an acoustic neuroma (vestibular schwannoma) with possible cochlear nerve preservation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 2,
+                        "clinical_criteria": "Intact cochlear nerves confirmed"
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Need for implant, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Need for implant",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.2.1",
+                                "content": "Asymmetric sensorineural hearing loss and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Asymmetric sensorineural hearing loss",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.2.1.1",
+                                        "content": "Hearing loss, unaided, of 70 dB or greater (ie, severe to profound hearing loss) in one ear",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have unaided hearing loss of 70 dB or greater in one ear? If yes, left or right?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 5,
+                                        "clinical_criteria": "Unaided hearing loss 70 dB"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.2.1.2",
+                                        "content": "Contralateral ear with 31 to 55 dB hearing loss (ie, mild to moderately severe hearing loss), with difference of at least 15 dB in pure-tone averages between ears",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have a contralateral ear with 31 to 55 dB hearing loss and a difference of at least 15 dB in pure-tone averages between ears?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 6,
+                                        "clinical_criteria": "Contralateral ear 31-55 dB loss"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.2.1.3",
+                                        "content": "Limited benefit from appropriately fitted hearing aid in ear to be implanted",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there documentation in the medical record indicating limited benefit from an appropriately fitted hearing aid in the ear to be implanted?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 7,
+                                        "clinical_criteria": "Limited benefit from hearing aid"
+                                    }
+                                ],
+                                "seq": 4
+                            },
+                            {
+                                "member_id": "mdg_1.1.2.2",
+                                "content": "Bilateral sensorineural hearing loss of greater than 40 dB with limited (eg, best aided word or open-set sentence cognition test at 60% or less, presented at 60 dB) speech perception benefit from hearing aids",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have bilateral sensorineural hearing loss of greater than 40 dB with limited speech perception benefit from hearing aids?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 8,
+                                "clinical_criteria": "Bilateral hearing loss >40 dB"
+                            },
+                            {
+                                "member_id": "mdg_1.1.2.3",
+                                "content": "Unilateral sensorineural hearing loss and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Unilateral sensorineural hearing loss",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.2.3.1",
+                                        "content": "Hearing loss, unaided, of 70 dB or greater (ie, severe to profound hearing loss) in one ear",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have unaided hearing loss of 70 dB or greater in one ear? If yes, left or right?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 10,
+                                        "clinical_criteria": "Unaided hearing loss 70 dB"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.2.3.2",
+                                        "content": "Contralateral ear hearing loss less than 30 dB (ie, normal or mild hearing loss)",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have contralateral ear hearing loss less than 30 dB, indicating normal or mild hearing loss, in the context of unilateral sensorineural hearing loss and the need for a cochlear implant?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 11,
+                                        "clinical_criteria": "Contralateral ear <30 dB loss"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.2.3.3",
+                                        "content": "Limited benefit from appropriately fitted hearing aid in ear to be implanted",
+                                        "logical_relation": "ALL",
+                                        "question": "Has the patient experienced limited benefit from an appropriately fitted hearing aid in the ear to be implanted?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 12,
+                                        "clinical_criteria": "Limited benefit from hearing aid"
+                                    }
+                                ],
+                                "seq": 9
+                            },
+                            {
+                                "member_id": "mdg_1.1.2.4",
+                                "content": "Unilateral sensorineural hearing loss and risk for progression (eg, due to bacterial meningitis)",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have unilateral sensorineural hearing loss and is at risk for progression due to bacterial meningitis? If yes, left or right?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 13,
+                                "clinical_criteria": "Risk for progression"
+                            }
+                        ],
+                        "seq": 3
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "No lesions of acoustic nerve or central auditory pathway causing deafness",
+                        "logical_relation": "NOT",
+                        "question": "Is there evidence in the medical record that the patient has no lesions of the acoustic nerve or central auditory pathway causing deafness?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 14,
+                        "clinical_criteria": "No lesions causing deafness"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Child with ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Child criteria for implant",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Cochleovestibular anatomy compatible with cochlear implant placement (ie, no evidence of anomaly that would preclude implant, such as cochlear aplasia, complete labyrinthine aplasia, lack of cochlear nerve), confirmed by CT or MRI, or acoustic neuroma (vestibular schwannoma) excision planned and cochlear nerve preservation thought possible",
+                        "logical_relation": "ALL",
+                        "question": "Is there evidence in the patient's medical record of cochleovestibular anatomy compatible with cochlear implant placement, confirmed by CT or MRI, or is there a planned excision of acoustic neuroma with possible cochlear nerve preservation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 16,
+                        "clinical_criteria": "Compatible cochleovestibular anatomy"
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Need for implant, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Need for implant",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.2.1",
+                                "content": "Asymmetric sensorineural hearing loss and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Asymmetric sensorineural hearing loss",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.1.1",
+                                        "content": "Hearing loss, unaided, of 70 dB or greater (ie, severe to profound hearing loss) in one ear",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have unaided hearing loss of 70 dB or greater in one ear?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 19,
+                                        "clinical_criteria": "Unaided hearing loss 70 dB"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.2",
+                                        "content": "Contralateral ear with 31 to 55 dB hearing loss (ie, mild to moderately severe hearing loss), with difference of at least 15 dB in pure-tone averages between ears",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have contralateral ear with 31 to 55 dB hearing loss and a difference of at least 15 dB in pure-tone averages between ears?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 20,
+                                        "clinical_criteria": "Contralateral ear 31-55 dB loss"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.3",
+                                        "content": "Limited benefit from appropriately fitted hearing aid in ear to be implanted",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have limited benefit from an appropriately fitted hearing aid in the ear to be implanted?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 21,
+                                        "clinical_criteria": "Limited benefit from hearing aid"
+                                    }
+                                ],
+                                "seq": 18
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.2",
+                                "content": "Bilateral sensorineural hearing loss, as indicated by ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Bilateral sensorineural hearing loss",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.2.1",
+                                        "content": "Age 9 months or older",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there documentation in the medical record that the patient is 9 months or older with bilateral sensorineural hearing loss and a need for a cochlear implant?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 23,
+                                        "clinical_criteria": "Age 9 months or older"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.2",
+                                        "content": "Hearing loss with unaided pure-tone average thresholds of 70 dB or greater (ie, severe hearing loss)",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have hearing loss with unaided pure-tone average thresholds of 70 dB or greater, indicating severe hearing loss, and bilateral sensorineural hearing loss?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 24,
+                                        "clinical_criteria": "Unaided thresholds 70 dB"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.3",
+                                        "content": "Three-month to six-month trial of binaural hearing aids documents lack of or minimal improvement (ie, less than appropriate based on age, developmental stage, or cognitive ability) in auditory development.",
+                                        "logical_relation": "ALL",
+                                        "question": "Has the patient undergone a three-month to six-month trial of binaural hearing aids with documented lack of or minimal improvement in auditory development?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 25,
+                                        "clinical_criteria": "Trial of binaural aids"
+                                    }
+                                ],
+                                "seq": 22
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.3",
+                                "content": "Unilateral sensorineural hearing loss and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Unilateral sensorineural hearing loss",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.3.1",
+                                        "content": "Hearing loss, unaided, of 70 dB or greater (ie, severe to profound hearing loss) in one ear",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have unaided hearing loss of 70 dB or greater in one ear?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 27,
+                                        "clinical_criteria": "Unaided hearing loss 70 dB"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.3.2",
+                                        "content": "Contralateral ear with less than 30 dB hearing loss (ie, normal to mild hearing loss), with difference of at least 15 dB in pure-tone averages between ears",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have contralateral ear with less than 30 dB hearing loss and a difference of at least 15 dB in pure-tone averages between ears?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 28,
+                                        "clinical_criteria": "Contralateral ear <30 dB loss"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.3.3",
+                                        "content": "Limited benefit from appropriately fitted hearing aid in ear to be implanted",
+                                        "logical_relation": "ALL",
+                                        "question": "Has the patient experienced limited benefit from an appropriately fitted hearing aid in the ear to be implanted?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 29,
+                                        "clinical_criteria": "Limited benefit from hearing aid"
+                                    }
+                                ],
+                                "seq": 26
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.4",
+                                "content": "Unilateral sensorineural hearing loss and risk for progression (eg, due to bacterial meningitis)",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have unilateral sensorineural hearing loss and is there a risk for progression, such as due to bacterial meningitis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 30,
+                                "clinical_criteria": "Risk for progression"
+                            }
+                        ],
+                        "seq": 17
+                    },
+                    {
+                        "member_id": "mdg_1.2.3",
+                        "content": "Family support and motivation to participate in postimplant rehabilitation",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of family support and motivation for the child to participate in postimplant rehabilitation in the medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 31,
+                        "clinical_criteria": "Family support and motivation"
+                    },
+                    {
+                        "member_id": "mdg_1.2.4",
+                        "content": "Minimal speech perception 30% or less or lack of developmentally appropriate auditory milestones measured using parent report scales",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record indicating that the child has minimal speech perception of 30% or less or lacks developmentally appropriate auditory milestones?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 32,
+                        "clinical_criteria": "Minimal speech perception"
+                    },
+                    {
+                        "member_id": "mdg_1.2.5",
+                        "content": "No evidence of central auditory dysfunction (eg, cortical deafness)",
+                        "logical_relation": "NOT",
+                        "question": "Is there documentation in the medical record indicating no evidence of central auditory dysfunction, such as cortical deafness, in a child?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 33,
+                        "clinical_criteria": "No central auditory dysfunction"
+                    }
+                ],
+                "seq": 15
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Replacement of existing cochlear implant or component (eg, headset/headpiece, microphone, transmitting coil or cable, external speech processor or controller, battery) needed",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record indicating the need for replacement of an existing cochlear implant or its components such as headset, microphone, transmitting coil, cable, external speech processor, controller, or battery?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 34,
+                "clinical_criteria": "Replacement of cochlear implant"
+            }
+        ],
+        "seq": 0
+    }
+]

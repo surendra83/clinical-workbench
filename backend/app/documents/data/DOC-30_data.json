@@ -1,0 +1,354 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Procedure is indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Procedure indication criteria",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Spinal fracture repair, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Spinal fracture repair criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Spinal instability (eg, burst fracture)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of spinal instability, such as a burst fracture, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 2,
+                        "clinical_criteria": "Spinal instability documentation"
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Neural compression",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence of neural compression in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Neural compression evidence"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Spinal stenosis surgery requiring stabilization with fusion, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Spinal stenosis surgery criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Unacceptable postoperative instability is judged to be likely due to extent of disease or surgery (eg, multiple vertebral levels involved).",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record indicating that unacceptable postoperative instability is likely due to the extent of disease or surgery, such as multiple vertebral levels involved, in the context of spinal stenosis surgery requiring stabilization with fusion?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 5,
+                        "clinical_criteria": "Postoperative instability likelihood"
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Lumbar spinal stenosis treatment needed, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Lumbar spinal stenosis treatment",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.2.1",
+                                "content": "Rapidly progressive or very severe symptoms of neurogenic claudication with imaging findings of lumbar spinal stenosis that correlate to clinical findings",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have rapidly progressive or very severe symptoms of neurogenic claudication with imaging findings of lumbar spinal stenosis that correlate to clinical findings?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 7,
+                                "clinical_criteria": "Severe neurogenic claudication symptoms"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.2",
+                                "content": "Leg or buttock neurogenic claudication symptoms and ALL of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Neurogenic claudication symptoms",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.2.1",
+                                        "content": "Symptoms that are persistent and disabling",
+                                        "logical_relation": "ALL",
+                                        "question": "Does the patient have symptoms that are persistent and disabling related to leg or buttock neurogenic claudication, lumbar spinal stenosis treatment, spinal stenosis surgery requiring stabilization with fusion, or a procedure indicated for spinal conditions?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 9,
+                                        "clinical_criteria": "Persistent disabling symptoms"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.2",
+                                        "content": "Imaging findings of lumbar spinal stenosis that correlate with clinical findings",
+                                        "logical_relation": "ALL",
+                                        "question": "Do the imaging findings of lumbar spinal stenosis correlate with clinical findings of leg or buttock neurogenic claudication symptoms?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 10,
+                                        "clinical_criteria": "Imaging findings correlation"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.3",
+                                        "content": "Failure of 3 months of nonoperative therapy",
+                                        "logical_relation": "ALL",
+                                        "question": "Has the patient experienced failure of 3 months of nonoperative therapy for leg or buttock neurogenic claudication symptoms, lumbar spinal stenosis treatment, or spinal stenosis surgery requiring stabilization with fusion?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 11,
+                                        "clinical_criteria": "Nonoperative therapy failure"
+                                    }
+                                ],
+                                "seq": 8
+                            }
+                        ],
+                        "seq": 6
+                    }
+                ],
+                "seq": 4
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Lumbar spondylolisthesis, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Lumbar spondylolisthesis criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Rapidly progressive or very severe neurologic deficits (eg, bowel or bladder dysfunction)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of rapidly progressive or very severe neurologic deficits, such as bowel or bladder dysfunction, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 13,
+                        "clinical_criteria": "Severe neurologic deficits"
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Symptoms requiring treatment, as indicated by ALL of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Symptoms requiring treatment",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.2.1",
+                                "content": "Patient has persistent disabling symptoms, including 1 or more of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Persistent disabling symptoms",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.2.1.1",
+                                        "content": "Low back pain",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of low back pain in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 16,
+                                        "clinical_criteria": "Low back pain documentation"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.1.2",
+                                        "content": "Neurogenic claudication",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of neurogenic claudication in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 17,
+                                        "clinical_criteria": "Neurogenic claudication documentation"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.1.3",
+                                        "content": "Radicular pain",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of radicular pain in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 18,
+                                        "clinical_criteria": "Radicular pain documentation"
+                                    }
+                                ],
+                                "seq": 15
+                            },
+                            {
+                                "member_id": "mdg_1.3.2.2",
+                                "content": "Treatment is indicated by ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Treatment indication criteria",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.2.2.1",
+                                        "content": "Listhesis demonstrated on imaging",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there documentation of listhesis demonstrated on imaging in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 20,
+                                        "clinical_criteria": "Listhesis on imaging"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.2.2",
+                                        "content": "Symptoms correlate with findings on MRI or other imaging.",
+                                        "logical_relation": "ALL",
+                                        "question": "Do the patient's symptoms correlate with findings on MRI or other imaging for lumbar spondylolisthesis?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 21,
+                                        "clinical_criteria": "Symptoms correlate with imaging"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.2.3",
+                                        "content": "Failure of 3 months of nonoperative therapy",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there documentation in the medical record of the patient's failure of 3 months of nonoperative therapy for lumbar spondylolisthesis?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 22,
+                                        "clinical_criteria": "Nonoperative therapy failure"
+                                    }
+                                ],
+                                "seq": 19
+                            }
+                        ],
+                        "seq": 14
+                    },
+                    {
+                        "member_id": "mdg_1.3.3",
+                        "content": "Child or adolescent with high-grade (greater than 50% slippage) spondylolisthesis (to prevent progression)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of a child or adolescent with high-grade (greater than 50% slippage) spondylolisthesis to prevent progression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 23,
+                        "clinical_criteria": "High-grade spondylolisthesis"
+                    }
+                ],
+                "seq": 12
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Adjacent segment disease, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Adjacent segment disease criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.1",
+                        "content": "Radiographic evidence of adjacent segment disease (eg, neural compression) that correlates with symptoms",
+                        "logical_relation": "ALL",
+                        "question": "Is there radiographic evidence of adjacent segment disease, such as neural compression, that correlates with the patient's symptoms?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 25,
+                        "clinical_criteria": "Radiographic evidence correlation"
+                    },
+                    {
+                        "member_id": "mdg_1.4.2",
+                        "content": "Persistent disabling symptoms (low back pain, radiculopathy)",
+                        "logical_relation": "ALL",
+                        "question": "Does the patient have persistent disabling symptoms such as low back pain or radiculopathy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 26,
+                        "clinical_criteria": "Persistent disabling symptoms"
+                    },
+                    {
+                        "member_id": "mdg_1.4.3",
+                        "content": "Failure of 3 months of nonoperative therapy",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of the patient's failure of 3 months of nonoperative therapy in the medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 27,
+                        "clinical_criteria": "Nonoperative therapy failure"
+                    }
+                ],
+                "seq": 24
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Lumbar pseudarthrosis and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Lumbar pseudarthrosis criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.5.1",
+                        "content": "Symptoms (eg, pain) unresponsive to nonoperative therapy",
+                        "logical_relation": "ALL",
+                        "question": "Are the patient's symptoms, such as pain, unresponsive to nonoperative therapy in the context of lumbar pseudarthrosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 29,
+                        "clinical_criteria": "Symptoms unresponsive to therapy"
+                    },
+                    {
+                        "member_id": "mdg_1.5.2",
+                        "content": "Lumbar imaging findings consistent with symptoms",
+                        "logical_relation": "ALL",
+                        "question": "Are there lumbar imaging findings in the patient's medical record that are consistent with symptoms and indicate lumbar pseudarthrosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 30,
+                        "clinical_criteria": "Imaging findings consistent"
+                    },
+                    {
+                        "member_id": "mdg_1.5.3",
+                        "content": "Alternative etiologies of symptoms ruled out",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient been evaluated to rule out alternative etiologies of symptoms related to lumbar pseudarthrosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 31,
+                        "clinical_criteria": "Alternative etiologies ruled out"
+                    }
+                ],
+                "seq": 28
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Spinal repair with fusion (eg, for instability due to extensive surgery) in conjunction with other procedures (eg, laminectomy) for neural decompression, fracture, dislocation, infection, abscess, tumor, or coronal imbalance",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the patient's medical record of spinal repair with fusion being performed in conjunction with other procedures such as laminectomy for neural decompression, fracture, dislocation, infection, abscess, tumor, or coronal imbalance?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 32,
+                "clinical_criteria": "Spinal repair with fusion"
+            }
+        ],
+        "seq": 0
+    }
+]

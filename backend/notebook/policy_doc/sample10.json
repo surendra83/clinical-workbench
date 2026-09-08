@@ -1,0 +1,1297 @@
+[
+    {
+        "member_id": "mdg_1.1",
+        "content": "Giant cell tumor of bone in adult or skeletally mature adolescent, as indicated by ALL of the following:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "clinical_criteria": "Giant cell tumor",
+        "children": [
+            {
+                "member_id": "mdg_1.1.1",
+                "content": "Documented need for denosumab, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Need for denosumab",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1.1",
+                        "content": "Recurrent disease",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of recurrent disease in the patient's medical record, specifically related to the need for denosumab due to a giant cell tumor of bone in an adult or skeletally mature adolescent?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Recurrent disease",
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.1.2",
+                        "content": "Unresectable disease, or located where planned surgery is likely to result in severe morbidity",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record indicating that the patient has unresectable disease or a condition where planned surgery is likely to result in severe morbidity?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Unresectable disease",
+                        "seq": 3
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.1.2",
+                "content": "Hypocalcemia absent or treated with calcium and vitamin D as necessary",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record that hypocalcemia is absent or treated with calcium and vitamin D in a patient with giant cell tumor of bone in adult or skeletally mature adolescent?",
+                "classification_type": "indication",
+                "clinical_criteria": "Hypocalcemia absent",
+                "seq": 4
+            },
+            {
+                "member_id": "mdg_1.1.3",
+                "content": "Patient is not pregnant.",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record that the patient is not pregnant and has a giant cell tumor of bone in adult or skeletally mature adolescent?",
+                "classification_type": "indication",
+                "clinical_criteria": "Not pregnant",
+                "seq": 5
+            }
+        ],
+        "seq": 0
+    },
+    {
+        "member_id": "mdg_1.2",
+        "content": "Hypercalcemia of malignancy, as indicated by ALL of the following:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "clinical_criteria": "Hypercalcemia of malignancy",
+        "children": [
+            {
+                "member_id": "mdg_1.2.1",
+                "content": "Age 18 years or older",
+                "logical_relation": "NONE",
+                "question": "Is there documentation that the patient is 18 years or older with hypercalcemia of malignancy?",
+                "classification_type": "indication",
+                "clinical_criteria": "Age 18 or older",
+                "seq": 7
+            },
+            {
+                "member_id": "mdg_1.2.2",
+                "content": "Hypercalcemia due to current malignancy and refractory to bisphosphonate therapy",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record of hypercalcemia due to current malignancy that is refractory to bisphosphonate therapy?",
+                "classification_type": "indication",
+                "clinical_criteria": "Refractory hypercalcemia",
+                "seq": 8
+            },
+            {
+                "member_id": "mdg_1.2.3",
+                "content": "Serum calcium of 12.5 mg/dL (3.1 mmol/L) or greater, after correction for serum albumin",
+                "logical_relation": "NONE",
+                "question": "Is there documentation of serum calcium levels of 12.5 mg/dL (3.1 mmol/L) or greater, after correction for serum albumin, in the patient's medical record?",
+                "classification_type": "indication",
+                "clinical_criteria": "Serum calcium 12.5 mg/dL",
+                "seq": 9
+            },
+            {
+                "member_id": "mdg_1.2.4",
+                "content": "Patient is not pregnant.",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record that the patient is not pregnant and has hypercalcemia of malignancy?",
+                "classification_type": "indication",
+                "clinical_criteria": "Not pregnant",
+                "seq": 10
+            }
+        ],
+        "seq": 6
+    },
+    {
+        "member_id": "mdg_1.3",
+        "content": "Osteoporosis and need for treatment in patient at high risk for fracture, as indicated by 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "clinical_criteria": "Osteoporosis treatment need",
+        "children": [
+            {
+                "member_id": "mdg_1.3.1",
+                "content": "Female with postmenopausal osteoporosis and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Postmenopausal osteoporosis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1.1",
+                        "content": "Documented osteoporosis, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Documented osteoporosis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.1.1.1",
+                                "content": "Femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5 and 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "T-score -1.0 to -2.5",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.1.1.1.1",
+                                        "content": "Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability for major osteoporotic fracture of 20% or greater",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the patient's medical record of a FRAX\u00ae 10-year probability for major osteoporotic fracture of 20% or greater, along with a femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5, documented osteoporosis, female with postmenopausal osteoporosis, or osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "FRAX\u00ae 20% or greater",
+                                        "seq": 15
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.1.1.2",
+                                        "content": "Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability of hip fracture greater than country-specific threshold (eg, 3% or greater in the United States)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of a FRAX\u00ae 10-year probability of hip fracture greater than the country-specific threshold, such as 3% or greater in the United States, along with a femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5, documented osteoporosis, female with postmenopausal osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "FRAX\u00ae hip fracture",
+                                        "seq": 16
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.1.1.3",
+                                        "content": "Fragility fracture of proximal humerus, pelvis, or distal forearm in patient age 50 years or older",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a fragility fracture of the proximal humerus, pelvis, or distal forearm in a patient age 50 years or older with femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5, documented osteoporosis, female with postmenopausal osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Fragility fracture age 50+",
+                                        "seq": 17
+                                    }
+                                ],
+                                "seq": 14
+                            },
+                            {
+                                "member_id": "mdg_1.3.1.1.2",
+                                "content": "Femoral neck, spine, or total hip bone mineral density T-score -2.5 or less",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation in the patient's medical record of a femoral neck, spine, or total hip bone mineral density T-score of -2.5 or less, indicating osteoporosis?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "T-score -2.5 or less",
+                                "seq": 18
+                            },
+                            {
+                                "member_id": "mdg_1.3.1.1.3",
+                                "content": "Hip or vertebral fragility (ie, low-trauma) fracture in patient age 50 years or older",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have a hip or vertebral fragility fracture and documented osteoporosis, female with postmenopausal osteoporosis, or osteoporosis with a need for treatment at high risk for fracture?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Hip/vertebral fracture age 50+",
+                                "seq": 19
+                            }
+                        ],
+                        "seq": 13
+                    },
+                    {
+                        "member_id": "mdg_1.3.1.2",
+                        "content": "Need for therapy with denosumab, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Denosumab therapy need",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.1.2.1",
+                                "content": "Failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Therapy failure/intolerance",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.1",
+                                        "content": "Abaloparatide",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's need for Abaloparatide therapy due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Abaloparatide need",
+                                        "seq": 22
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.2",
+                                        "content": "Calcitonin",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Calcitonin need",
+                                        "seq": 23
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.3",
+                                        "content": "Intravenous bisphosphonate (eg, ibandronate, zoledronic acid)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of intravenous bisphosphonate therapy, such as ibandronate or zoledronic acid, for a female with postmenopausal osteoporosis, failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, or osteoporosis with a need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "IV bisphosphonate need",
+                                        "seq": 24
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.4",
+                                        "content": "Oral bisphosphonate (eg, alendronate, risedronate, ibandronate)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of the patient's use of oral bisphosphonates such as alendronate, risedronate, or ibandronate due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, female with postmenopausal osteoporosis, or osteoporosis with a high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Oral bisphosphonate need",
+                                        "seq": 25
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.5",
+                                        "content": "Raloxifene",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of failure, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in a female with postmenopausal osteoporosis and osteoporosis in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Raloxifene need",
+                                        "seq": 26
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.6",
+                                        "content": "Romosozumab",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Romosozumab need",
+                                        "seq": 27
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.1.7",
+                                        "content": "Teriparatide",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's need for Teriparatide therapy due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Teriparatide need",
+                                        "seq": 28
+                                    }
+                                ],
+                                "seq": 21
+                            },
+                            {
+                                "member_id": "mdg_1.3.1.2.2",
+                                "content": "Risk factors for fracture, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Fracture risk factors",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.1",
+                                        "content": "Alcohol intake of 3 or more drinks per day",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of alcohol intake of 3 or more drinks per day in a patient with risk factors for fracture, need for therapy with denosumab, female with postmenopausal osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Alcohol intake 3+ drinks",
+                                        "seq": 30
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.2",
+                                        "content": "BMI less than 20",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that the patient has a BMI less than 20 and is at high risk for fracture, requires therapy with denosumab, or is a female with postmenopausal osteoporosis?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "BMI less than 20",
+                                        "seq": 31
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.3",
+                                        "content": "Current cigarette use",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of current cigarette use in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, female with postmenopausal osteoporosis, and osteoporosis in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Current cigarette use",
+                                        "seq": 32
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.4",
+                                        "content": "Frequent falls (2 or more falls in the previous 1 year)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of frequent falls (2 or more falls in the previous 1 year) in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, female with postmenopausal osteoporosis, and osteoporosis in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Frequent falls 2+",
+                                        "seq": 33
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.5",
+                                        "content": "Glucocorticoid use of 3 months' or greater duration",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of glucocorticoid use for 3 months or greater duration in a patient with risk factors for fracture, need for therapy with denosumab, female with postmenopausal osteoporosis, or osteoporosis with a high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Glucocorticoid use 3+ months",
+                                        "seq": 34
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.6",
+                                        "content": "Parental hip fracture",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a parental hip fracture in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, female with postmenopausal osteoporosis, and osteoporosis in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Parental hip fracture",
+                                        "seq": 35
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.7",
+                                        "content": "Personal history of fragility or osteoporotic fracture",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a personal history of fragility or osteoporotic fracture in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Personal fracture history",
+                                        "seq": 36
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.1.2.2.8",
+                                        "content": "Rheumatoid arthritis (confirmed diagnosis)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a confirmed diagnosis of rheumatoid arthritis in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, female with postmenopausal osteoporosis, and osteoporosis with need for treatment in patients at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Rheumatoid arthritis",
+                                        "seq": 37
+                                    }
+                                ],
+                                "seq": 29
+                            }
+                        ],
+                        "seq": 20
+                    },
+                    {
+                        "member_id": "mdg_1.3.1.3",
+                        "content": "No hypocalcemia at time of administration",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record confirming no hypocalcemia at the time of administration for a female with postmenopausal osteoporosis and osteoporosis in a patient at high risk for fracture?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "No hypocalcemia",
+                        "seq": 38
+                    }
+                ],
+                "seq": 12
+            },
+            {
+                "member_id": "mdg_1.3.2",
+                "content": "Glucocorticoid-induced osteoporosis in adult male or female, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Glucocorticoid-induced osteoporosis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.2.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "NONE",
+                        "question": "Is the patient 18 years or older with glucocorticoid-induced osteoporosis and osteoporosis with a need for treatment at high risk for fracture?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Age 18 or older",
+                        "seq": 40
+                    },
+                    {
+                        "member_id": "mdg_1.3.2.2",
+                        "content": "Documented osteoporosis, as indicated by 1 or more of the following:",
+                        "logical_relation": "NONE",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Documented osteoporosis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.2.2.1",
+                                "content": "Femoral neck, lumbar spine, or total hip bone mineral density T-score of less than -2.0",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of a femoral neck, lumbar spine, or total hip bone mineral density T-score of less than -2.0 in a patient with documented osteoporosis, glucocorticoid-induced osteoporosis in adult male or female, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "T-score less than -2.0",
+                                "seq": 42
+                            },
+                            {
+                                "member_id": "mdg_1.3.2.2.2",
+                                "content": "History of osteoporotic fracture",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the patient's medical record of a history of osteoporotic fracture, documented osteoporosis, glucocorticoid-induced osteoporosis, or osteoporosis with a need for treatment in a patient at high risk for fracture?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Osteoporotic fracture history",
+                                "seq": 43
+                            }
+                        ],
+                        "seq": 41
+                    },
+                    {
+                        "member_id": "mdg_1.3.2.3",
+                        "content": "Duration of glucocorticoid therapy expected to be 3 months or longer",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record that the patient is expected to undergo glucocorticoid therapy for 3 months or longer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Glucocorticoid 3+ months",
+                        "seq": 44
+                    },
+                    {
+                        "member_id": "mdg_1.3.2.4",
+                        "content": "Glucocorticoid daily dose equivalent to 5 mg or greater of prednisone",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record of a glucocorticoid daily dose equivalent to 5 mg or greater of prednisone for a patient with glucocorticoid-induced osteoporosis and osteoporosis with a need for treatment at high risk for fracture?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Prednisone 5 mg+",
+                        "seq": 45
+                    },
+                    {
+                        "member_id": "mdg_1.3.2.5",
+                        "content": "Need for therapy with denosumab, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Denosumab therapy need",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.2.5.1",
+                                "content": "Failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Therapy failure/intolerance",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.1",
+                                        "content": "Abaloparatide",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, glucocorticoid-induced osteoporosis in adult male or female, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Abaloparatide need",
+                                        "seq": 48
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.2",
+                                        "content": "Calcitonin",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of calcitonin use in the patient's medical record for osteoporosis therapy failure, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, glucocorticoid-induced osteoporosis in adult male or female, or osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Calcitonin need",
+                                        "seq": 49
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.3",
+                                        "content": "Intravenous bisphosphonate (eg, ibandronate, zoledronic acid)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of the patient's need for intravenous bisphosphonate therapy due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, glucocorticoid-induced osteoporosis in adult male or female, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "IV bisphosphonate need",
+                                        "seq": 50
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.4",
+                                        "content": "Oral bisphosphonate (eg, alendronate, risedronate, ibandronate)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of oral bisphosphonate use, such as alendronate, risedronate, or ibandronate, for osteoporosis therapy failure, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, glucocorticoid-induced osteoporosis in adult male or female, or osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Oral bisphosphonate need",
+                                        "seq": 51
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.5",
+                                        "content": "Raloxifene",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of raloxifene use in the patient's medical record due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, glucocorticoid-induced osteoporosis in adult male or female, or osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Raloxifene need",
+                                        "seq": 52
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.6",
+                                        "content": "Romosozumab (female only)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation that the female patient is receiving Romosozumab due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, glucocorticoid-induced osteoporosis, or osteoporosis with a high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Romosozumab need",
+                                        "seq": 53
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.1.7",
+                                        "content": "Teriparatide",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of failure, inability to tolerate, or contraindication to other available osteoporosis therapy in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Teriparatide need",
+                                        "seq": 54
+                                    }
+                                ],
+                                "seq": 47
+                            },
+                            {
+                                "member_id": "mdg_1.3.2.5.2",
+                                "content": "Risk factors for fracture, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Fracture risk factors",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.1",
+                                        "content": "Alcohol intake of 3 or more drinks per day",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of alcohol intake of 3 or more drinks per day in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, and osteoporosis in patients at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Alcohol intake 3+ drinks",
+                                        "seq": 59
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.2",
+                                        "content": "BMI less than 20",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of a BMI less than 20 in a patient with risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, or osteoporosis and need for treatment at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "BMI less than 20",
+                                        "seq": 60
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.3",
+                                        "content": "Current cigarette use",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of current cigarette use in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, and osteoporosis with high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Current cigarette use",
+                                        "seq": 61
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.4",
+                                        "content": "Frequent falls (2 or more falls in the previous 1 year)",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient experienced frequent falls, defined as 2 or more falls in the previous 1 year, with risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Frequent falls 2+",
+                                        "seq": 62
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.5",
+                                        "content": "Glucocorticoid use of 3 months' or greater duration",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of glucocorticoid use for 3 months or greater duration in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis in adult male or female, and osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Glucocorticoid use 3+ months",
+                                        "seq": 63
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.6",
+                                        "content": "Parental hip fracture",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a parental hip fracture in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, and osteoporosis in patients at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Parental hip fracture",
+                                        "seq": 64
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.7",
+                                        "content": "Personal history of fragility or osteoporotic fracture",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a personal history of fragility or osteoporotic fracture in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, and osteoporosis in patients at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Personal fracture history",
+                                        "seq": 65
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.2.5.2.8",
+                                        "content": "Rheumatoid arthritis (confirmed diagnosis)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a confirmed diagnosis of rheumatoid arthritis in the patient's medical record, along with risk factors for fracture, need for therapy with denosumab, glucocorticoid-induced osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Rheumatoid arthritis",
+                                        "seq": 66
+                                    }
+                                ],
+                                "seq": 58
+                            }
+                        ],
+                        "seq": 46
+                    },
+                    {
+                        "member_id": "mdg_1.3.2.6",
+                        "content": "No hypocalcemia at time of administration",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record that the patient does not have hypocalcemia at the time of administration?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "No hypocalcemia",
+                        "seq": 67
+                    },
+                    {
+                        "member_id": "mdg_1.3.2.7",
+                        "content": "Patient is not pregnant.",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record that the patient is not pregnant and has glucocorticoid-induced osteoporosis in adult male or female?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Not pregnant",
+                        "seq": 68
+                    }
+                ],
+                "seq": 39
+            },
+            {
+                "member_id": "mdg_1.3.3",
+                "content": "Male with osteoporosis and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Male osteoporosis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.3.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "NONE",
+                        "question": "Is the patient 18 years or older with osteoporosis and at high risk for fracture?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Age 18 or older",
+                        "seq": 71
+                    },
+                    {
+                        "member_id": "mdg_1.3.3.2",
+                        "content": "Documented osteoporosis, as indicated by 1 or more of the following:",
+                        "logical_relation": "NONE",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Documented osteoporosis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.3.2.1",
+                                "content": "Femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5 and 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "T-score -1.0 to -2.5",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.3.2.1.1",
+                                        "content": "Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability for major osteoporotic fracture of 20% or greater",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the patient's medical record of a FRAX\u00ae 10-year probability for major osteoporotic fracture of 20% or greater, with a femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5, documented osteoporosis, male with osteoporosis, or osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "FRAX\u00ae 20% or greater",
+                                        "seq": 74
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.2.1.2",
+                                        "content": "Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability of hip fracture greater than country-specific threshold (eg, 3% or greater in the United States)",
+                                        "logical_relation": "ANY",
+                                        "question": "Does the patient have a FRAX\u00ae 10-year probability of hip fracture greater than the country-specific threshold, such as 3% or greater in the United States, with a femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "FRAX\u00ae hip fracture",
+                                        "seq": 75
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.2.1.3",
+                                        "content": "Fragility fracture of proximal humerus, pelvis, or distal forearm in patient age 50 years or older",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a fragility fracture of the proximal humerus, pelvis, or distal forearm in a patient age 50 years or older with femoral neck, spine, or total hip bone mineral density T-score between -1.0 to -2.5, documented osteoporosis, male with osteoporosis, or osteoporosis and need for treatment in patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Fragility fracture age 50+",
+                                        "seq": 76
+                                    }
+                                ],
+                                "seq": 73
+                            },
+                            {
+                                "member_id": "mdg_1.3.3.2.2",
+                                "content": "Femoral neck, spine, or total hip bone mineral density T-score -2.5 or less",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation in the medical record of a femoral neck, spine, or total hip bone mineral density T-score of -2.5 or less in a patient with osteoporosis or a male with osteoporosis or a patient with osteoporosis at high risk for fracture?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "T-score -2.5 or less",
+                                "seq": 77
+                            },
+                            {
+                                "member_id": "mdg_1.3.3.2.3",
+                                "content": "Hip or vertebral fragility (ie, low-trauma) fracture in patient age 50 years or older",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have a hip or vertebral fragility fracture and documented osteoporosis?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Hip/vertebral fracture age 50+",
+                                "seq": 78
+                            }
+                        ],
+                        "seq": 72
+                    },
+                    {
+                        "member_id": "mdg_1.3.3.3",
+                        "content": "Need for therapy with denosumab, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Denosumab therapy need",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.3.3.1",
+                                "content": "Failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Therapy failure/intolerance",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.3.3.1.1",
+                                        "content": "Abaloparatide",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Abaloparatide need",
+                                        "seq": 81
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.1.2",
+                                        "content": "Calcitonin",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, including denosumab, in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Calcitonin need",
+                                        "seq": 82
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.1.3",
+                                        "content": "Intravenous bisphosphonate (eg, ibandronate, zoledronic acid)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of intravenous bisphosphonate therapy, such as ibandronate or zoledronic acid, for a patient with osteoporosis who has failed, is unable to tolerate, or has contraindications to other available osteoporosis therapies, or who needs therapy with denosumab, or is a male with osteoporosis, or has osteoporosis and is at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "IV bisphosphonate need",
+                                        "seq": 83
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.1.4",
+                                        "content": "Oral bisphosphonate (eg, alendronate, risedronate, ibandronate)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of the patient's use of oral bisphosphonates such as alendronate, risedronate, or ibandronate due to failure of, inability to tolerate, or contraindication to other available osteoporosis therapy, need for therapy with denosumab, male with osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Oral bisphosphonate need",
+                                        "seq": 84
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.1.5",
+                                        "content": "Teriparatide",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of the patient's failure of, inability to tolerate, or contraindication to other available osteoporosis therapy in the medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Teriparatide need",
+                                        "seq": 85
+                                    }
+                                ],
+                                "seq": 80
+                            },
+                            {
+                                "member_id": "mdg_1.3.3.3.2",
+                                "content": "Risk factors for fracture, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Fracture risk factors",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.1",
+                                        "content": "Alcohol intake of 3 or more drinks per day",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of alcohol intake of 3 or more drinks per day in a patient with risk factors for fracture, need for therapy with denosumab, male with osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Alcohol intake 3+ drinks",
+                                        "seq": 87
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.2",
+                                        "content": "BMI less than 20",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of a BMI less than 20 in a patient with risk factors for fracture, need for therapy with denosumab, male with osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "BMI less than 20",
+                                        "seq": 88
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.3",
+                                        "content": "Current cigarette use",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of current cigarette use in the patient's medical record, particularly in the context of risk factors for fracture, need for therapy with denosumab, male with osteoporosis, or osteoporosis with a high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Current cigarette use",
+                                        "seq": 89
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.4",
+                                        "content": "Frequent falls (2 or more falls in the previous 1 year)",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient experienced frequent falls, defined as 2 or more falls in the previous 1 year, with risk factors for fracture, need for therapy with denosumab, male with osteoporosis, or osteoporosis and need for treatment in a patient at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Frequent falls 2+",
+                                        "seq": 90
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.5",
+                                        "content": "Glucocorticoid use of 3 months' or greater duration",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of glucocorticoid use for 3 months or greater duration in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, male with osteoporosis, and osteoporosis with high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Glucocorticoid use 3+ months",
+                                        "seq": 91
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.6",
+                                        "content": "Parental hip fracture",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a parental hip fracture in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, male with osteoporosis, and osteoporosis with need for treatment in patients at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Parental hip fracture",
+                                        "seq": 92
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.7",
+                                        "content": "Personal history of fragility or osteoporotic fracture",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a personal history of fragility or osteoporotic fracture in the patient's medical record, considering risk factors for fracture, need for therapy with denosumab, male with osteoporosis, and osteoporosis with need for treatment in patients at high risk for fracture?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Personal fracture history",
+                                        "seq": 93
+                                    },
+                                    {
+                                        "member_id": "mdg_1.3.3.3.2.8",
+                                        "content": "Rheumatoid arthritis (confirmed diagnosis)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a confirmed diagnosis of rheumatoid arthritis in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Rheumatoid arthritis",
+                                        "seq": 94
+                                    }
+                                ],
+                                "seq": 86
+                            }
+                        ],
+                        "seq": 79
+                    },
+                    {
+                        "member_id": "mdg_1.3.3.4",
+                        "content": "No hypocalcemia at time of administration",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record that the patient does not have hypocalcemia at the time of administration, considering the presence of osteoporosis and the need for treatment in a patient at high risk for fracture?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "No hypocalcemia",
+                        "seq": 95
+                    }
+                ],
+                "seq": 70
+            }
+        ],
+        "seq": 11
+    },
+    {
+        "member_id": "mdg_1.4",
+        "content": "Prevention of bone loss in female with breast cancer, as indicated by ALL of the following:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "clinical_criteria": "Prevention of bone loss",
+        "children": [
+            {
+                "member_id": "mdg_1.4.1",
+                "content": "Patient receiving adjuvant therapy with aromatase inhibitor",
+                "logical_relation": "NONE",
+                "question": "Is there documentation that the patient is receiving adjuvant therapy with an aromatase inhibitor for the prevention of bone loss in a female with breast cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "Adjuvant therapy",
+                "seq": 97
+            },
+            {
+                "member_id": "mdg_1.4.2",
+                "content": "Clinical condition, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Clinical condition",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.2.1",
+                        "content": "Bone mineral density T-score less than -2.0",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record of a bone mineral density T-score less than -2.0 in a female with breast cancer for the prevention of bone loss?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "T-score less than -2.0",
+                        "seq": 99
+                    },
+                    {
+                        "member_id": "mdg_1.4.2.2",
+                        "content": "Risk factors for fracture, as indicated by 2 or more of the following:",
+                        "logical_relation": "AT_LEAST_N",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Fracture risk factors",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.4.2.2.1",
+                                "content": "Age older than 65 years",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient is older than 65 years and has risk factors for fracture, clinical conditions, or is undergoing prevention of bone loss in females with breast cancer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Age older than 65",
+                                "seq": 101
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.2",
+                                "content": "Alcohol intake of 3 or more drinks per day",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of alcohol intake of 3 or more drinks per day in patients with risk factors for fracture, clinical conditions, or prevention of bone loss in females with breast cancer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Alcohol intake 3+ drinks",
+                                "seq": 102
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.3",
+                                "content": "BMI less than 20",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient has a BMI less than 20?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "BMI less than 20",
+                                "seq": 103
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.4",
+                                "content": "Bone mineral density T-score less than -1.5",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a bone mineral density T-score less than -1.5 in the patient's medical record, considering risk factors for fracture, clinical conditions, and prevention of bone loss in females with breast cancer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "T-score less than -1.5",
+                                "seq": 104
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.5",
+                                "content": "Current cigarette use",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of current cigarette use in the patient's medical record?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Current cigarette use",
+                                "seq": 105
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.6",
+                                "content": "Glucocorticosteroid use of 3 months' or greater duration",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of glucocorticosteroid use of 3 months' or greater duration in the patient's medical record, considering risk factors for fracture, clinical conditions, and prevention of bone loss in females with breast cancer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Glucocorticosteroid 3+ months",
+                                "seq": 106
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.7",
+                                "content": "Parental hip fracture",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a parental hip fracture in the patient's medical record, considering risk factors for fracture, clinical condition, and prevention of bone loss in females with breast cancer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Parental hip fracture",
+                                "seq": 107
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.8",
+                                "content": "Personal history of fragility fracture or osteoporotic fracture",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the patient's medical record of a personal history of fragility fracture or osteoporotic fracture?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Personal fracture history",
+                                "seq": 108
+                            },
+                            {
+                                "member_id": "mdg_1.4.2.2.9",
+                                "content": "Rheumatoid arthritis (confirmed diagnosis)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a confirmed diagnosis of rheumatoid arthritis in the patient's medical record, considering risk factors for fracture, clinical condition, and prevention of bone loss in females with breast cancer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Rheumatoid arthritis",
+                                "seq": 109
+                            }
+                        ],
+                        "seq": 100
+                    }
+                ],
+                "seq": 98
+            },
+            {
+                "member_id": "mdg_1.4.3",
+                "content": "No hypocalcemia at time of administration",
+                "logical_relation": "NONE",
+                "question": "Is there documentation that the patient does not have hypocalcemia at the time of administration for the prevention of bone loss in a female with breast cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "No hypocalcemia",
+                "seq": 110
+            },
+            {
+                "member_id": "mdg_1.4.4",
+                "content": "Patient is not pregnant.",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record that the patient is not pregnant for the prevention of bone loss in a female with breast cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "Not pregnant",
+                "seq": 111
+            }
+        ],
+        "seq": 96
+    },
+    {
+        "member_id": "mdg_1.5",
+        "content": "Prevention of bone loss in male with prostate cancer, as indicated by ALL of the following:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "clinical_criteria": "Prevention of bone loss",
+        "children": [
+            {
+                "member_id": "mdg_1.5.1",
+                "content": "Age 50 years or older",
+                "logical_relation": "NONE",
+                "question": "Is the patient 50 years or older and undergoing prevention of bone loss in male with prostate cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "Age 50 or older",
+                "seq": 113
+            },
+            {
+                "member_id": "mdg_1.5.2",
+                "content": "Bone mineral density T-score between -1.0 and -2.5",
+                "logical_relation": "NONE",
+                "question": "Is there documentation of a bone mineral density T-score between -1.0 and -2.5 in the medical record for the prevention of bone loss in a male with prostate cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "T-score -1.0 to -2.5",
+                "seq": 114
+            },
+            {
+                "member_id": "mdg_1.5.3",
+                "content": "Patient receiving androgen deprivation therapy",
+                "logical_relation": "NONE",
+                "question": "Is there documentation that the patient is receiving androgen deprivation therapy for the prevention of bone loss in males with prostate cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "Androgen deprivation therapy",
+                "seq": 115
+            },
+            {
+                "member_id": "mdg_1.5.4",
+                "content": "Risk factors for fracture, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Fracture risk factors",
+                "children": [
+                    {
+                        "member_id": "mdg_1.5.4.1",
+                        "content": "Alcohol intake of 3 or more drinks per day",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of alcohol intake of 3 or more drinks per day in the patient's medical record, considering risk factors for fracture and prevention of bone loss in males with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Alcohol intake 3+ drinks",
+                        "seq": 117
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.2",
+                        "content": "BMI less than 20",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of a BMI less than 20 in a patient with risk factors for fracture or prevention of bone loss in male with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "BMI less than 20",
+                        "seq": 118
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.3",
+                        "content": "Current cigarette use",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of current cigarette use in the patient's medical record, considering risk factors for fracture and prevention of bone loss in males with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Current cigarette use",
+                        "seq": 119
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.4",
+                        "content": "Frequent falls (2 or more falls in the previous 1 year)",
+                        "logical_relation": "ANY",
+                        "question": "Has the patient experienced frequent falls, defined as 2 or more falls in the previous 1 year, with risk factors for fracture or prevention of bone loss in males with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Frequent falls 2+",
+                        "seq": 120
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.5",
+                        "content": "Glucocorticoid use of 3 months' or greater duration",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of glucocorticoid use of 3 months' or greater duration in the patient's medical record, considering risk factors for fracture and prevention of bone loss in male with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Glucocorticoid use 3+ months",
+                        "seq": 121
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.6",
+                        "content": "Parental hip fracture",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a parental hip fracture in the patient's medical record, considering risk factors for fracture and prevention of bone loss in males with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Parental hip fracture",
+                        "seq": 122
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.7",
+                        "content": "Personal history of fragility or osteoporotic fracture",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a personal history of fragility or osteoporotic fracture in the patient's medical record, considering risk factors for fracture and prevention of bone loss in males with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Personal fracture history",
+                        "seq": 123
+                    },
+                    {
+                        "member_id": "mdg_1.5.4.8",
+                        "content": "Rheumatoid arthritis (confirmed diagnosis)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a confirmed diagnosis of rheumatoid arthritis in the patient's medical record, considering risk factors for fracture and prevention of bone loss in males with prostate cancer?",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Rheumatoid arthritis",
+                        "seq": 124
+                    }
+                ],
+                "seq": 116
+            },
+            {
+                "member_id": "mdg_1.5.5",
+                "content": "No hypocalcemia at time of administration",
+                "logical_relation": "NONE",
+                "question": "Is there documentation that the patient does not have hypocalcemia at the time of administration for the prevention of bone loss in males with prostate cancer?",
+                "classification_type": "indication",
+                "clinical_criteria": "No hypocalcemia",
+                "seq": 125
+            }
+        ],
+        "seq": 112
+    },
+    {
+        "member_id": "mdg_1.6",
+        "content": "Prevention of glucocorticoid-induced osteoporosis in adult, as indicated by ALL of the following:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "clinical_criteria": "Prevention of osteoporosis",
+        "children": [
+            {
+                "member_id": "mdg_1.6.1",
+                "content": "Age 18 years or older",
+                "logical_relation": "NONE",
+                "question": "Is there documentation that the patient is 18 years or older for the prevention of glucocorticoid-induced osteoporosis in adults?",
+                "classification_type": "indication",
+                "clinical_criteria": "Age 18 or older",
+                "seq": 127
+            },
+            {
+                "member_id": "mdg_1.6.2",
+                "content": "Moderate to high risk of fracture, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "clinical_criteria": "Moderate/high fracture risk",
+                "children": [
+                    {
+                        "member_id": "mdg_1.6.2.1",
+                        "content": "Age 40 years or older and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Age 40+ with conditions",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.6.2.1.1",
+                                "content": "Duration of glucocorticoid therapy expected to be 3 months or longer",
+                                "logical_relation": "NONE",
+                                "question": "Is the duration of glucocorticoid therapy for the patient expected to be 3 months or longer?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Glucocorticoid 3+ months",
+                                "seq": 130
+                            },
+                            {
+                                "member_id": "mdg_1.6.2.1.2",
+                                "content": "Glucocorticoid daily dose equivalent to 2.5 mg or greater of prednisone",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation in the medical record that the patient is receiving a daily dose of glucocorticoid equivalent to 2.5 mg or greater of prednisone and is 40 years or older with a moderate to high risk of fracture and prevention of glucocorticoid-induced osteoporosis?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Prednisone 2.5 mg+",
+                                "seq": 131
+                            },
+                            {
+                                "member_id": "mdg_1.6.2.1.3",
+                                "content": "Fracture risk, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Fracture risk factors",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.6.2.1.3.1",
+                                        "content": "Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability for major osteoporotic fracture 10% or greater",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of a Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability for major osteoporotic fracture of 10% or greater, considering the patient's age of 40 years or older and moderate to high risk of fracture, and prevention of glucocorticoid-induced osteoporosis?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "FRAX\u00ae 10% or greater",
+                                        "seq": 133
+                                    },
+                                    {
+                                        "member_id": "mdg_1.6.2.1.3.2",
+                                        "content": "Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability of hip fracture greater than country-specific threshold (eg, 1% or greater in United States)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the patient's medical record of a Fracture Risk Assessment Tool (FRAX\u00ae) 10-year probability of hip fracture greater than the country-specific threshold, considering factors such as age 40 years or older, moderate to high risk of fracture, and prevention of glucocorticoid-induced osteoporosis?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "FRAX\u00ae hip fracture",
+                                        "seq": 134
+                                    }
+                                ],
+                                "seq": 132
+                            }
+                        ],
+                        "seq": 129
+                    },
+                    {
+                        "member_id": "mdg_1.6.2.2",
+                        "content": "Age younger than 40 years and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "clinical_criteria": "Age <40 with conditions",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.6.2.2.1",
+                                "content": "Duration of glucocorticoid therapy expected to be 6 months or longer",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation in the medical record that the duration of glucocorticoid therapy is expected to be 6 months or longer for a patient younger than 40 years with moderate to high risk of fracture and prevention of glucocorticoid-induced osteoporosis?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Glucocorticoid 6+ months",
+                                "seq": 136
+                            },
+                            {
+                                "member_id": "mdg_1.6.2.2.2",
+                                "content": "Glucocorticoid daily dose equivalent to 7.5 mg or greater of prednisone",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation in the medical record of a glucocorticoid daily dose equivalent to 7.5 mg or greater of prednisone for a patient younger than 40 years with moderate to high risk of fracture and prevention of glucocorticoid-induced osteoporosis?",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Prednisone 7.5 mg+",
+                                "seq": 137
+                            },
+                            {
+                                "member_id": "mdg_1.6.2.2.3",
+                                "content": "Bone mineral density testing, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "clinical_criteria": "Bone density testing",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.6.2.2.3.1",
+                                        "content": "Rapid bone loss (ie, 10% or greater decrease in spine or hip bone mineral density in 1 year)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of rapid bone loss, defined as a 10% or greater decrease in spine or hip bone mineral density in 1 year, in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Rapid bone loss",
+                                        "seq": 139
+                                    },
+                                    {
+                                        "member_id": "mdg_1.6.2.2.3.2",
+                                        "content": "Spine or total hip bone mineral density z score -3.0 or less",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a spine or total hip bone mineral density z score of -3.0 or less in the patient's medical record, considering conditions such as age younger than 40 years, moderate to high risk of fracture, and prevention of glucocorticoid-induced osteoporosis?",
+                                        "classification_type": "indication",
+                                        "clinical_criteria": "Z score -3.0 or less",
+                                        "seq": 140
+                                    }
+                                ],
+                                "seq": 138
+                            }
+                        ],
+                        "seq": 135
+                    }
+                ]
+            }
+        ]
+    }
+]

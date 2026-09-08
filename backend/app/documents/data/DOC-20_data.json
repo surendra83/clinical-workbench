@@ -1,0 +1,720 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Myocardial positron emission tomography (PET), with or without simultaneous computed tomography (PET-CT), may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Myocardial PET indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Cardiac implantable electronic device (eg, pacemaker, implantable cardioverter-defibrillator, cardiac resynchronization therapy device) infection, suspected, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Device infection suspicion",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Clinical suspicion of device infection",
+                        "logical_relation": "",
+                        "question": "Is there clinical suspicion of a cardiac implantable electronic device infection, such as a pacemaker, implantable cardioverter-defibrillator, or cardiac resynchronization therapy device, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 2,
+                        "clinical_criteria": "Suspicion of device infection"
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Echocardiogram results are nondiagnostic.",
+                        "logical_relation": "",
+                        "question": "Are there nondiagnostic echocardiogram results documented in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Nondiagnostic echocardiogram results"
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "Study performed using PET-CT",
+                        "logical_relation": "",
+                        "question": "Has the patient undergone a study using PET-CT for a suspected cardiac implantable electronic device infection?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 4,
+                        "clinical_criteria": "PET-CT study performed"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Coronary artery disease assessment, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Coronary artery disease assessment",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Asymptomatic patient with elevated troponin level",
+                        "logical_relation": "",
+                        "question": "Is there documentation of an asymptomatic patient with elevated troponin level in the medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "Elevated troponin level"
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Asymptomatic patient with ischemic changes present on resting ECG",
+                        "logical_relation": "",
+                        "question": "Is there documentation of ischemic changes on a resting ECG in an asymptomatic patient?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 7,
+                        "clinical_criteria": "Ischemic changes on ECG"
+                    },
+                    {
+                        "member_id": "mdg_1.2.3",
+                        "content": "Cardiac transplant allograft vasculopathy surveillance",
+                        "logical_relation": "",
+                        "question": "Is there documentation of cardiac transplant allograft vasculopathy surveillance in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 8,
+                        "clinical_criteria": "Allograft vasculopathy surveillance"
+                    },
+                    {
+                        "member_id": "mdg_1.2.4",
+                        "content": "Congenital heart disease, known (eg, repaired aortic coarctation, previous coronary reimplantation surgery, coronary artery compression)",
+                        "logical_relation": "",
+                        "question": "Does the patient have congenital heart disease, such as repaired aortic coarctation, previous coronary reimplantation surgery, or coronary artery compression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 9,
+                        "clinical_criteria": "Known congenital heart disease"
+                    },
+                    {
+                        "member_id": "mdg_1.2.5",
+                        "content": "Exercise treadmill test results equivocal or positive, requiring further evaluation",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record of an equivocal or positive exercise treadmill test result requiring further evaluation for coronary artery disease assessment?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 10,
+                        "clinical_criteria": "Equivocal treadmill test results"
+                    },
+                    {
+                        "member_id": "mdg_1.2.6",
+                        "content": "Need for ischemic evaluation, as indicated by ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Need for ischemic evaluation",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.6.1",
+                                "content": "Clinically significant coronary artery disease, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Significant coronary artery disease",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.6.1.1",
+                                        "content": "Anomalous coronary artery, known, and need for functional assessment",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of an anomalous coronary artery and a need for functional assessment in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 13,
+                                        "clinical_criteria": "Anomalous coronary artery"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.2",
+                                        "content": "Before revascularization (ie, percutaneous coronary intervention or coronary artery bypass grafting) to demonstrate ischemia",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation in the patient's medical record of ischemia before revascularization, such as percutaneous coronary intervention or coronary artery bypass grafting, in the context of clinically significant coronary artery disease, need for ischemic evaluation, or coronary artery disease assessment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 14,
+                                        "clinical_criteria": "Ischemia before revascularization"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.3",
+                                        "content": "Cardiac CT angiography with 50% or greater stenosis of at least one coronary artery, or inconclusive results",
+                                        "logical_relation": "",
+                                        "question": "Has the patient undergone cardiac CT angiography showing 50% or greater stenosis of at least one coronary artery, or inconclusive results?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 15,
+                                        "clinical_criteria": "50% stenosis on CT angiography"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.4",
+                                        "content": "Coronary calcium Agatston score 1 to 99 on cardiac CT scan, and high risk for coronary heart disease, as indicated by 1 or more of the following:",
+                                        "logical_relation": "ANY",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "Coronary calcium score 1-99",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.2.6.1.4.1",
+                                                "content": "Calculated 10-year absolute coronary heart disease risk 20% or greater by global risk calculator",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the medical record of a calculated 10-year absolute coronary heart disease risk of 20% or greater by a global risk calculator?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 17,
+                                                "clinical_criteria": "20% risk by calculator"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.4.2",
+                                                "content": "Coronary heart disease risk equivalent (eg, peripheral arterial disease, carotid artery disease, or abdominal aortic aneurysm)",
+                                                "logical_relation": "",
+                                                "question": "Is there evidence in the patient's medical record of coronary heart disease risk equivalent, such as peripheral arterial disease, carotid artery disease, or abdominal aortic aneurysm, with a coronary calcium Agatston score of 1 to 99 on cardiac CT scan and high risk for coronary heart disease?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 18,
+                                                "clinical_criteria": "CHD risk equivalent"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.4.3",
+                                                "content": "Diabetes mellitus in patient age 40 years or older",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the medical record of diabetes mellitus in a patient age 40 years or older with a coronary calcium Agatston score of 1 to 99 on cardiac CT scan, high risk for coronary heart disease, clinically significant coronary artery disease, need for ischemic evaluation, or coronary artery disease assessment?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 19,
+                                                "clinical_criteria": "Diabetes in patient 40+"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.4.4",
+                                                "content": "Prior stroke or transient ischemic attack",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation of a prior stroke or transient ischemic attack in the patient's medical record, considering the coronary calcium Agatston score of 1 to 99 on cardiac CT scan and high risk for coronary heart disease, clinically significant coronary artery disease, need for ischemic evaluation, coronary artery disease assessment, or myocardial PET with or without PET-CT?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 20,
+                                                "clinical_criteria": "Prior stroke or TIA"
+                                            }
+                                        ],
+                                        "seq": 16
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.5",
+                                        "content": "Coronary calcium Agatston score of 100 or more on cardiac CT scan",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of a coronary calcium Agatston score of 100 or more on a cardiac CT scan in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 21,
+                                        "clinical_criteria": "Calcium score 100+"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.6",
+                                        "content": "Detection of recurrent stenosis or progression of disease in asymptomatic patient who had silent ischemia prior to revascularization and 1 or more of the following:",
+                                        "logical_relation": "",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "Recurrent stenosis detection",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.1",
+                                                "content": "Diabetes",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the medical record of diabetes in a patient with detection of recurrent stenosis or progression of disease in an asymptomatic patient who had silent ischemia prior to revascularization, clinically significant coronary artery disease, need for ischemic evaluation, coronary artery disease assessment, or myocardial positron emission tomography (PET) indication?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 23,
+                                                "clinical_criteria": "Diabetes with stenosis"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.2",
+                                                "content": "Five years or more after coronary artery bypass grafting",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the medical record that the patient is five years or more after coronary artery bypass grafting and requires detection of recurrent stenosis or progression of disease in an asymptomatic patient who had silent ischemia prior to revascularization, clinically significant coronary artery disease, need for ischemic evaluation, coronary artery disease assessment, or myocardial positron emission tomography (PET) with or without simultaneous computed tomography (PET-CT)?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 24,
+                                                "clinical_criteria": "5+ years post-CABG"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.3",
+                                                "content": "History of prior cardiac arrest",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the medical record of a history of prior cardiac arrest in the patient?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 25,
+                                                "clinical_criteria": "Prior cardiac arrest"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.4",
+                                                "content": "Incomplete revascularization procedure (ie, persistent stenosis after percutaneous coronary intervention or coronary artery bypass grafting)",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation of an incomplete revascularization procedure, such as persistent stenosis after percutaneous coronary intervention or coronary artery bypass grafting, in the patient's medical record?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 26,
+                                                "clinical_criteria": "Incomplete revascularization"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.5",
+                                                "content": "Involvement of proximal left anterior descending artery",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation of involvement of the proximal left anterior descending artery in the patient's medical record?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 27,
+                                                "clinical_criteria": "Proximal LAD involvement"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.6",
+                                                "content": "Left ventricular ejection fraction of 35% or less",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the patient's medical record of a left ventricular ejection fraction of 35% or less?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 28,
+                                                "clinical_criteria": "LVEF 35% or less"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.6.7",
+                                                "content": "Two years or more after percutaneous coronary intervention (ie, angioplasty or stent)",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the medical record that the patient is two years or more after percutaneous coronary intervention, such as angioplasty or stent, for the detection of recurrent stenosis or progression of disease in an asymptomatic patient who had silent ischemia prior to revascularization, clinically significant coronary artery disease, need for ischemic evaluation, coronary artery disease assessment, or myocardial positron emission tomography (PET) indication?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 29,
+                                                "clinical_criteria": "2+ years post-PCI"
+                                            }
+                                        ],
+                                        "seq": 22
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.7",
+                                        "content": "Following acute coronary syndrome and ALL of the following:",
+                                        "logical_relation": "ALL",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "Post-acute coronary syndrome",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.2.6.1.7.1",
+                                                "content": "Absence of current ischemic symptoms",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the patient's medical record indicating the absence of current ischemic symptoms following acute coronary syndrome and clinically significant coronary artery disease?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 31,
+                                                "clinical_criteria": "No current ischemic symptoms"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.7.2",
+                                                "content": "No signs of heart failure or hemodynamic instability",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the patient's medical record indicating no signs of heart failure or hemodynamic instability following acute coronary syndrome and clinically significant coronary artery disease, with a need for ischemic evaluation and coronary artery disease assessment?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 32,
+                                                "clinical_criteria": "No heart failure signs"
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.6.1.7.3",
+                                                "content": "Not planning to undergo early revascularization",
+                                                "logical_relation": "",
+                                                "question": "Is there documentation in the patient's medical record indicating that they are not planning to undergo early revascularization following acute coronary syndrome with clinically significant coronary artery disease and a need for ischemic evaluation?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "seq": 33,
+                                                "clinical_criteria": "No early revascularization"
+                                            }
+                                        ],
+                                        "seq": 30
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.8",
+                                        "content": "Following ST-segment elevation myocardial infarction",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation in the patient's medical record of a myocardial positron emission tomography (PET) or PET-CT following ST-segment elevation myocardial infarction?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 34,
+                                        "clinical_criteria": "Post-STEMI PET"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.9",
+                                        "content": "History of Kawasaki disease with known coronary artery aneurysm, to demonstrate inducible ischemia",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation in the patient's medical record of a history of Kawasaki disease with known coronary artery aneurysm to demonstrate inducible ischemia?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 35,
+                                        "clinical_criteria": "Kawasaki disease history"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.10",
+                                        "content": "Increase in anginal frequency or severity",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of an increase in anginal frequency or severity in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 36,
+                                        "clinical_criteria": "Increased anginal frequency"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.11",
+                                        "content": "New heart failure symptoms or increase in existing heart failure symptoms",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of new or increased heart failure symptoms in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 37,
+                                        "clinical_criteria": "New heart failure symptoms"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.12",
+                                        "content": "New onset of ischemic symptoms without ECG changes",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of new onset ischemic symptoms without ECG changes in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 38,
+                                        "clinical_criteria": "New ischemic symptoms"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.13",
+                                        "content": "New ST-segment changes on ECG at rest",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of new ST-segment changes on ECG at rest in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 39,
+                                        "clinical_criteria": "New ST-segment changes"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.1.14",
+                                        "content": "Ventricular arrhythmia",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of ventricular arrhythmia in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 40,
+                                        "clinical_criteria": "Ventricular arrhythmia"
+                                    }
+                                ],
+                                "seq": 12
+                            },
+                            {
+                                "member_id": "mdg_1.2.6.2",
+                                "content": "Exercise treadmill testing alone is or would be unreliable or inconclusive due to 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Unreliable treadmill testing",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.6.2.1",
+                                        "content": "Anginal symptoms induced by exercise in high-risk patient without any diagnostic ECG changes on previous exercise treadmill test",
+                                        "logical_relation": "",
+                                        "question": "Does the patient experience anginal symptoms induced by exercise without any diagnostic ECG changes on a previous exercise treadmill test?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 42,
+                                        "clinical_criteria": "Exercise-induced angina"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.2",
+                                        "content": "Atrial fibrillation or flutter",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of atrial fibrillation or flutter in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 43,
+                                        "clinical_criteria": "Atrial fibrillation/flutter"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.3",
+                                        "content": "Electronically paced ventricular rhythm",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of an electronically paced ventricular rhythm in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 44,
+                                        "clinical_criteria": "Paced ventricular rhythm"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.4",
+                                        "content": "Insufficient workload (ie, inability to achieve at least 85% of maximum age-sex predicted heart rate on Bruce protocol exercise treadmill testing)",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation in the medical record indicating that the patient has an insufficient workload, defined as the inability to achieve at least 85% of maximum age-sex predicted heart rate on Bruce protocol exercise treadmill testing?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 45,
+                                        "clinical_criteria": "Insufficient workload"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.5",
+                                        "content": "Left bundle branch block",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of left bundle branch block in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 46,
+                                        "clinical_criteria": "Left bundle branch block"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.6",
+                                        "content": "Left ventricular hypertrophy with repolarization abnormalities on baseline ECG",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of left ventricular hypertrophy with repolarization abnormalities on baseline ECG in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 47,
+                                        "clinical_criteria": "LV hypertrophy with abnormalities"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.7",
+                                        "content": "Patient taking digoxin",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation in the medical record that the patient is taking digoxin?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 48,
+                                        "clinical_criteria": "Patient on digoxin"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.8",
+                                        "content": "Pre-excitation syndrome (eg, Wolff-Parkinson-White syndrome)",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of pre-excitation syndrome, such as Wolff-Parkinson-White syndrome, in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 49,
+                                        "clinical_criteria": "Pre-excitation syndrome"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.6.2.9",
+                                        "content": "ST segment on baseline ECG with 1 mm depression or greater",
+                                        "logical_relation": "",
+                                        "question": "Is there documentation of a baseline ECG showing an ST segment depression of 1 mm or greater in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 50,
+                                        "clinical_criteria": "ST segment depression"
+                                    }
+                                ],
+                                "seq": 41
+                            }
+                        ],
+                        "seq": 11
+                    }
+                ],
+                "seq": 5
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Endocarditis, known or suspected, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Known or suspected endocarditis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Clinical scenario as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Clinical scenario for endocarditis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.3.1.1",
+                                "content": "Clinical suspicion of endocarditis (eg, persistent bacteremia, new or worsened heart murmur)",
+                                "logical_relation": "",
+                                "question": "Is there clinical suspicion of endocarditis, such as persistent bacteremia or a new or worsened heart murmur, documented in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 53,
+                                "clinical_criteria": "Suspicion of endocarditis"
+                            },
+                            {
+                                "member_id": "mdg_1.3.1.2",
+                                "content": "Perivalvular complication of endocarditis suspected (eg, abscess)",
+                                "logical_relation": "",
+                                "question": "Is there documentation in the medical record of a suspected perivalvular complication of endocarditis, such as an abscess?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 54,
+                                "clinical_criteria": "Suspected perivalvular complication"
+                            }
+                        ],
+                        "seq": 52
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Echocardiogram results are nondiagnostic or equivocal.",
+                        "logical_relation": "",
+                        "question": "Are there echocardiogram results in the patient's medical record that are nondiagnostic or equivocal?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 55,
+                        "clinical_criteria": "Nondiagnostic echocardiogram"
+                    },
+                    {
+                        "member_id": "mdg_1.3.3",
+                        "content": "Study performed using PET-CT",
+                        "logical_relation": "",
+                        "question": "Has the patient undergone a PET-CT study for endocarditis, known or suspected?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 56,
+                        "clinical_criteria": "PET-CT study for endocarditis"
+                    }
+                ],
+                "seq": 51
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Myocardial viability assessment, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Myocardial viability assessment",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.1",
+                        "content": "Chronic secondary mitral regurgitation, and patient is candidate for revascularization if viable myocardium identified",
+                        "logical_relation": "",
+                        "question": "Does the patient have chronic secondary mitral regurgitation and is a candidate for revascularization if viable myocardium is identified?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 58,
+                        "clinical_criteria": "Mitral regurgitation candidate"
+                    },
+                    {
+                        "member_id": "mdg_1.4.2",
+                        "content": "Ischemic cardiomyopathy, known or suspected, with left ventricular ejection fraction 35% or less",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record of ischemic cardiomyopathy with a left ventricular ejection fraction of 35% or less?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 59,
+                        "clinical_criteria": "Ischemic cardiomyopathy suspected"
+                    },
+                    {
+                        "member_id": "mdg_1.4.3",
+                        "content": "Preoperative or preprocedural planning needed for revascularization (ie, coronary artery bypass graft or percutaneous coronary intervention), if viable myocardium identified",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the patient's medical record indicating that preoperative or preprocedural planning is needed for revascularization, such as coronary artery bypass graft or percutaneous coronary intervention, if viable myocardium is identified?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 60,
+                        "clinical_criteria": "Preoperative planning needed"
+                    },
+                    {
+                        "member_id": "mdg_1.4.4",
+                        "content": "SPECT myocardial perfusion scan or stress echocardiogram findings inconclusive, or no viable myocardium evident",
+                        "logical_relation": "",
+                        "question": "Is there documentation in the medical record of inconclusive findings from a SPECT myocardial perfusion scan or stress echocardiogram, or evidence of no viable myocardium?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 61,
+                        "clinical_criteria": "Inconclusive SPECT findings"
+                    }
+                ],
+                "seq": 57
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Sarcoidosis with suspected cardiac involvement",
+                "logical_relation": "",
+                "question": "Is there evidence in the medical record of sarcoidosis with suspected cardiac involvement?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 62,
+                "clinical_criteria": "Suspected cardiac sarcoidosis"
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Repeat evaluation of specific area or structure with same imaging modality, and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Repeat evaluation needed",
+                "children": [
+                    {
+                        "member_id": "mdg_1.6.1",
+                        "content": "Clinical need for repeat imaging, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Need for repeat imaging",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.6.1.1",
+                                "content": "Change in clinical status (eg, worsening symptoms or new associated symptoms), and findings may impact treatment",
+                                "logical_relation": "",
+                                "question": "Is there documentation of a change in clinical status, such as worsening symptoms or new associated symptoms, that may impact treatment in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 65,
+                                "clinical_criteria": "Change in clinical status"
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.2",
+                                "content": "Need for interval reassessment that may impact treatment plan",
+                                "logical_relation": "",
+                                "question": "Is there a documented need for interval reassessment that may impact the treatment plan, specifically for myocardial positron emission tomography (PET) or PET-CT?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 66,
+                                "clinical_criteria": "Interval reassessment needed"
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.3",
+                                "content": "Need for re-imaging either prior to or after performance of invasive procedure",
+                                "logical_relation": "",
+                                "question": "Is there a documented need for re-imaging either prior to or after the performance of an invasive procedure in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 67,
+                                "clinical_criteria": "Re-imaging needed"
+                            }
+                        ],
+                        "seq": 64
+                    },
+                    {
+                        "member_id": "mdg_1.6.2",
+                        "content": "Prior imaging results of specific area or structure with same imaging modality documented and available for comparison",
+                        "logical_relation": "",
+                        "question": "Are prior imaging results of the myocardial area with the same imaging modality documented and available for comparison?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 68,
+                        "clinical_criteria": "Prior imaging results available"
+                    }
+                ],
+                "seq": 63
+            }
+        ],
+        "seq": 0
+    }
+]

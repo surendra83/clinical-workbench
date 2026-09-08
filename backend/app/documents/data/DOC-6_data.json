@@ -1,0 +1,1494 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Cervical spine MRI may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Cervical spine MRI indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Cancer or neoplasm evaluation, staging, or surveillance needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Cancer or neoplasm evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Bone neoplasm (benign or malignant) involving spine, known or suspected (eg, chondrosarcoma, chordoma, Ewing sarcoma family of tumors, giant cell tumor of bone, osteosarcoma, metastatic tumors), as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Bone neoplasm involving spine",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.1.1",
+                                "content": "Initial evaluation or staging",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of an initial evaluation or staging for a bone neoplasm involving the spine, such as chondrosarcoma, chordoma, Ewing sarcoma family of tumors, giant cell tumor of bone, osteosarcoma, or metastatic tumors, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 3,
+                                "clinical_criteria": "Initial evaluation or staging"
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.2",
+                                "content": "Monitoring disease progression or response to treatment",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of monitoring disease progression or response to treatment for bone neoplasm involving the spine, such as chondrosarcoma, chordoma, Ewing sarcoma family of tumors, giant cell tumor of bone, osteosarcoma, or metastatic tumors?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 4,
+                                "clinical_criteria": "Monitoring disease progression"
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.3",
+                                "content": "Post-treatment surveillance",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of post-treatment surveillance for bone neoplasm involving the spine, such as chondrosarcoma, chordoma, Ewing sarcoma family of tumors, giant cell tumor of bone, osteosarcoma, or metastatic tumors, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 5,
+                                "clinical_criteria": "Post-treatment surveillance"
+                            }
+                        ],
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Histiocytic or dendritic cell neoplasm with involvement of vertebrae, known or suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a histiocytic or dendritic cell neoplasm with involvement of vertebrae in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "Histiocytic or dendritic cell neoplasm"
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "Localized neck pain and 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Localized neck pain",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.3.1",
+                                "content": "Bone scan positive",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a positive bone scan in the patient's medical record for localized neck pain, cancer or neoplasm evaluation, staging, or surveillance, or cervical spine MRI indication?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 8,
+                                "clinical_criteria": "Bone scan positive"
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.2",
+                                "content": "Pain occurs mainly at night.",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient experience pain mainly at night with localized neck pain?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 9,
+                                "clinical_criteria": "Pain mainly at night"
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.3",
+                                "content": "Persistent pain in patient older than 50 years",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of persistent pain in a patient older than 50 years with localized neck pain in the medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 10,
+                                "clinical_criteria": "Persistent pain in older patient"
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.4",
+                                "content": "Personal history or concurrent diagnosis of malignancy",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have a personal history or concurrent diagnosis of malignancy with localized neck pain?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 11,
+                                "clinical_criteria": "History or diagnosis of malignancy"
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.5",
+                                "content": "Weakness, rapidly progressing",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of rapidly progressing weakness in the patient's medical record, along with localized neck pain or a need for cancer or neoplasm evaluation, staging, or surveillance?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 12,
+                                "clinical_criteria": "Rapidly progressing weakness"
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.6",
+                                "content": "Weight loss, unexplained",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of unexplained weight loss in the patient's medical record, along with localized neck pain, cancer or neoplasm evaluation, staging, or surveillance needed, or an indication for cervical spine MRI?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 13,
+                                "clinical_criteria": "Unexplained weight loss"
+                            }
+                        ],
+                        "seq": 7
+                    },
+                    {
+                        "member_id": "mdg_1.1.4",
+                        "content": "Myelopathy signs or symptoms (eg, motor weakness, bowel or bladder dysfunction)",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient exhibit signs or symptoms of myelopathy, such as motor weakness or bowel or bladder dysfunction, in the context of cancer or neoplasm evaluation, staging, or surveillance?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 14,
+                        "clinical_criteria": "Myelopathy signs or symptoms"
+                    },
+                    {
+                        "member_id": "mdg_1.1.5",
+                        "content": "Primary central nervous system tumor (eg, adult-type or pediatric-type diffuse glioma, ependymoma, medulloblastoma, other central nervous system embryonal tumor, primary central nervous system lymphoma, meningioma), and need for 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Primary central nervous system tumor",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.5.1",
+                                "content": "Brain tumor, and need for evaluation for spinal involvement",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have a primary central nervous system tumor such as adult-type or pediatric-type diffuse glioma, ependymoma, medulloblastoma, other central nervous system embryonal tumor, primary central nervous system lymphoma, or meningioma, and need evaluation for spinal involvement?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 16,
+                                "clinical_criteria": "Brain tumor evaluation"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.2",
+                                "content": "Initial evaluation, staging, or treatment planning",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of an initial evaluation, staging, or treatment planning for a primary central nervous system tumor such as adult-type or pediatric-type diffuse glioma, ependymoma, medulloblastoma, other central nervous system embryonal tumor, primary central nervous system lymphoma, or meningioma?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 17,
+                                "clinical_criteria": "Initial evaluation or staging"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.3",
+                                "content": "Monitoring disease progression or response to treatment",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of monitoring disease progression or response to treatment for a primary central nervous system tumor, such as adult-type or pediatric-type diffuse glioma, ependymoma, medulloblastoma, other central nervous system embryonal tumor, primary central nervous system lymphoma, or meningioma?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 18,
+                                "clinical_criteria": "Monitoring disease progression"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.4",
+                                "content": "Post-treatment surveillance",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of post-treatment surveillance for a primary central nervous system tumor, such as adult-type or pediatric-type diffuse glioma, ependymoma, medulloblastoma, other central nervous system embryonal tumor, primary central nervous system lymphoma, or meningioma, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 19,
+                                "clinical_criteria": "Post-treatment surveillance"
+                            }
+                        ],
+                        "seq": 15
+                    },
+                    {
+                        "member_id": "mdg_1.1.6",
+                        "content": "Primary non-central nervous system tumor, and need for diagnosis, staging, or monitoring of known or suspected spinal cord, spine, or leptomeningeal metastasis, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Primary non-central nervous system tumor",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.6.1",
+                                "content": "Known spinal cord, spine, or leptomeningeal metastasis, and need for monitoring disease progression or response to treatment",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have known spinal cord, spine, or leptomeningeal metastasis and require monitoring for disease progression or response to treatment, in the context of a primary non-central nervous system tumor, cancer or neoplasm evaluation, staging, or surveillance?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 21,
+                                "clinical_criteria": "Known metastasis monitoring"
+                            },
+                            {
+                                "member_id": "mdg_1.1.6.2",
+                                "content": "Post-treatment surveillance",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of post-treatment surveillance for a primary non-central nervous system tumor, and is there a need for diagnosis, staging, or monitoring of known or suspected spinal cord, spine, or leptomeningeal metastasis in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 22,
+                                "clinical_criteria": "Post-treatment surveillance"
+                            },
+                            {
+                                "member_id": "mdg_1.1.6.3",
+                                "content": "Suspected spinal cord, spine, or leptomeningeal metastasis (eg, due to myelopathy, pain, finding on other imaging), and need for evaluation, staging, or treatment planning",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the patient's medical record of suspected spinal cord, spine, or leptomeningeal metastasis due to myelopathy, pain, or findings on other imaging, and is there a need for evaluation, staging, or treatment planning?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 23,
+                                "clinical_criteria": "Suspected metastasis evaluation"
+                            }
+                        ],
+                        "seq": 20
+                    },
+                    {
+                        "member_id": "mdg_1.1.7",
+                        "content": "Screening for central nervous system tumor in patient with high-risk genetic disorder or syndrome (eg, neurofibromatosis type 2, von Hippel-Lindau syndrome)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of screening for a central nervous system tumor in a patient with a high-risk genetic disorder or syndrome, such as neurofibromatosis type 2 or von Hippel-Lindau syndrome, in the medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 24,
+                        "clinical_criteria": "Screening for CNS tumor"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Cerebrospinal fluid leak, suspected",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of a suspected cerebrospinal fluid leak?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 25,
+                "clinical_criteria": "Suspected CSF leak"
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Chiari malformation, suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected Chiari malformation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Babinski sign positive",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a positive Babinski sign in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 27,
+                        "clinical_criteria": "Positive Babinski sign"
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Gait disturbance",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of gait disturbance in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 28,
+                        "clinical_criteria": "Gait disturbance"
+                    },
+                    {
+                        "member_id": "mdg_1.3.3",
+                        "content": "Hyperreflexia",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of hyperreflexia in the context of Chiari malformation or the need for a cervical spine MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 29,
+                        "clinical_criteria": "Hyperreflexia"
+                    },
+                    {
+                        "member_id": "mdg_1.3.4",
+                        "content": "Lower cranial nerve dysfunction such as vocal cord paralysis",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence of lower cranial nerve dysfunction, such as vocal cord paralysis, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 30,
+                        "clinical_criteria": "Lower cranial nerve dysfunction"
+                    },
+                    {
+                        "member_id": "mdg_1.3.5",
+                        "content": "Nystagmus",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of nystagmus in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 31,
+                        "clinical_criteria": "Nystagmus"
+                    },
+                    {
+                        "member_id": "mdg_1.3.6",
+                        "content": "Paroxysmal headache or posterior cervical pain with Valsalva maneuvers (eg, laughing, sneezing, coughing)",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient experience paroxysmal headache or posterior cervical pain with Valsalva maneuvers, such as laughing, sneezing, or coughing, in the context of suspected Chiari malformation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 32,
+                        "clinical_criteria": "Paroxysmal headache or pain"
+                    }
+                ],
+                "seq": 26
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Congenital spinal conditions, suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected congenital spinal conditions",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.1",
+                        "content": "Diastematomyelia (ie, split cord malformation)",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of diastematomyelia or split cord malformation in the context of congenital spinal conditions?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 34,
+                        "clinical_criteria": "Diastematomyelia"
+                    },
+                    {
+                        "member_id": "mdg_1.4.2",
+                        "content": "Dorsal dermal sinus",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a dorsal dermal sinus in the context of congenital spinal conditions or the need for a cervical spine MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 35,
+                        "clinical_criteria": "Dorsal dermal sinus"
+                    },
+                    {
+                        "member_id": "mdg_1.4.3",
+                        "content": "Foramen magnum stenosis (eg, in patient with achondroplasia)",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of foramen magnum stenosis in a patient with achondroplasia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 36,
+                        "clinical_criteria": "Foramen magnum stenosis"
+                    },
+                    {
+                        "member_id": "mdg_1.4.4",
+                        "content": "Hemangioma",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a hemangioma in the context of congenital spinal conditions or the need for a cervical spine MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 37,
+                        "clinical_criteria": "Hemangioma"
+                    },
+                    {
+                        "member_id": "mdg_1.4.5",
+                        "content": "Hydromyelia",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of hydromyelia in the context of congenital spinal conditions or indications for a cervical spine MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 38,
+                        "clinical_criteria": "Hydromyelia"
+                    },
+                    {
+                        "member_id": "mdg_1.4.6",
+                        "content": "Intradural lipoma",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of an intradural lipoma in the context of congenital spinal conditions or indications for a cervical spine MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 39,
+                        "clinical_criteria": "Intradural lipoma"
+                    },
+                    {
+                        "member_id": "mdg_1.4.7",
+                        "content": "Myelocele",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of myelocele in the patient's medical record, particularly in the context of congenital spinal conditions or indications for cervical spine MRI?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 40,
+                        "clinical_criteria": "Myelocele"
+                    },
+                    {
+                        "member_id": "mdg_1.4.8",
+                        "content": "Myelomeningocele",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of myelomeningocele in the patient's medical record, particularly in the context of congenital spinal conditions?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 41,
+                        "clinical_criteria": "Myelomeningocele"
+                    }
+                ],
+                "seq": 33
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Infection, known or suspected (eg, vertebral osteomyelitis, disk space infection, epidural abscess), as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Known or suspected infection",
+                "children": [
+                    {
+                        "member_id": "mdg_1.5.1",
+                        "content": "Risk factors for spinal infection, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Risk factors for infection",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.5.1.1",
+                                "content": "Bone scan or plain x-ray suggestive for infection",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the medical record of a bone scan or plain x-ray suggestive of infection in the cervical spine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 44,
+                                "clinical_criteria": "Bone scan or x-ray suggestive"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.2",
+                                "content": "C-reactive protein or erythrocyte sedimentation rate elevated",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the medical record of elevated C-reactive protein or erythrocyte sedimentation rate in the context of risk factors for spinal infection, known or suspected infection such as vertebral osteomyelitis, disk space infection, or epidural abscess, or indications for cervical spine MRI?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 45,
+                                "clinical_criteria": "Elevated CRP or ESR"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.3",
+                                "content": "Fever",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of fever in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 46,
+                                "clinical_criteria": "Fever"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.4",
+                                "content": "History of intravenous drug abuse, other source of infection, or recent invasive procedure",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have a history of intravenous drug abuse, other source of infection, or recent invasive procedure?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 47,
+                                "clinical_criteria": "History of drug abuse or infection"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.5",
+                                "content": "Immunosuppression",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of immunosuppression in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 48,
+                                "clinical_criteria": "Immunosuppression"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.6",
+                                "content": "Positive blood culture",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a positive blood culture in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 49,
+                                "clinical_criteria": "Positive blood culture"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.7",
+                                "content": "Recent history of spinal surgery",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a recent history of spinal surgery in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 50,
+                                "clinical_criteria": "Recent spinal surgery"
+                            },
+                            {
+                                "member_id": "mdg_1.5.1.8",
+                                "content": "Tuberculosis, concurrent or suspected",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of concurrent or suspected tuberculosis in the patient?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 51,
+                                "clinical_criteria": "Concurrent or suspected tuberculosis"
+                            }
+                        ],
+                        "seq": 43
+                    },
+                    {
+                        "member_id": "mdg_1.5.2",
+                        "content": "Suspected spinal infection (eg, localized midline back pain, limp, refusal to walk)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of suspected spinal infection, such as localized midline back pain, limp, or refusal to walk, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 52,
+                        "clinical_criteria": "Suspected spinal infection"
+                    }
+                ],
+                "seq": 42
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Inflammatory or demyelinating process, suspected (eg, clinically isolated syndrome, multiple sclerosis, other demyelinating disease), as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected inflammatory or demyelinating process",
+                "children": [
+                    {
+                        "member_id": "mdg_1.6.1",
+                        "content": "Multiple sclerosis, suspected, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Suspected multiple sclerosis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.6.1.1",
+                                "content": "Ascending numbness or tingling (eg, from foot to trunk)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of ascending numbness or tingling in the patient's medical record, particularly in the context of suspected multiple sclerosis or an inflammatory or demyelinating process?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 55,
+                                "clinical_criteria": "Ascending numbness or tingling"
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.2",
+                                "content": "Brown-Sequard syndrome",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of Brown-Sequard syndrome in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 56,
+                                "clinical_criteria": "Brown-Sequard syndrome"
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.3",
+                                "content": "Conditions mimicking multiple sclerosis (eg, Sjogren syndrome, systemic lupus erythematosus, antiphospholipid syndrome) cannot yet be excluded.",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the patient's medical record that conditions mimicking multiple sclerosis, such as Sjogren syndrome, systemic lupus erythematosus, or antiphospholipid syndrome, have not yet been excluded?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 57,
+                                "clinical_criteria": "Conditions mimicking MS"
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.4",
+                                "content": "MRI of brain nondiagnostic for multiple sclerosis",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that an MRI of the brain was nondiagnostic for multiple sclerosis in the context of suspected multiple sclerosis, inflammatory or demyelinating process, or when a cervical spine MRI may be indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 58,
+                                "clinical_criteria": "MRI nondiagnostic for MS"
+                            },
+                            {
+                                "member_id": "mdg_1.6.1.5",
+                                "content": "Signs or symptoms of myelopathy or myelitis",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient exhibit signs or symptoms of myelopathy or myelitis in the context of suspected multiple sclerosis, inflammatory or demyelinating process, or the need for a cervical spine MRI?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 59,
+                                "clinical_criteria": "Signs of myelopathy or myelitis"
+                            }
+                        ],
+                        "seq": 54
+                    },
+                    {
+                        "member_id": "mdg_1.6.2",
+                        "content": "Transverse myelitis in spinal cord, suspected (idiopathic or in conjunction with multiple sclerosis), as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Suspected transverse myelitis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.6.2.1",
+                                "content": "Bilateral signs or symptoms of involvement of appropriate level of spinal cord",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient exhibit bilateral signs or symptoms of involvement of the appropriate level of the spinal cord in the context of suspected transverse myelitis in the spinal cord, inflammatory or demyelinating process, or when a cervical spine MRI may be indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 61,
+                                "clinical_criteria": "Bilateral signs of spinal involvement"
+                            },
+                            {
+                                "member_id": "mdg_1.6.2.2",
+                                "content": "Clearly defined sensory level",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a clearly defined sensory level in the patient's medical record in the context of suspected transverse myelitis in the spinal cord, inflammatory or demyelinating process, or cervical spine MRI indication?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 62,
+                                "clinical_criteria": "Clearly defined sensory level"
+                            },
+                            {
+                                "member_id": "mdg_1.6.2.3",
+                                "content": "Sudden onset of sensory, motor, and autonomic dysfunction attributable to appropriate level of spinal cord",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the patient's medical record of sudden onset of sensory, motor, and autonomic dysfunction attributable to the appropriate level of the spinal cord in the context of transverse myelitis, inflammatory or demyelinating process, or cervical spine MRI indications?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 63,
+                                "clinical_criteria": "Sudden onset of dysfunction"
+                            }
+                        ],
+                        "seq": 60
+                    }
+                ],
+                "seq": 53
+            },
+            {
+                "member_id": "mdg_1.7",
+                "content": "Klippel-Feil syndrome, suspected (ie, fusion of 2 cervical vertebrae)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record indicating a suspicion of Klippel-Feil syndrome, specifically the fusion of 2 cervical vertebrae?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 64,
+                "clinical_criteria": "Suspected Klippel-Feil syndrome"
+            },
+            {
+                "member_id": "mdg_1.8",
+                "content": "Pain localized to neck or radicular in nature, subacute or chronic, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Localized neck or radicular pain",
+                "children": [
+                    {
+                        "member_id": "mdg_1.8.1",
+                        "content": "Adult and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Adult with neck pain",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.8.1.1",
+                                "content": "Failure to improve after 6 or more weeks of nonoperative treatment, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Failure to improve after treatment",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.8.1.1.1",
+                                        "content": "Activity modification",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone activity modification due to failure to improve after 6 or more weeks of nonoperative treatment, with pain localized to the neck or radicular in nature, subacute or chronic?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 68,
+                                        "clinical_criteria": "Activity modification"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.1.1.2",
+                                        "content": "Exercise",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient engaged in exercise as part of their treatment plan?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 69,
+                                        "clinical_criteria": "Exercise"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.1.1.3",
+                                        "content": "Pharmacotherapy (eg, analgesics, anti-inflammatory medications)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there evidence in the medical record that the patient is undergoing pharmacotherapy, such as analgesics or anti-inflammatory medications, due to failure to improve after 6 or more weeks of nonoperative treatment, pain localized to the neck or radicular in nature, or the need for a cervical spine MRI?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 70,
+                                        "clinical_criteria": "Pharmacotherapy"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.1.1.4",
+                                        "content": "Physical therapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone physical therapy?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 71,
+                                        "clinical_criteria": "Physical therapy"
+                                    }
+                                ],
+                                "seq": 67
+                            },
+                            {
+                                "member_id": "mdg_1.8.1.2",
+                                "content": "Patient being considered for invasive treatment (eg, epidural steroids, surgery)",
+                                "logical_relation": "ANY",
+                                "question": "Is the patient being considered for invasive treatment such as epidural steroids or surgery, with pain localized to the neck or radicular in nature, subacute or chronic, and is an adult?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 72,
+                                "clinical_criteria": "Considered for invasive treatment"
+                            },
+                            {
+                                "member_id": "mdg_1.8.1.3",
+                                "content": "Significant interference with daily function",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient experience significant interference with daily function due to pain localized to the neck or radicular in nature, subacute or chronic, as documented in the medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 73,
+                                "clinical_criteria": "Interference with daily function"
+                            }
+                        ],
+                        "seq": 66
+                    },
+                    {
+                        "member_id": "mdg_1.8.2",
+                        "content": "Child or adolescent and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Child or adolescent with neck pain",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.8.2.1",
+                                "content": "Age younger than 18 years",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation that the patient is younger than 18 years and has pain localized to the neck or radicular in nature, subacute or chronic, in the medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 75,
+                                "clinical_criteria": "Age younger than 18"
+                            },
+                            {
+                                "member_id": "mdg_1.8.2.2",
+                                "content": "Concern for serious underlying pathology (eg, malignancy, infection, inflammatory process), as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Concern for serious pathology",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.8.2.2.1",
+                                        "content": "Associated signs suggestive of cancer (eg, easy bruising, abdominal mass, lymphadenopathy)",
+                                        "logical_relation": "ANY",
+                                        "question": "Does the patient exhibit associated signs suggestive of cancer, such as easy bruising, abdominal mass, or lymphadenopathy, in the context of concern for serious underlying pathology like malignancy, infection, or inflammatory process?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 77,
+                                        "clinical_criteria": "Signs suggestive of cancer"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.2",
+                                        "content": "Fever",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of fever in the patient's medical record with concern for serious underlying pathology such as malignancy, infection, or inflammatory process?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 78,
+                                        "clinical_criteria": "Fever"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.3",
+                                        "content": "Gait abnormalities or refusal to walk or crawl",
+                                        "logical_relation": "ANY",
+                                        "question": "Does the patient exhibit gait abnormalities or refusal to walk or crawl, with concern for serious underlying pathology such as malignancy, infection, or inflammatory process, and is the patient a child or adolescent with pain localized to the neck or radicular in nature, subacute or chronic?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 79,
+                                        "clinical_criteria": "Gait abnormalities or refusal"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.4",
+                                        "content": "Morning stiffness",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of morning stiffness in the patient's medical record, particularly in the context of concern for serious underlying pathology such as malignancy, infection, or inflammatory process, or in a child or adolescent with pain localized to the neck or radicular in nature, subacute or chronic?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 80,
+                                        "clinical_criteria": "Morning stiffness"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.5",
+                                        "content": "Neurologic deficit",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a neurologic deficit in the patient's medical record, with concern for serious underlying pathology such as malignancy, infection, or inflammatory process, and pain localized to the neck or radicular in nature, subacute or chronic?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 81,
+                                        "clinical_criteria": "Neurologic deficit"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.6",
+                                        "content": "Nocturnal pain or constant pain",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of nocturnal pain or constant pain in the patient's medical record, with concern for serious underlying pathology such as malignancy, infection, or inflammatory process, in a child or adolescent with pain localized to the neck or radicular in nature, subacute or chronic?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 82,
+                                        "clinical_criteria": "Nocturnal or constant pain"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.7",
+                                        "content": "Pain lasting more than 4 weeks or worsening pain",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of pain lasting more than 4 weeks or worsening pain in the patient's medical record, with concern for serious underlying pathology such as malignancy, infection, or inflammatory process, and pain localized to neck or radicular in nature, subacute or chronic?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 83,
+                                        "clinical_criteria": "Pain lasting more than 4 weeks"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.2.2.8",
+                                        "content": "Unintentional weight loss",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of unintentional weight loss in the patient's medical record, with concern for serious underlying pathology such as malignancy, infection, or inflammatory process?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 84,
+                                        "clinical_criteria": "Unintentional weight loss"
+                                    }
+                                ],
+                                "seq": 76
+                            }
+                        ],
+                        "seq": 74
+                    }
+                ],
+                "seq": 65
+            },
+            {
+                "member_id": "mdg_1.9",
+                "content": "Postoperative spinal complications, known or suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Known or suspected postoperative complications",
+                "children": [
+                    {
+                        "member_id": "mdg_1.9.1",
+                        "content": "Postoperative hemorrhage or hematoma",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of postoperative hemorrhage or hematoma in the patient's medical record related to postoperative spinal complications?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 86,
+                        "clinical_criteria": "Postoperative hemorrhage or hematoma"
+                    },
+                    {
+                        "member_id": "mdg_1.9.2",
+                        "content": "Significant new neurologic findings (eg, spinal cord impingement)",
+                        "logical_relation": "ANY",
+                        "question": "Are there significant new neurologic findings such as spinal cord impingement documented in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 87,
+                        "clinical_criteria": "Significant new neurologic findings"
+                    },
+                    {
+                        "member_id": "mdg_1.9.3",
+                        "content": "Significant new pain symptoms (eg, recurrent or new radicular symptoms, delayed pain at fusion site)",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient exhibit significant new pain symptoms such as recurrent or new radicular symptoms or delayed pain at the fusion site?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 88,
+                        "clinical_criteria": "Significant new pain symptoms"
+                    }
+                ],
+                "seq": 85
+            },
+            {
+                "member_id": "mdg_1.10",
+                "content": "Rheumatoid arthritis in cervical spine with suspected instability or cord compression, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected instability or cord compression",
+                "children": [
+                    {
+                        "member_id": "mdg_1.10.1",
+                        "content": "Atlantoaxial subluxation or impaction on plain x-ray",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence of atlantoaxial subluxation or impaction on a plain x-ray in the patient's medical record, particularly in the context of rheumatoid arthritis in the cervical spine with suspected instability or cord compression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 90,
+                        "clinical_criteria": "Atlantoaxial subluxation or impaction"
+                    },
+                    {
+                        "member_id": "mdg_1.10.2",
+                        "content": "Evidence of myelopathy or progressive neurologic deficit",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence of myelopathy or progressive neurologic deficit in the patient's medical record related to rheumatoid arthritis in the cervical spine with suspected instability or cord compression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 91,
+                        "clinical_criteria": "Myelopathy or neurologic deficit"
+                    },
+                    {
+                        "member_id": "mdg_1.10.3",
+                        "content": "Subluxation of first and second cervical vertebrae (C1 and C2)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of subluxation of the first and second cervical vertebrae (C1 and C2) in the patient's medical record, particularly in the context of rheumatoid arthritis in the cervical spine with suspected instability or cord compression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 92,
+                        "clinical_criteria": "Subluxation of C1 and C2"
+                    }
+                ],
+                "seq": 89
+            },
+            {
+                "member_id": "mdg_1.11",
+                "content": "Scoliosis, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Scoliosis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.11.1",
+                        "content": "Congenital scoliosis",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of congenital scoliosis in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 94,
+                        "clinical_criteria": "Congenital scoliosis"
+                    },
+                    {
+                        "member_id": "mdg_1.11.2",
+                        "content": "Early-onset scoliosis (age 9 years or younger)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of early-onset scoliosis (age 9 years or younger) in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 95,
+                        "clinical_criteria": "Early-onset scoliosis"
+                    },
+                    {
+                        "member_id": "mdg_1.11.3",
+                        "content": "Neurofibromatosis",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of neurofibromatosis in the patient with scoliosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 96,
+                        "clinical_criteria": "Neurofibromatosis"
+                    },
+                    {
+                        "member_id": "mdg_1.11.4",
+                        "content": "Presurgical planning for adolescent idiopathic scoliosis to assess possible neural axis malformation, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Presurgical planning for scoliosis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.11.4.1",
+                                "content": "Abnormal neurologic findings on clinical examination",
+                                "logical_relation": "ANY",
+                                "question": "Are there abnormal neurologic findings on clinical examination in the context of presurgical planning for adolescent idiopathic scoliosis or scoliosis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 98,
+                                "clinical_criteria": "Abnormal neurologic findings"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.2",
+                                "content": "Age at first visit 10 years or younger",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation that the patient's age at the first visit was 10 years or younger for presurgical planning for adolescent idiopathic scoliosis or scoliosis or cervical spine MRI?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 99,
+                                "clinical_criteria": "Age at first visit 10 or younger"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.3",
+                                "content": "Kyphosis at curve apex",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of kyphosis at the curve apex in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 100,
+                                "clinical_criteria": "Kyphosis at curve apex"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.4",
+                                "content": "Left-sided thoracic curvature",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have a left-sided thoracic curvature related to presurgical planning for adolescent idiopathic scoliosis or scoliosis, or is a cervical spine MRI indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 101,
+                                "clinical_criteria": "Left-sided thoracic curvature"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.5",
+                                "content": "Male gender",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient is male and has scoliosis or is undergoing presurgical planning for adolescent idiopathic scoliosis to assess possible neural axis malformation?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 102,
+                                "clinical_criteria": "Male gender"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.6",
+                                "content": "Pain, moderate to severe",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of moderate to severe pain in the patient's medical record related to presurgical planning for adolescent idiopathic scoliosis or scoliosis, or is a cervical spine MRI indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 103,
+                                "clinical_criteria": "Moderate to severe pain"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.7",
+                                "content": "Rapid curve progression (ie, more than 1 degree per month)",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the medical record of rapid curve progression, defined as more than 1 degree per month, in the context of presurgical planning for adolescent idiopathic scoliosis or scoliosis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 104,
+                                "clinical_criteria": "Rapid curve progression"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.8",
+                                "content": "Short segment curve (ie, less than 6 vertebral segments)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a short segment curve involving less than 6 vertebral segments in the context of presurgical planning for adolescent idiopathic scoliosis or scoliosis, or when a cervical spine MRI may be indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 105,
+                                "clinical_criteria": "Short segment curve"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.9",
+                                "content": "Thoracic kyphosis 30 degrees or greater",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of thoracic kyphosis of 30 degrees or greater in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 106,
+                                "clinical_criteria": "Thoracic kyphosis 30 degrees or greater"
+                            },
+                            {
+                                "member_id": "mdg_1.11.4.10",
+                                "content": "Vertebral abnormalities (eg, hemivertebrae, block vertebrae) detected on x-ray",
+                                "logical_relation": "ANY",
+                                "question": "Are there vertebral abnormalities such as hemivertebrae or block vertebrae detected on x-ray in the context of presurgical planning for adolescent idiopathic scoliosis or scoliosis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 107,
+                                "clinical_criteria": "Vertebral abnormalities on x-ray"
+                            }
+                        ],
+                        "seq": 97
+                    }
+                ],
+                "seq": 93
+            },
+            {
+                "member_id": "mdg_1.12",
+                "content": "Spinal cord compression, myelopathy, or cauda equina syndrome, suspected (eg, positive Babinski sign, depressed ankle deep tendon reflexes, gait abnormality, hyperreflexia, sensory or motor deficits)",
+                "logical_relation": "ANY",
+                "question": "Is there evidence in the medical record of suspected spinal cord compression, myelopathy, or cauda equina syndrome, such as a positive Babinski sign, depressed ankle deep tendon reflexes, gait abnormality, hyperreflexia, or sensory or motor deficits?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 108,
+                "clinical_criteria": "Suspected spinal cord compression"
+            },
+            {
+                "member_id": "mdg_1.13",
+                "content": "Spinal cord infarction or ischemia, suspected (eg, sudden-onset back pain, sensory or motor deficits, urinary retention)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of suspected spinal cord infarction or ischemia, such as sudden-onset back pain, sensory or motor deficits, or urinary retention?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 109,
+                "clinical_criteria": "Suspected spinal cord infarction"
+            },
+            {
+                "member_id": "mdg_1.14",
+                "content": "Spinal cord stimulator placement planning needed, and no MRI of region within 12 months prior to placement",
+                "logical_relation": "ANY",
+                "question": "Is there a plan for spinal cord stimulator placement, and has the patient not had an MRI of the cervical spine region within the last 12 months?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 110,
+                "clinical_criteria": "Stimulator placement planning"
+            },
+            {
+                "member_id": "mdg_1.15",
+                "content": "Spinal dysraphism, suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected spinal dysraphism",
+                "children": [
+                    {
+                        "member_id": "mdg_1.15.1",
+                        "content": "For infant, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Infant with suspected dysraphism",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.15.1.1",
+                                "content": "Absent reflexes",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of absent reflexes in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 113,
+                                "clinical_criteria": "Absent reflexes"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.2",
+                                "content": "Aplasia cutis congenita",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of aplasia cutis congenita in the medical record for an infant with suspected spinal dysraphism?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 114,
+                                "clinical_criteria": "Aplasia cutis congenita"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.3",
+                                "content": "Decreased spontaneous leg movement",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of decreased spontaneous leg movement in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 115,
+                                "clinical_criteria": "Decreased leg movement"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.4",
+                                "content": "Decreased urinary stream",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a decreased urinary stream in the patient's medical record, particularly in the context of spinal dysraphism or the need for a cervical spine MRI?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 116,
+                                "clinical_criteria": "Decreased urinary stream"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.5",
+                                "content": "Deviation of gluteal cleft",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of deviation of the gluteal cleft in the medical record for an infant with suspected spinal dysraphism?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 117,
+                                "clinical_criteria": "Deviation of gluteal cleft"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.6",
+                                "content": "Foot asymmetry",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of foot asymmetry in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 118,
+                                "clinical_criteria": "Foot asymmetry"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.7",
+                                "content": "Leg atrophy",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of leg atrophy in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 119,
+                                "clinical_criteria": "Leg atrophy"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.8",
+                                "content": "Midline lumbosacral skin lesions (eg, atypical dimple, dermal sinus, lipoma, tail)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of midline lumbosacral skin lesions such as atypical dimple, dermal sinus, lipoma, or tail in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 120,
+                                "clinical_criteria": "Midline lumbosacral lesions"
+                            },
+                            {
+                                "member_id": "mdg_1.15.1.9",
+                                "content": "Unilateral lumbosacral hypertrichosis",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have unilateral lumbosacral hypertrichosis? If yes, left or right?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 121,
+                                "clinical_criteria": "Unilateral lumbosacral hypertrichosis"
+                            }
+                        ],
+                        "seq": 112
+                    },
+                    {
+                        "member_id": "mdg_1.15.2",
+                        "content": "For toddler: developmental delay in walking, abnormal gait",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a toddler with developmental delay in walking or abnormal gait?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 122,
+                        "clinical_criteria": "Developmental delay or abnormal gait"
+                    },
+                    {
+                        "member_id": "mdg_1.15.3",
+                        "content": "For older child: spasticity, hyperreflexia, bowel or bladder disturbance, including incontinence",
+                        "logical_relation": "ANY",
+                        "question": "Does the older child exhibit spasticity, hyperreflexia, or bowel or bladder disturbance, including incontinence, in the context of suspected spinal dysraphism?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 123,
+                        "clinical_criteria": "Spasticity or bowel disturbance"
+                    }
+                ],
+                "seq": 111
+            },
+            {
+                "member_id": "mdg_1.16",
+                "content": "Spinal stenosis of cervical spine, suspected, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected spinal stenosis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.16.1",
+                        "content": "Patient being considered for invasive treatment",
+                        "logical_relation": "ANY",
+                        "question": "Is the patient being considered for invasive treatment due to suspected spinal stenosis of the cervical spine?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 125,
+                        "clinical_criteria": "Considered for invasive treatment"
+                    },
+                    {
+                        "member_id": "mdg_1.16.2",
+                        "content": "Progressive or disabling symptoms of cervical spinal stenosis, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Progressive or disabling symptoms",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.16.2.1",
+                                "content": "Hyperactive reflexes",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of hyperactive reflexes in the medical record for a patient with progressive or disabling symptoms of cervical spinal stenosis or suspected spinal stenosis of the cervical spine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 127,
+                                "clinical_criteria": "Hyperactive reflexes"
+                            },
+                            {
+                                "member_id": "mdg_1.16.2.2",
+                                "content": "Muscle weakness",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of muscle weakness in the patient's medical record related to progressive or disabling symptoms of cervical spinal stenosis or suspected spinal stenosis of the cervical spine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 128,
+                                "clinical_criteria": "Muscle weakness"
+                            },
+                            {
+                                "member_id": "mdg_1.16.2.3",
+                                "content": "Sensory loss",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence of sensory loss in the patient's medical record related to progressive or disabling symptoms of cervical spinal stenosis or suspected spinal stenosis of the cervical spine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 129,
+                                "clinical_criteria": "Sensory loss"
+                            },
+                            {
+                                "member_id": "mdg_1.16.2.4",
+                                "content": "Spasticity",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the medical record of spasticity in the context of progressive or disabling symptoms of cervical spinal stenosis or suspected spinal stenosis of the cervical spine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 130,
+                                "clinical_criteria": "Spasticity"
+                            }
+                        ],
+                        "seq": 126
+                    }
+                ],
+                "seq": 124
+            },
+            {
+                "member_id": "mdg_1.17",
+                "content": "Spondylolysis, known or suspected (eg, plain radiography-negative early spondylolysis, radiculopathy in patient with spondylolysis)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of known or suspected spondylolysis, such as plain radiography-negative early spondylolysis or radiculopathy in a patient with spondylolysis, in the medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 131,
+                "clinical_criteria": "Known or suspected spondylolysis"
+            },
+            {
+                "member_id": "mdg_1.18",
+                "content": "Stereotactic spine radiotherapy treatment planning",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of stereotactic spine radiotherapy treatment planning in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 132,
+                "clinical_criteria": "Radiotherapy treatment planning"
+            },
+            {
+                "member_id": "mdg_1.19",
+                "content": "Syringomyelia in cervical spine, suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected syringomyelia",
+                "children": [
+                    {
+                        "member_id": "mdg_1.19.1",
+                        "content": "Upper limb sensory loss in cape-like distribution",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of upper limb sensory loss in a cape-like distribution in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 134,
+                        "clinical_criteria": "Upper limb sensory loss"
+                    },
+                    {
+                        "member_id": "mdg_1.19.2",
+                        "content": "Weakness, muscle wasting, and sensory loss beginning in intrinsic muscles of hand",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient exhibit weakness, muscle wasting, and sensory loss beginning in the intrinsic muscles of the hand?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 135,
+                        "clinical_criteria": "Weakness and muscle wasting"
+                    }
+                ],
+                "seq": 133
+            },
+            {
+                "member_id": "mdg_1.20",
+                "content": "Torticollis, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Torticollis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.20.1",
+                        "content": "Age younger than 18 years",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation that the patient is younger than 18 years and has torticollis in the medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 137,
+                        "clinical_criteria": "Age younger than 18"
+                    },
+                    {
+                        "member_id": "mdg_1.20.2",
+                        "content": "Initial CT scan normal or inconclusive",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of an initial CT scan being normal or inconclusive for a patient with torticollis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 138,
+                        "clinical_criteria": "CT scan normal or inconclusive"
+                    },
+                    {
+                        "member_id": "mdg_1.20.3",
+                        "content": "Nontraumatic etiology",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a nontraumatic etiology for torticollis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 139,
+                        "clinical_criteria": "Nontraumatic etiology"
+                    }
+                ],
+                "seq": 136
+            },
+            {
+                "member_id": "mdg_1.21",
+                "content": "Trauma or fracture of cervical spine, known or suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Known or suspected trauma or fracture",
+                "children": [
+                    {
+                        "member_id": "mdg_1.21.1",
+                        "content": "Age 65 years or older",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record that the patient is 65 years or older with trauma or fracture of the cervical spine, known or suspected?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 141,
+                        "clinical_criteria": "Age 65 or older"
+                    },
+                    {
+                        "member_id": "mdg_1.21.2",
+                        "content": "Altered mental status",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of altered mental status in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 142,
+                        "clinical_criteria": "Altered mental status"
+                    },
+                    {
+                        "member_id": "mdg_1.21.3",
+                        "content": "Child younger than 3 years with acute head trauma, and physical abuse suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a child younger than 3 years with acute head trauma and suspected physical abuse in the"
+                    }
+                ]
+            }
+        ]
+    }
+]

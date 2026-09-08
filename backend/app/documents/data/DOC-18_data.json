@@ -1,0 +1,306 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Implantable loop recorder (cardiac event monitor) may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Implantable loop recorder indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Atrial fibrillation, known or suspected, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Atrial fibrillation criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Cryptogenic stroke, transient ischemic attack, or systemic thromboembolic event",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient experienced a cryptogenic stroke, transient ischemic attack, or systemic thromboembolic event?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Cryptogenic stroke or event",
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Holter monitor or other noninvasive cardiac monitor contraindicated, or results unrevealing or indeterminate",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that a Holter monitor or other noninvasive cardiac monitor is contraindicated, or that the results were unrevealing or indeterminate for atrial fibrillation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Holter monitor contraindicated",
+                        "seq": 3
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "Recurrent paroxysmal atrial fibrillation suspected, and test results may impact patient management",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record of recurrent paroxysmal atrial fibrillation suspected, and do test results impact patient management?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Recurrent paroxysmal atrial fibrillation",
+                        "seq": 4
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "History of structural or infiltrative heart disease (eg, valvular aortic stenosis, hypertrophic cardiomyopathy, cardiac sarcoidosis, congenital heart disease) and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Structural heart disease history",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Holter monitor or other noninvasive cardiac monitor contraindicated, or results unrevealing or indeterminate",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that a Holter monitor or other noninvasive cardiac monitor is contraindicated, or that the results were unrevealing or indeterminate in a patient with a history of structural or infiltrative heart disease such as valvular aortic stenosis, hypertrophic cardiomyopathy, cardiac sarcoidosis, or congenital heart disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Holter monitor contraindicated",
+                        "seq": 6
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Patient at high risk for arrhythmias (eg, family history, symptoms, anatomy of structural heart disease)",
+                        "logical_relation": "ALL",
+                        "question": "Is there evidence in the patient's medical record indicating a high risk for arrhythmias due to family history, symptoms, or anatomy of structural heart disease, such as valvular aortic stenosis, hypertrophic cardiomyopathy, cardiac sarcoidosis, or congenital heart disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "High risk for arrhythmias",
+                        "seq": 7
+                    }
+                ],
+                "seq": 5
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Rhythm surveillance in patient with history of atrial fibrillation-induced cardiomyopathy and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Rhythm surveillance criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Left ventricular function improved after rhythm control treatment",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient's left ventricular function improved after rhythm control treatment?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Improved ventricular function",
+                        "seq": 9
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Patient treated with ablation or maintained on antiarrhythmic medication",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation that the patient has been treated with ablation or maintained on antiarrhythmic medication for rhythm surveillance in a patient with a history of atrial fibrillation-induced cardiomyopathy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Ablation or antiarrhythmic medication",
+                        "seq": 10
+                    }
+                ],
+                "seq": 8
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Syncope, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Syncope criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.4.1",
+                        "content": "Cardiac etiology of syncope, suspected, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Cardiac etiology suspected",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.4.1.1",
+                                "content": "ECG results abnormal (eg, cardiac rhythm other than normal sinus, significant conduction abnormalities, Brugada ECG pattern, long QT syndrome)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of abnormal ECG results, such as cardiac rhythm other than normal sinus, significant conduction abnormalities, Brugada ECG pattern, or long QT syndrome, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Abnormal ECG results",
+                                "seq": 13
+                            },
+                            {
+                                "member_id": "mdg_1.4.1.2",
+                                "content": "Family history of sudden death",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a family history of sudden death in the patient's medical record, particularly in the context of cardiac etiology of syncope or syncope?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Family history of sudden death",
+                                "seq": 14
+                            },
+                            {
+                                "member_id": "mdg_1.4.1.3",
+                                "content": "History of chronic heart failure",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a history of chronic heart failure in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "History of chronic heart failure",
+                                "seq": 15
+                            },
+                            {
+                                "member_id": "mdg_1.4.1.4",
+                                "content": "History of pulmonary hypertension",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a history of pulmonary hypertension in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "History of pulmonary hypertension",
+                                "seq": 16
+                            },
+                            {
+                                "member_id": "mdg_1.4.1.5",
+                                "content": "History of structural heart disease (eg, valvular aortic stenosis, congenital heart disease, hypertrophic cardiomyopathy) or severe coronary heart disease",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a history of structural heart disease, such as valvular aortic stenosis, congenital heart disease, or hypertrophic cardiomyopathy, or severe coronary heart disease in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "History of structural heart disease",
+                                "seq": 17
+                            },
+                            {
+                                "member_id": "mdg_1.4.1.6",
+                                "content": "Recent history of palpitations, abnormal heart rate, or symptomatic arrhythmia",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a recent history of palpitations, abnormal heart rate, or symptomatic arrhythmia in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Recent palpitations or arrhythmia",
+                                "seq": 18
+                            },
+                            {
+                                "member_id": "mdg_1.4.1.7",
+                                "content": "Use of medication known to cause malignant arrhythmias (eg, antiarrhythmics, antidepressants, antihistamines)",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the medical record that the patient is using medication known to cause malignant arrhythmias, such as antiarrhythmics, antidepressants, or antihistamines?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Medication causing arrhythmias",
+                                "seq": 19
+                            }
+                        ],
+                        "seq": 12
+                    },
+                    {
+                        "member_id": "mdg_1.4.2",
+                        "content": "Recurrent or unexplained syncope",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of recurrent or unexplained syncope in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Recurrent or unexplained syncope",
+                        "seq": 20
+                    },
+                    {
+                        "member_id": "mdg_1.4.3",
+                        "content": "Test results negative or inconclusive, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Negative or inconclusive tests",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.4.3.1",
+                                "content": "Ambulatory cardiovascular telemetry monitor",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient has undergone ambulatory cardiovascular telemetry monitoring?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Telemetry monitor used",
+                                "seq": 22
+                            },
+                            {
+                                "member_id": "mdg_1.4.3.2",
+                                "content": "Electrophysiologic study",
+                                "logical_relation": "ANY",
+                                "question": "Has the patient undergone an electrophysiologic study?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Electrophysiologic study conducted",
+                                "seq": 23
+                            },
+                            {
+                                "member_id": "mdg_1.4.3.3",
+                                "content": "Holter monitor",
+                                "logical_relation": "ANY",
+                                "question": "Has the patient undergone a Holter monitor test?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Holter monitor test",
+                                "seq": 24
+                            },
+                            {
+                                "member_id": "mdg_1.4.3.4",
+                                "content": "Non-implantable (external) loop recorder",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating the use of a non-implantable (external) loop recorder for syncope or when test results are negative or inconclusive?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "External loop recorder used",
+                                "seq": 25
+                            },
+                            {
+                                "member_id": "mdg_1.4.3.5",
+                                "content": "Patch-type cardiac monitor",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that a patch-type cardiac monitor was used for test results that were negative or inconclusive, syncope, or when an implantable loop recorder may be indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Patch-type monitor used",
+                                "seq": 26
+                            },
+                            {
+                                "member_id": "mdg_1.4.3.6",
+                                "content": "Tilt table testing",
+                                "logical_relation": "ANY",
+                                "question": "Has the patient undergone tilt table testing?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Tilt table testing done",
+                                "seq": 27
+                            }
+                        ],
+                        "seq": 21
+                    }
+                ],
+                "seq": 11
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Ventricular arrhythmia, known or suspected",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of a known or suspected ventricular arrhythmia?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Ventricular arrhythmia suspected",
+                "seq": 28
+            }
+        ],
+        "seq": 0
+    }
+]

@@ -1,0 +1,162 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Facet joint injection may be indicated when ALL of the following are present:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Facet joint injection indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Diagnostic block (medial branch nerve block, intra-articular injection) needed to confirm facet joint as source of spinal pain, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Diagnostic block confirmation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Initial diagnostic block to diagnose facet pain (dual diagnostic blocks are necessary to diagnose facet pain)",
+                        "logical_relation": "none",
+                        "question": "Has the patient undergone an initial diagnostic block to diagnose facet pain, specifically a medial branch nerve block or intra-articular injection, to confirm the facet joint as the source of spinal pain?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Initial diagnostic block",
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Second confirmatory diagnostic block (dual diagnostic blocks are necessary to diagnose facet pain) if documentation indicates first diagnostic block produced 80% or greater relief of primary (index) pain and duration of relief is consistent with agent employed",
+                        "logical_relation": "none",
+                        "question": "Has the patient undergone a second confirmatory diagnostic block to diagnose facet pain, with documentation indicating that the first diagnostic block produced 80% or greater relief of primary pain and the duration of relief was consistent with the agent employed?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Second confirmatory block",
+                        "seq": 3
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Patient is candidate for facet neurotomy, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Candidate for facet neurotomy",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Chronic spinal pain (at least 3 months' duration) originating from 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Chronic spinal pain",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.1.1",
+                                "content": "Cervical spine (eg, following whiplash injury)",
+                                "logical_relation": "none",
+                                "question": "Does the patient have chronic spinal pain originating from the cervical spine following a whiplash injury?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Cervical spine pain",
+                                "seq": 6
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.2",
+                                "content": "Lumbar spine",
+                                "logical_relation": "none",
+                                "question": "Does the patient have chronic spinal pain originating from the lumbar spine for at least 3 months?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Lumbar spine pain",
+                                "seq": 7
+                            }
+                        ],
+                        "seq": 5
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Failure of nonoperative management, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Failure of nonoperative management",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.2.1",
+                                "content": "Exercise program",
+                                "logical_relation": "none",
+                                "question": "Has the patient participated in an exercise program as part of nonoperative management for facet joint issues?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Exercise program participation",
+                                "seq": 9
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.2",
+                                "content": "Pharmacotherapy",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record that the patient has undergone pharmacotherapy?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Pharmacotherapy undergone",
+                                "seq": 10
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.3",
+                                "content": "Physical therapy or spinal manipulation therapy",
+                                "logical_relation": "none",
+                                "question": "Has the patient undergone physical therapy or spinal manipulation therapy?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Physical therapy undergone",
+                                "seq": 11
+                            }
+                        ],
+                        "seq": 8
+                    },
+                    {
+                        "member_id": "mdg_1.2.3",
+                        "content": "Imaging studies and physical examination have ruled out other causes of spinal pain (eg, herniated disk, spinal stenosis, fracture, tumor).",
+                        "logical_relation": "none",
+                        "question": "Have imaging studies and physical examination ruled out other causes of spinal pain such as herniated disk, spinal stenosis, fracture, or tumor?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Other causes ruled out",
+                        "seq": 12
+                    }
+                ],
+                "seq": 4
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "No coagulopathy",
+                "logical_relation": "none",
+                "question": "Is there documentation in the medical record indicating that the patient has no coagulopathy?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "No coagulopathy",
+                "seq": 13
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "No current infection",
+                "logical_relation": "none",
+                "question": "Is there documentation in the medical record indicating that the patient has no current infection?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "No current infection",
+                "seq": 14
+            }
+        ],
+        "seq": 0
+    }
+]

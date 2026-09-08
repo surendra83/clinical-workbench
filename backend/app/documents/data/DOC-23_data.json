@@ -1,0 +1,1462 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Achalasia, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Achalasia indication criteria",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Achalasia confirmed by esophageal manometry",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record confirming achalasia through esophageal manometry?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 2,
+                        "clinical_criteria": "Achalasia confirmed manometry"
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Failure of or patient not candidate for pneumatic dilation or surgical myotomy (eg, elderly patient)",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient has failed or is not a candidate for pneumatic dilation or surgical myotomy, particularly in the context of achalasia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Not candidate for dilation"
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "No response to pharmacologic treatment (eg, long-acting nitrates, calcium channel antagonists)",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating no response to pharmacologic treatment such as long-acting nitrates or calcium channel antagonists for achalasia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 4,
+                        "clinical_criteria": "No response to treatment"
+                    },
+                    {
+                        "member_id": "mdg_1.1.4",
+                        "content": "Other causes of dysphagia (eg, peptic stricture, carcinoma, lower esophageal ring or extrinsic compression) ruled out by upper gastrointestinal endoscopy",
+                        "logical_relation": "none",
+                        "question": "Has the patient undergone an upper gastrointestinal endoscopy to rule out other causes of dysphagia such as peptic stricture, carcinoma, lower esophageal ring, or extrinsic compression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 5,
+                        "clinical_criteria": "Other causes ruled out"
+                    },
+                    {
+                        "member_id": "mdg_1.1.5",
+                        "content": "Progressive dysphagia for liquids and solids",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of progressive dysphagia for liquids and solids in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "Progressive dysphagia"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Subsequent course, with favorable response to prior administration of onabotulinumtoxinA",
+                "logical_relation": "none",
+                "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 7,
+                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+            }
+        ],
+        "seq": 0
+    },
+    {
+        "member_id": "mdg_2",
+        "content": "Anal fissure, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Anal fissure criteria",
+        "children": [
+            {
+                "member_id": "mdg_2.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_2.1.1",
+                        "content": "At least 2 months of symptoms, including 1 or more of the following",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "2 months of symptoms",
+                        "children": [
+                            {
+                                "member_id": "mdg_2.1.1.1",
+                                "content": "Nocturnal pain and bleeding",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of nocturnal pain and bleeding in the patient's medical record for at least 2 months, including symptoms of anal fissure?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 11,
+                                "clinical_criteria": "Nocturnal pain and bleeding"
+                            },
+                            {
+                                "member_id": "mdg_2.1.1.2",
+                                "content": "Postdefecation pain",
+                                "logical_relation": "none",
+                                "question": "Has the patient experienced postdefecation pain for at least 2 months, including symptoms such as anal fissure?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 12,
+                                "clinical_criteria": "Postdefecation pain"
+                            }
+                        ],
+                        "seq": 10
+                    }
+                ],
+                "seq": 9
+            },
+            {
+                "member_id": "mdg_2.2",
+                "content": "Subsequent course, with favorable response to prior administration of onabotulinumtoxinA",
+                "logical_relation": "none",
+                "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record for the treatment of anal fissure?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 13,
+                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+            }
+        ],
+        "seq": 8
+    },
+    {
+        "member_id": "mdg_3",
+        "content": "Blepharospasm, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Blepharospasm criteria",
+        "children": [
+            {
+                "member_id": "mdg_3.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_3.1.1",
+                        "content": "Age 12 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 12 years or older with blepharospasm?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 16,
+                        "clinical_criteria": "Age 12 or older"
+                    },
+                    {
+                        "member_id": "mdg_3.1.2",
+                        "content": "Blepharospasm, as indicated by 1 or more of the following",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Blepharospasm indication",
+                        "children": [
+                            {
+                                "member_id": "mdg_3.1.2.1",
+                                "content": "Benign essential blepharospasm",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of benign essential blepharospasm in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 18,
+                                "clinical_criteria": "Benign essential blepharospasm"
+                            },
+                            {
+                                "member_id": "mdg_3.1.2.2",
+                                "content": "Blepharospasm associated with dystonia",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of blepharospasm associated with dystonia in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 19,
+                                "clinical_criteria": "Blepharospasm with dystonia"
+                            },
+                            {
+                                "member_id": "mdg_3.1.2.3",
+                                "content": "Blepharospasm associated with facial nerve (cranial nerve VII) disorder such as Bell palsy",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of blepharospasm associated with facial nerve disorder such as Bell palsy in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 20,
+                                "clinical_criteria": "Blepharospasm with facial nerve disorder"
+                            }
+                        ],
+                        "seq": 17
+                    },
+                    {
+                        "member_id": "mdg_3.1.3",
+                        "content": "No infection at proposed injection site",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of no infection at the proposed injection site in the medical record for a patient with blepharospasm?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 21,
+                        "clinical_criteria": "No infection at site"
+                    },
+                    {
+                        "member_id": "mdg_3.1.4",
+                        "content": "No neuromuscular disease (eg, myasthenia gravis)",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient does not have neuromuscular disease such as myasthenia gravis, with conditions like blepharospasm?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 22,
+                        "clinical_criteria": "No neuromuscular disease"
+                    }
+                ],
+                "seq": 15
+            },
+            {
+                "member_id": "mdg_3.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_3.2.1",
+                        "content": "Age 12 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 12 years or older with blepharospasm?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 24,
+                        "clinical_criteria": "Age 12 or older"
+                    },
+                    {
+                        "member_id": "mdg_3.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 25,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 23
+            }
+        ],
+        "seq": 14
+    },
+    {
+        "member_id": "mdg_4",
+        "content": "Cervical dystonia (spasmodic torticollis), as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Cervical dystonia criteria",
+        "children": [
+            {
+                "member_id": "mdg_4.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_4.1.1",
+                        "content": "Age 16 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 16 years or older with cervical dystonia (spasmodic torticollis)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 28,
+                        "clinical_criteria": "Age 16 or older"
+                    },
+                    {
+                        "member_id": "mdg_4.1.2",
+                        "content": "Neck pain or abnormal head position causing adverse effect on daily functioning",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of neck pain or abnormal head position causing an adverse effect on daily functioning in the patient's medical record, specifically in the context of cervical dystonia (spasmodic torticollis)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 29,
+                        "clinical_criteria": "Neck pain or abnormal position"
+                    },
+                    {
+                        "member_id": "mdg_4.1.3",
+                        "content": "No fixed contractures causing decreased neck range of motion",
+                        "logical_relation": "none",
+                        "question": "Does the patient have fixed contractures causing decreased neck range of motion in the context of cervical dystonia or spasmodic torticollis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 30,
+                        "clinical_criteria": "No fixed contractures"
+                    },
+                    {
+                        "member_id": "mdg_4.1.4",
+                        "content": "No infection at proposed injection site",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record confirming no infection at the proposed injection site for a patient with cervical dystonia (spasmodic torticollis)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 31,
+                        "clinical_criteria": "No infection at site"
+                    },
+                    {
+                        "member_id": "mdg_4.1.5",
+                        "content": "No neuromuscular disease (eg, myasthenia gravis)",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record that the patient does not have neuromuscular disease such as myasthenia gravis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 32,
+                        "clinical_criteria": "No neuromuscular disease"
+                    }
+                ],
+                "seq": 27
+            },
+            {
+                "member_id": "mdg_4.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_4.2.1",
+                        "content": "Age 16 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 16 years or older with cervical dystonia (spasmodic torticollis)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 34,
+                        "clinical_criteria": "Age 16 or older"
+                    },
+                    {
+                        "member_id": "mdg_4.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 35,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 33
+            }
+        ],
+        "seq": 26
+    },
+    {
+        "member_id": "mdg_5",
+        "content": "Hemifacial spasm, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Hemifacial spasm criteria",
+        "children": [
+            {
+                "member_id": "mdg_5.1",
+                "content": "Initial course",
+                "logical_relation": "none",
+                "question": "Is there documentation of an initial course for hemifacial spasm in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 37,
+                "clinical_criteria": "Initial course"
+            },
+            {
+                "member_id": "mdg_5.2",
+                "content": "Subsequent course, with favorable response to prior administration of onabotulinumtoxinA",
+                "logical_relation": "none",
+                "question": "Has the patient shown a favorable response to a prior administration of onabotulinumtoxinA for hemifacial spasm?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 38,
+                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+            }
+        ],
+        "seq": 36
+    },
+    {
+        "member_id": "mdg_6",
+        "content": "Hyperhidrosis (axillary), as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Hyperhidrosis criteria",
+        "children": [
+            {
+                "member_id": "mdg_6.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_6.1.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 18 years or older with hyperhidrosis (axillary)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 41,
+                        "clinical_criteria": "Age 18 or older"
+                    },
+                    {
+                        "member_id": "mdg_6.1.2",
+                        "content": "Axillary hyperhidrosis, with Hyperhidrosis Disease Severity Scale (HDSS) score of 2 or more",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record of axillary hyperhidrosis with a Hyperhidrosis Disease Severity Scale (HDSS) score of 2 or more?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 42,
+                        "clinical_criteria": "HDSS score 2 or more"
+                    },
+                    {
+                        "member_id": "mdg_6.1.3",
+                        "content": "Inadequate response to 1 or more months of topical treatment (eg, aluminum chloride), as evidenced by no improvement in HDSS score, or patient intolerant to topical treatment due to unacceptable skin irritation",
+                        "logical_relation": "none",
+                        "question": "Has the patient shown an inadequate response to 1 or more months of topical treatment, such as aluminum chloride, as evidenced by no improvement in HDSS score or intolerance due to unacceptable skin irritation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 43,
+                        "clinical_criteria": "Inadequate response to treatment"
+                    },
+                    {
+                        "member_id": "mdg_6.1.4",
+                        "content": "No infection at proposed injection site",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of no infection at the proposed injection site for the initial course of treatment for hyperhidrosis (axillary)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 44,
+                        "clinical_criteria": "No infection at site"
+                    },
+                    {
+                        "member_id": "mdg_6.1.5",
+                        "content": "Secondary causes of hyperhidrosis (eg, hyperthyroidism) have been evaluated and, if necessary, treated.",
+                        "logical_relation": "none",
+                        "question": "Has the patient been evaluated for secondary causes of hyperhidrosis, such as hyperthyroidism, and received treatment if necessary?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 45,
+                        "clinical_criteria": "Secondary causes evaluated"
+                    },
+                    {
+                        "member_id": "mdg_6.1.6",
+                        "content": "Significant effect of hyperhidrosis upon daily activities",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that hyperhidrosis significantly affects the patient's daily activities, specifically in the axillary region?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 46,
+                        "clinical_criteria": "Significant effect on activities"
+                    }
+                ],
+                "seq": 40
+            },
+            {
+                "member_id": "mdg_6.2",
+                "content": "Subsequent course, with favorable response to prior administration of botulinum toxin A",
+                "logical_relation": "none",
+                "question": "Has the patient shown a favorable response to a prior administration of botulinum toxin A for hyperhidrosis (axillary)?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 47,
+                "clinical_criteria": "Favorable response to botulinum toxin A"
+            }
+        ],
+        "seq": 39
+    },
+    {
+        "member_id": "mdg_7",
+        "content": "Laryngeal dystonia (ie, adductor spasmodic dysphonia), as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Laryngeal dystonia criteria",
+        "children": [
+            {
+                "member_id": "mdg_7.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_7.1.1",
+                        "content": "Adductor-type spasmodic dysphonia confirmed by fiberoptic laryngoscopy",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record confirming adductor-type spasmodic dysphonia through fiberoptic laryngoscopy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 50,
+                        "clinical_criteria": "Confirmed by laryngoscopy"
+                    },
+                    {
+                        "member_id": "mdg_7.1.2",
+                        "content": "Moderate to severe difficulty in phonation",
+                        "logical_relation": "none",
+                        "question": "Does the patient have moderate to severe difficulty in phonation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 51,
+                        "clinical_criteria": "Difficulty in phonation"
+                    }
+                ],
+                "seq": 49
+            },
+            {
+                "member_id": "mdg_7.2",
+                "content": "Subsequent course, with favorable response to prior administration of onabotulinumtoxinA",
+                "logical_relation": "none",
+                "question": "Has the patient shown a favorable response to prior administration of onabotulinumtoxinA for laryngeal dystonia?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 52,
+                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+            }
+        ],
+        "seq": 48
+    },
+    {
+        "member_id": "mdg_8",
+        "content": "Migraine headache prophylaxis needed, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Migraine prophylaxis criteria",
+        "children": [
+            {
+                "member_id": "mdg_8.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_8.1.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 18 years or older and in need of migraine headache prophylaxis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 55,
+                        "clinical_criteria": "Age 18 or older"
+                    },
+                    {
+                        "member_id": "mdg_8.1.2",
+                        "content": "Migraine headache lasting 4 hours to 72 hours, as indicated by 5 or more attacks with ALL of the following",
+                        "logical_relation": "AT_LEAST_N",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Migraine lasting 4-72 hours",
+                        "children": [
+                            {
+                                "member_id": "mdg_8.1.2.1",
+                                "content": "Headache symptoms, as indicated by 2 or more of the following",
+                                "logical_relation": "AT_LEAST_N",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Headache symptoms criteria",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_8.1.2.1.1",
+                                        "content": "Aggravation by or causing avoidance of routine physical activity",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation in the patient's medical record indicating that routine physical activity is aggravated by or causes avoidance due to headache symptoms, migraine headache lasting 4 to 72 hours, or the need for migraine headache prophylaxis?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 58,
+                                        "clinical_criteria": "Aggravation by activity"
+                                    },
+                                    {
+                                        "member_id": "mdg_8.1.2.1.2",
+                                        "content": "Moderate or severe pain intensity",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation of moderate or severe pain intensity in the patient's medical record related to headache symptoms, migraine headache lasting 4 to 72 hours, initial course, or migraine headache prophylaxis needed?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 59,
+                                        "clinical_criteria": "Moderate or severe pain"
+                                    },
+                                    {
+                                        "member_id": "mdg_8.1.2.1.3",
+                                        "content": "Pulsating quality",
+                                        "logical_relation": "none",
+                                        "question": "Does the patient experience a pulsating quality in their headache symptoms, including migraine headaches lasting 4 to 72 hours with 5 or more attacks, and is migraine headache prophylaxis needed?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 60,
+                                        "clinical_criteria": "Pulsating quality"
+                                    },
+                                    {
+                                        "member_id": "mdg_8.1.2.1.4",
+                                        "content": "Unilateral location",
+                                        "logical_relation": "none",
+                                        "question": "Does the patient experience a unilateral headache? If yes, left or right?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 61,
+                                        "clinical_criteria": "Unilateral location"
+                                    }
+                                ],
+                                "seq": 57
+                            },
+                            {
+                                "member_id": "mdg_8.1.2.2",
+                                "content": "Migraine-associated symptoms, as indicated by 1 or more of the following",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Migraine-associated symptoms",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_8.1.2.2.1",
+                                        "content": "Nausea or vomiting",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation of nausea or vomiting associated with migraine symptoms, migraine headache lasting 4 to 72 hours with 5 or more attacks, initial course, or migraine headache prophylaxis needed in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 63,
+                                        "clinical_criteria": "Nausea or vomiting"
+                                    },
+                                    {
+                                        "member_id": "mdg_8.1.2.2.2",
+                                        "content": "Photophobia and phonophobia",
+                                        "logical_relation": "none",
+                                        "question": "Does the patient experience photophobia and phonophobia associated with migraine symptoms, migraine headache lasting 4 to 72 hours with 5 or more attacks, or require migraine headache prophylaxis?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 64,
+                                        "clinical_criteria": "Photophobia and phonophobia"
+                                    }
+                                ],
+                                "seq": 62
+                            },
+                            {
+                                "member_id": "mdg_8.1.2.3",
+                                "content": "Other potential causes of headaches have been excluded.",
+                                "logical_relation": "none",
+                                "question": "Have other potential causes of headaches been excluded in the patient's medical record, considering a migraine headache lasting 4 to 72 hours with 5 or more attacks?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 65,
+                                "clinical_criteria": "Other causes excluded"
+                            }
+                        ],
+                        "seq": 56
+                    },
+                    {
+                        "member_id": "mdg_8.1.3",
+                        "content": "Migraine headache frequency occurring 15 or more days per month for 3 or more months",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record that the patient experiences migraine headaches 15 or more days per month for 3 or more months?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 66,
+                        "clinical_criteria": "Frequency 15+ days/month"
+                    },
+                    {
+                        "member_id": "mdg_8.1.4",
+                        "content": "Use of preventive medication (eg, beta-blocker, tricyclic antidepressant, anticonvulsant) has been ineffective or not tolerated for trial of at least 3 months.",
+                        "logical_relation": "none",
+                        "question": "Has the patient used preventive medication such as beta-blocker, tricyclic antidepressant, or anticonvulsant for at least 3 months, and was it ineffective or not tolerated?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 67,
+                        "clinical_criteria": "Preventive medication ineffective"
+                    },
+                    {
+                        "member_id": "mdg_8.1.5",
+                        "content": "No neuromuscular disease (eg, myasthenia gravis)",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient does not have a neuromuscular disease such as myasthenia gravis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 68,
+                        "clinical_criteria": "No neuromuscular disease"
+                    }
+                ],
+                "seq": 54
+            },
+            {
+                "member_id": "mdg_8.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_8.2.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 18 years or older and in need of migraine headache prophylaxis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 70,
+                        "clinical_criteria": "Age 18 or older"
+                    },
+                    {
+                        "member_id": "mdg_8.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 71,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 69
+            }
+        ],
+        "seq": 53
+    },
+    {
+        "member_id": "mdg_9",
+        "content": "Motor tics, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Motor tics criteria",
+        "children": [
+            {
+                "member_id": "mdg_9.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_9.1.1",
+                        "content": "Age 16 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 16 years or older with motor tics?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 74,
+                        "clinical_criteria": "Age 16 or older"
+                    },
+                    {
+                        "member_id": "mdg_9.1.2",
+                        "content": "Patient unable to adequately suppress tics",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record that the patient is unable to adequately suppress motor tics?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 75,
+                        "clinical_criteria": "Unable to suppress tics"
+                    },
+                    {
+                        "member_id": "mdg_9.1.3",
+                        "content": "Tics causing interference with daily functioning",
+                        "logical_relation": "none",
+                        "question": "Does the patient have tics causing interference with daily functioning, including motor tics?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 76,
+                        "clinical_criteria": "Interference with functioning"
+                    }
+                ],
+                "seq": 73
+            },
+            {
+                "member_id": "mdg_9.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_9.2.1",
+                        "content": "Age 16 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 16 years or older with motor tics?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 78,
+                        "clinical_criteria": "Age 16 or older"
+                    },
+                    {
+                        "member_id": "mdg_9.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record, considering subsequent courses and motor tics?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 79,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 77
+            }
+        ],
+        "seq": 72
+    },
+    {
+        "member_id": "mdg_10",
+        "content": "Overactive bladder with or without urgency urinary incontinence, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Overactive bladder criteria",
+        "children": [
+            {
+                "member_id": "mdg_10.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_10.1.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "none",
+                        "question": "Is there documentation that the patient is 18 years or older with an initial course of treatment for overactive bladder with or without urgency urinary incontinence?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 82,
+                        "clinical_criteria": "Age 18 or older"
+                    },
+                    {
+                        "member_id": "mdg_10.1.2",
+                        "content": "Failure of, intolerance to, or contraindication to pharmacologic therapy (eg, anticholinergic medication, beta-3 adrenergic agonist)",
+                        "logical_relation": "none",
+                        "question": "Has the patient experienced failure of, intolerance to, or contraindication to pharmacologic therapy such as anticholinergic medication or beta-3 adrenergic agonist for overactive bladder with or without urgency urinary incontinence?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 83,
+                        "clinical_criteria": "Failure of pharmacologic therapy"
+                    },
+                    {
+                        "member_id": "mdg_10.1.3",
+                        "content": "No acute urinary retention",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient does not have acute urinary retention and has an overactive bladder with or without urgency urinary incontinence?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 84,
+                        "clinical_criteria": "No acute urinary retention"
+                    },
+                    {
+                        "member_id": "mdg_10.1.4",
+                        "content": "No acute urinary tract infection",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient does not have an acute urinary tract infection and has an overactive bladder with or without urgency urinary incontinence?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 85,
+                        "clinical_criteria": "No acute urinary tract infection"
+                    }
+                ],
+                "seq": 81
+            },
+            {
+                "member_id": "mdg_10.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_10.2.1",
+                        "content": "Age 18 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 18 years or older with overactive bladder or urgency urinary incontinence?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 87,
+                        "clinical_criteria": "Age 18 or older"
+                    },
+                    {
+                        "member_id": "mdg_10.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Has the patient shown a favorable response to prior administration of onabotulinumtoxinA for overactive bladder or urgency urinary incontinence?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 88,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 86
+            }
+        ],
+        "seq": 80
+    },
+    {
+        "member_id": "mdg_11",
+        "content": "Sialorrhea (excessive salivation), as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Sialorrhea criteria",
+        "children": [
+            {
+                "member_id": "mdg_11.1",
+                "content": "Initial course",
+                "logical_relation": "none",
+                "question": "Is there documentation of an initial course for sialorrhea (excessive salivation) in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 90,
+                "clinical_criteria": "Initial course"
+            },
+            {
+                "member_id": "mdg_11.2",
+                "content": "Subsequent course, with favorable response to prior administration of onabotulinumtoxinA",
+                "logical_relation": "none",
+                "question": "Has the patient shown a favorable response to prior administration of onabotulinumtoxinA for sialorrhea?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 91,
+                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+            }
+        ],
+        "seq": 89
+    },
+    {
+        "member_id": "mdg_12",
+        "content": "Spasticity, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Spasticity criteria",
+        "children": [
+            {
+                "member_id": "mdg_12.1",
+                "content": "Initial course, as indicated by 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_12.1.1",
+                        "content": "Child with cerebral palsy receiving rehabilitation",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record of a child with cerebral palsy receiving rehabilitation for spasticity?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 94,
+                        "clinical_criteria": "Cerebral palsy rehabilitation"
+                    },
+                    {
+                        "member_id": "mdg_12.1.2",
+                        "content": "Upper or lower extremity spasticity in individual age 2 years or older",
+                        "logical_relation": "none",
+                        "question": "Does the patient have upper or lower extremity spasticity and is 2 years of age or older?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 95,
+                        "clinical_criteria": "Extremity spasticity age 2+"
+                    }
+                ],
+                "seq": 93
+            },
+            {
+                "member_id": "mdg_12.2",
+                "content": "Subsequent course, with favorable response to prior administration of onabotulinumtoxinA",
+                "logical_relation": "none",
+                "question": "Is there documentation of a favorable response to a prior administration of onabotulinumtoxinA in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 96,
+                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+            }
+        ],
+        "seq": 92
+    },
+    {
+        "member_id": "mdg_13",
+        "content": "Strabismus, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Strabismus criteria",
+        "children": [
+            {
+                "member_id": "mdg_13.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_13.1.1",
+                        "content": "Age 12 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 12 years or older with strabismus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 99,
+                        "clinical_criteria": "Age 12 or older"
+                    },
+                    {
+                        "member_id": "mdg_13.1.2",
+                        "content": "Deviation of 50 prism diopters or less",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record of a deviation of 50 prism diopters or less in a patient with strabismus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 100,
+                        "clinical_criteria": "Deviation 50 diopters or less"
+                    },
+                    {
+                        "member_id": "mdg_13.1.3",
+                        "content": "No infection at proposed injection site",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of no infection at the proposed injection site in the patient's medical record, considering the presence of strabismus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 101,
+                        "clinical_criteria": "No infection at site"
+                    },
+                    {
+                        "member_id": "mdg_13.1.4",
+                        "content": "Strabismus not due primarily to Duane syndrome with lateral rectus weakness",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record of strabismus not due primarily to Duane syndrome with lateral rectus weakness?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 102,
+                        "clinical_criteria": "Not due to Duane syndrome"
+                    },
+                    {
+                        "member_id": "mdg_13.1.5",
+                        "content": "Strabismus not due primarily to restrictive strabismus",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient has strabismus not due primarily to restrictive strabismus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 103,
+                        "clinical_criteria": "Not due to restrictive strabismus"
+                    },
+                    {
+                        "member_id": "mdg_13.1.6",
+                        "content": "Strabismus not due primarily to secondary strabismus caused by prior surgical over-recession of antagonist muscle",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record indicating that the patient's strabismus is not due to secondary strabismus caused by prior surgical over-recession of the antagonist muscle?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 104,
+                        "clinical_criteria": "Not due to secondary strabismus"
+                    }
+                ],
+                "seq": 98
+            },
+            {
+                "member_id": "mdg_13.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_13.2.1",
+                        "content": "Age 12 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 12 years or older with strabismus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 106,
+                        "clinical_criteria": "Age 12 or older"
+                    },
+                    {
+                        "member_id": "mdg_13.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record, considering conditions such as strabismus?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 107,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 105
+            }
+        ],
+        "seq": 97
+    },
+    {
+        "member_id": "mdg_14",
+        "content": "Upper extremity focal dystonia (eg, writer's cramp), as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Upper extremity dystonia criteria",
+        "children": [
+            {
+                "member_id": "mdg_14.1",
+                "content": "Initial course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_14.1.1",
+                        "content": "Age 16 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 16 years or older with upper extremity focal dystonia, such as writer's cramp?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 110,
+                        "clinical_criteria": "Age 16 or older"
+                    },
+                    {
+                        "member_id": "mdg_14.1.2",
+                        "content": "Extremity pain or abnormal hand or forearm position causing adverse effect on daily functioning",
+                        "logical_relation": "none",
+                        "question": "Does the patient experience extremity pain or abnormal hand or forearm position causing an adverse effect on daily functioning?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 111,
+                        "clinical_criteria": "Pain or abnormal position"
+                    },
+                    {
+                        "member_id": "mdg_14.1.3",
+                        "content": "No infection at proposed injection site",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of no infection at the proposed injection site in the medical record for a patient with upper extremity focal dystonia, such as writer's cramp?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 112,
+                        "clinical_criteria": "No infection at site"
+                    },
+                    {
+                        "member_id": "mdg_14.1.4",
+                        "content": "No prior surgical treatment",
+                        "logical_relation": "none",
+                        "question": "Is there documentation in the medical record that the patient has not undergone any prior surgical treatment for upper extremity focal dystonia, such as writer's cramp?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 113,
+                        "clinical_criteria": "No prior surgical treatment"
+                    }
+                ],
+                "seq": 109
+            },
+            {
+                "member_id": "mdg_14.2",
+                "content": "Subsequent course, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent course criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_14.2.1",
+                        "content": "Age 16 years or older",
+                        "logical_relation": "none",
+                        "question": "Is the patient 16 years or older with upper extremity focal dystonia, such as writer's cramp?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 115,
+                        "clinical_criteria": "Age 16 or older"
+                    },
+                    {
+                        "member_id": "mdg_14.2.2",
+                        "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                        "logical_relation": "none",
+                        "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 116,
+                        "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                    }
+                ],
+                "seq": 114
+            }
+        ],
+        "seq": 108
+    },
+    {
+        "member_id": "mdg_15",
+        "content": "Urinary incontinence due to neurogenic detrusor overactivity, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Urinary incontinence criteria",
+        "children": [
+            {
+                "member_id": "mdg_15.1",
+                "content": "Adult and 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Adult criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_15.1.1",
+                        "content": "Initial course, as indicated by ALL of the following",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Initial course criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_15.1.1.1",
+                                "content": "Age 18 years or older",
+                                "logical_relation": "none",
+                                "question": "Is the patient 18 years or older with urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 120,
+                                "clinical_criteria": "Age 18 or older"
+                            },
+                            {
+                                "member_id": "mdg_15.1.1.2",
+                                "content": "Condition secondary to spinal cord injury, spinal dysraphism, or neurologic disease (eg, multiple sclerosis)",
+                                "logical_relation": "none",
+                                "question": "Does the patient have a condition secondary to spinal cord injury, spinal dysraphism, or neurologic disease such as multiple sclerosis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 121,
+                                "clinical_criteria": "Condition secondary to injury"
+                            },
+                            {
+                                "member_id": "mdg_15.1.1.3",
+                                "content": "Failure of or intolerance to pharmacologic therapy including anticholinergic medication",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of failure of or intolerance to pharmacologic therapy including anticholinergic medication in an adult with urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 122,
+                                "clinical_criteria": "Failure of pharmacologic therapy"
+                            },
+                            {
+                                "member_id": "mdg_15.1.1.4",
+                                "content": "No acute urinary retention unless patient receiving regular clean intermittent catheterization",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of acute urinary retention in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 123,
+                                "clinical_criteria": "No acute urinary retention"
+                            },
+                            {
+                                "member_id": "mdg_15.1.1.5",
+                                "content": "No acute urinary tract infection",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record indicating that the patient does not have an acute urinary tract infection, considering the presence of urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 124,
+                                "clinical_criteria": "No acute urinary tract infection"
+                            }
+                        ],
+                        "seq": 119
+                    },
+                    {
+                        "member_id": "mdg_15.1.2",
+                        "content": "Subsequent course, as indicated by ALL of the following",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Subsequent course criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_15.1.2.1",
+                                "content": "Age 18 years or older",
+                                "logical_relation": "none",
+                                "question": "Is there documentation that the patient is 18 years or older with urinary incontinence due to neurogenic detrusor overactivity in the medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 126,
+                                "clinical_criteria": "Age 18 or older"
+                            },
+                            {
+                                "member_id": "mdg_15.1.2.2",
+                                "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in an adult with urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 127,
+                                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                            }
+                        ],
+                        "seq": 125
+                    }
+                ],
+                "seq": 118
+            },
+            {
+                "member_id": "mdg_15.2",
+                "content": "Child or adolescent and 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Child or adolescent criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_15.2.1",
+                        "content": "Initial course, as indicated by ALL of the following",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Initial course criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_15.2.1.1",
+                                "content": "Age 5 years to younger than 18 years",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record that the patient is between the ages of 5 years and younger than 18 years and has urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 130,
+                                "clinical_criteria": "Age 5 to <18 years"
+                            },
+                            {
+                                "member_id": "mdg_15.2.1.2",
+                                "content": "Condition secondary to spinal cord injury, spinal dysraphism, or transverse myelitis",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of a condition secondary to spinal cord injury, spinal dysraphism, or transverse myelitis in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 131,
+                                "clinical_criteria": "Condition secondary to injury"
+                            },
+                            {
+                                "member_id": "mdg_15.2.1.3",
+                                "content": "Failure of or intolerance to pharmacologic therapy including anticholinergic medication",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of failure of or intolerance to pharmacologic therapy, including anticholinergic medication, in a child or adolescent with urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 132,
+                                "clinical_criteria": "Failure of pharmacologic therapy"
+                            },
+                            {
+                                "member_id": "mdg_15.2.1.4",
+                                "content": "No acute urinary tract infection",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record indicating that the patient does not have an acute urinary tract infection, considering the patient is a child or adolescent with urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 133,
+                                "clinical_criteria": "No acute urinary tract infection"
+                            }
+                        ],
+                        "seq": 129
+                    },
+                    {
+                        "member_id": "mdg_15.2.2",
+                        "content": "Subsequent course, as indicated by ALL of the following",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Subsequent course criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_15.2.2.1",
+                                "content": "Age 5 years to younger than 18 years",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record that the patient is aged between 5 years and younger than 18 years and has urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 135,
+                                "clinical_criteria": "Age 5 to <18 years"
+                            },
+                            {
+                                "member_id": "mdg_15.2.2.2",
+                                "content": "Favorable response to prior administration of onabotulinumtoxinA",
+                                "logical_relation": "none",
+                                "question": "Is there documentation of a favorable response to prior administration of onabotulinumtoxinA in a child or adolescent with urinary incontinence due to neurogenic detrusor overactivity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 136,
+                                "clinical_criteria": "Favorable response to onabotulinumtoxinA"
+                            }
+                        ],
+                        "seq": 134
+                    }
+                ],
+                "seq": 128
+            }
+        ],
+        "seq": 117
+    }
+]

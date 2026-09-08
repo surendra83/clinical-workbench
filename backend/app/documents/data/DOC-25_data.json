@@ -1,0 +1,126 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Radiofrequency saphenous vein ablation may be indicated when ALL of the following are present:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Radiofrequency saphenous vein ablation",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Incompetence of saphenous vein documented by duplex ultrasound or other imaging test with valve closure time of greater than 500 msec",
+                "logical_relation": "ALL",
+                "question": "Is there documentation of incompetence of the saphenous vein with a valve closure time greater than 500 msec in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 1,
+                "clinical_criteria": "Incompetence of saphenous vein"
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Saphenous venous insufficiency symptoms causing functional impairment, including 1 or more of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Saphenous venous insufficiency symptoms",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Bleeding or ruptured superficial varicose veins",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of bleeding or ruptured superficial varicose veins in the patient's medical record, along with saphenous venous insufficiency symptoms causing functional impairment?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Bleeding or ruptured veins"
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Leg edema",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of leg edema in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 4,
+                        "clinical_criteria": "Leg edema"
+                    },
+                    {
+                        "member_id": "mdg_1.2.3",
+                        "content": "Leg fatigue",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient experience leg fatigue due to saphenous venous insufficiency symptoms causing functional impairment?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 5,
+                        "clinical_criteria": "Leg fatigue"
+                    },
+                    {
+                        "member_id": "mdg_1.2.4",
+                        "content": "Leg pain",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of leg pain in the patient's medical record related to saphenous venous insufficiency symptoms causing functional impairment?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "Leg pain"
+                    },
+                    {
+                        "member_id": "mdg_1.2.5",
+                        "content": "Persistent or recurrent superficial thrombophlebitis",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of persistent or recurrent superficial thrombophlebitis in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 7,
+                        "clinical_criteria": "Recurrent superficial thrombophlebitis"
+                    },
+                    {
+                        "member_id": "mdg_1.2.6",
+                        "content": "Persistent or recurrent venous stasis ulcer",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a persistent or recurrent venous stasis ulcer in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 8,
+                        "clinical_criteria": "Recurrent venous stasis ulcer"
+                    },
+                    {
+                        "member_id": "mdg_1.2.7",
+                        "content": "Skin changes (eg, lipodermatosclerosis, hemosiderosis)",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient exhibit skin changes such as lipodermatosclerosis or hemosiderosis in the context of saphenous venous insufficiency symptoms causing functional impairment?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 9,
+                        "clinical_criteria": "Skin changes"
+                    }
+                ],
+                "seq": 2
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "No clinically significant lower extremity arterial disease",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record indicating that the patient does not have clinically significant lower extremity arterial disease?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 10,
+                "clinical_criteria": "No significant arterial disease"
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "No deep venous thrombosis on duplex ultrasound or other imaging test",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record showing no deep venous thrombosis on duplex ultrasound or other imaging test?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 11,
+                "clinical_criteria": "No deep venous thrombosis"
+            }
+        ],
+        "seq": 0
+    }
+]

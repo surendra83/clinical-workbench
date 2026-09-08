@@ -1,0 +1,150 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Blepharoplasty, canthoplasty, or related procedures are indicated when ALL of the following are present:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Blepharoplasty indication criteria",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Eyelid problem requiring treatment, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Eyelid problem treatment",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Ectropion, with evidence of symptomatic corneal exposure (eg, excessive drying, tearing, irritation, foreign body sensation, keratitis, corneal ulcer)",
+                        "logical_relation": "NONE",
+                        "question": "Is there evidence in the patient's medical record of ectropion with symptomatic corneal exposure, such as excessive drying, tearing, irritation, foreign body sensation, keratitis, or corneal ulcer?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Ectropion with corneal exposure",
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Entropion, when local measures fail to control symptoms such as eye pain or corneal irritation",
+                        "logical_relation": "NONE",
+                        "question": "Does the patient have entropion with symptoms such as eye pain or corneal irritation that are not controlled by local measures?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Entropion with uncontrolled symptoms",
+                        "seq": 3
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "Exposure keratitis due to 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Exposure keratitis causes",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.3.1",
+                                "content": "Eyelid laxity",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have eyelid laxity with exposure keratitis or an eyelid problem requiring treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Eyelid laxity",
+                                "seq": 5
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.2",
+                                "content": "Inability to properly close eye due to Bell palsy or other disorder",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have an inability to properly close the eye due to Bell palsy or other disorder? If yes, left or right?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Inability to close eye",
+                                "seq": 6
+                            },
+                            {
+                                "member_id": "mdg_1.1.3.3",
+                                "content": "Postoperative complication (eg, absence of part of eyelid from previous surgery)",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation of a postoperative complication, such as the absence of part of the eyelid from previous surgery, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Postoperative eyelid complication",
+                                "seq": 7
+                            }
+                        ],
+                        "seq": 4
+                    },
+                    {
+                        "member_id": "mdg_1.1.4",
+                        "content": "Ptosis of lid or dermatochalasis, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Ptosis or dermatochalasis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.4.1",
+                                "content": "Congenital ptosis with amblyopia",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have congenital ptosis with amblyopia?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Congenital ptosis with amblyopia",
+                                "seq": 9
+                            },
+                            {
+                                "member_id": "mdg_1.1.4.2",
+                                "content": "Margin reflex distance 1 (MRD1) less than or equal to 2 mm in central gaze",
+                                "logical_relation": "NONE",
+                                "question": "Is there documentation in the medical record of a margin reflex distance 1 (MRD1) less than or equal to 2 mm in central gaze, associated with ptosis of lid, dermatochalasis, or an eyelid problem requiring treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "MRD1 ≤ 2 mm central gaze",
+                                "seq": 10
+                            },
+                            {
+                                "member_id": "mdg_1.1.4.3",
+                                "content": "Margin reflex distance 1 (MRD1) less than or equal to 2 mm in down gaze with impairment of reading",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient have a margin reflex distance 1 (MRD1) less than or equal to 2 mm in down gaze with impairment of reading due to ptosis of lid or dermatochalasis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "MRD1 ≤ 2 mm down gaze",
+                                "seq": 11
+                            },
+                            {
+                                "member_id": "mdg_1.1.4.4",
+                                "content": "Visual field testing shows superior visual field loss of 12 degrees of vision or 24% impairment.",
+                                "logical_relation": "NONE",
+                                "question": "Does the patient's visual field testing show superior visual field loss of 12 degrees of vision or 24% impairment in the context of ptosis of lid, dermatochalasis, eyelid problem requiring treatment, or the need for blepharoplasty, canthoplasty, or related procedures?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Superior visual field loss",
+                                "seq": 12
+                            }
+                        ],
+                        "seq": 8
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Preoperative ophthalmologic examination has been performed.",
+                "logical_relation": "NONE",
+                "question": "Has a preoperative ophthalmologic examination been performed for blepharoplasty, canthoplasty, or related procedures?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Preoperative ophthalmologic examination",
+                "seq": 13
+            }
+        ],
+        "seq": 0
+    }
+]

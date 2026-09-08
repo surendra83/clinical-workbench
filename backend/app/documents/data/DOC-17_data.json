@@ -1,0 +1,268 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Implanted electrical stimulator, spinal cord, may be indicated when ALL of the following are present:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "ALL of the following",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Clinical condition is 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "1 or more conditions",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Chronic neuropathic pain and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Chronic neuropathic pain",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.1.1",
+                                "content": "Condition appropriate for treatment, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Condition appropriate for treatment",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.1.1.1",
+                                        "content": "Complex regional pain syndrome (previously referred to as reflex sympathetic dystrophy)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of complex regional pain syndrome, also known as reflex sympathetic dystrophy, in the context of chronic neuropathic pain?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Complex regional pain syndrome",
+                                        "seq": 4
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.1.2",
+                                        "content": "Diabetic neuropathy, refractory pain",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of diabetic neuropathy with refractory pain?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Diabetic neuropathy, refractory pain",
+                                        "seq": 5
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.1.3",
+                                        "content": "Failed back surgery syndrome",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of failed back surgery syndrome in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Failed back surgery syndrome",
+                                        "seq": 6
+                                    }
+                                ],
+                                "seq": 3
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.2",
+                                "content": "Failed conservative treatment, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Failed conservative treatment",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.1.2.1",
+                                        "content": "Pharmacotherapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone pharmacotherapy for chronic neuropathic pain and failed conservative treatment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Pharmacotherapy",
+                                        "seq": 8
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.2.2",
+                                        "content": "Physical therapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone physical therapy as documented in the medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Physical therapy",
+                                        "seq": 9
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.2.3",
+                                        "content": "Psychotherapy or cognitive behavioral therapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that the patient has undergone psychotherapy or cognitive behavioral therapy?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Psychotherapy or cognitive therapy",
+                                        "seq": 10
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.1.2.4",
+                                        "content": "Stellate ganglion or lumbar sympathetic block",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone a stellate ganglion or lumbar sympathetic block?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Stellate ganglion block",
+                                        "seq": 11
+                                    }
+                                ],
+                                "seq": 7
+                            }
+                        ],
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Pain due to critical limb ischemia and ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Pain due to ischemia",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.2.1",
+                                "content": "Inoperable vascular disease or pain despite prior surgical or endovascular revascularization",
+                                "logical_relation": "ALL",
+                                "question": "Does the patient have inoperable vascular disease or experience pain despite prior surgical or endovascular revascularization due to critical limb ischemia?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Inoperable vascular disease",
+                                "seq": 13
+                            },
+                            {
+                                "member_id": "mdg_1.1.2.2",
+                                "content": "Failed conservative treatment, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Failed conservative treatment",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.2.2.1",
+                                        "content": "Pharmacotherapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone pharmacotherapy for pain due to critical limb ischemia?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Pharmacotherapy",
+                                        "seq": 15
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.2.2.2",
+                                        "content": "Physical therapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone physical therapy as documented in the medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Physical therapy",
+                                        "seq": 16
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.2.2.3",
+                                        "content": "Psychotherapy or cognitive behavioral therapy",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone psychotherapy or cognitive behavioral therapy as documented in the medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Psychotherapy or cognitive therapy",
+                                        "seq": 17
+                                    }
+                                ],
+                                "seq": 14
+                            }
+                        ],
+                        "seq": 12
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Planned procedure is 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "1 or more procedures",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Percutaneous evaluation (ie, trial stimulation), if not previously performed",
+                        "logical_relation": "ANY",
+                        "question": "Has the patient undergone a percutaneous evaluation or trial stimulation, if not previously performed, as part of the planned procedure for an implanted electrical stimulator, spinal cord?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Percutaneous evaluation",
+                        "seq": 19
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Permanent (implantable) stimulator placement, if percutaneous evaluation results in improvement in symptoms of 50% or greater",
+                        "logical_relation": "ANY",
+                        "question": "Has the patient undergone a percutaneous evaluation that resulted in an improvement in symptoms of 50% or greater?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Permanent stimulator placement",
+                        "seq": 20
+                    }
+                ],
+                "seq": 18
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Favorable psychological evaluation, absence of untreated psychiatric comorbidity, or current treatment in multidisciplinary pain management program",
+                "logical_relation": "ALL",
+                "question": "Is there documentation of a favorable psychological evaluation, absence of untreated psychiatric comorbidity, or current treatment in a multidisciplinary pain management program in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Favorable psychological evaluation",
+                "seq": 21
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Patient capable of operating stimulating device",
+                "logical_relation": "ALL",
+                "question": "Is there evidence in the medical record that the patient is capable of operating a stimulating device?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Capable of operating device",
+                "seq": 22
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "No coagulopathy, anticoagulant or antiplatelet therapy, or thrombocytopenia (ie, platelet count of less than 75,000/mm3 (75 x10^9/L))",
+                "logical_relation": "ALL",
+                "question": "Is there evidence in the patient's medical record of coagulopathy, anticoagulant or antiplatelet therapy, or thrombocytopenia with a platelet count of less than 75,000/mm3 (75 x10^9/L)?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "No coagulopathy or thrombocytopenia",
+                "seq": 23
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "No current or chronic infection",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record indicating that the patient has no current or chronic infection?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "No current infection",
+                "seq": 24
+            }
+        ],
+        "seq": 0
+    }
+]

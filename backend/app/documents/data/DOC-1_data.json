@@ -1,0 +1,790 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Abdominal/pelvic CT angiography (CTA) may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Abdominal/pelvic CT angiography",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Acute limb (ie, lower extremity) ischemia, suspected",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record indicating suspected acute limb ischemia in the lower extremity? If yes, left or right?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 1,
+                "clinical_criteria": "Suspected acute limb ischemia"
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Aortic aneurysm or dissection evaluation, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Aortic aneurysm or dissection",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Aortic dissection diagnosis and evaluation needed",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record indicating the need for aortic dissection diagnosis and evaluation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Aortic dissection diagnosis"
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Evaluation of suspected abdominal aortic aneurysm (eg, pulsatile abdominal mass)",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of an evaluation for a suspected abdominal aortic aneurysm, such as a pulsatile abdominal mass?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 4,
+                        "clinical_criteria": "Suspected abdominal aortic aneurysm"
+                    },
+                    {
+                        "member_id": "mdg_1.2.3",
+                        "content": "Intramural hematoma, known or suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a known or suspected intramural hematoma in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 5,
+                        "clinical_criteria": "Known or suspected intramural hematoma"
+                    },
+                    {
+                        "member_id": "mdg_1.2.4",
+                        "content": "Penetrating atherosclerotic ulcer, known or suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of a known or suspected penetrating atherosclerotic ulcer?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "Known or suspected penetrating ulcer"
+                    },
+                    {
+                        "member_id": "mdg_1.2.5",
+                        "content": "Postoperative surveillance after surgical or endovascular repair",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of postoperative surveillance after surgical or endovascular repair for aortic aneurysm or dissection evaluation in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 7,
+                        "clinical_criteria": "Postoperative surveillance needed"
+                    },
+                    {
+                        "member_id": "mdg_1.2.6",
+                        "content": "Preoperative evaluation in patient who is candidate for surgical or endovascular intervention",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a preoperative evaluation for a patient who is a candidate for surgical or endovascular intervention related to aortic aneurysm or dissection evaluation in the medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 8,
+                        "clinical_criteria": "Preoperative evaluation needed"
+                    },
+                    {
+                        "member_id": "mdg_1.2.7",
+                        "content": "Surveillance of unrepaired aortic aneurysm or dissection",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of surveillance for an unrepaired aortic aneurysm or dissection in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 9,
+                        "clinical_criteria": "Surveillance of unrepaired aneurysm"
+                    },
+                    {
+                        "member_id": "mdg_1.2.8",
+                        "content": "Vascular connective tissue disorder, known (eg, Marfan syndrome, Loeys-Dietz syndrome, vascular Ehlers-Danlos syndrome), and need for baseline evaluation or regular surveillance based on specific condition",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have a known vascular connective tissue disorder such as Marfan syndrome, Loeys-Dietz syndrome, or vascular Ehlers-Danlos syndrome, and require baseline evaluation or regular surveillance for aortic aneurysm or dissection?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 10,
+                        "clinical_criteria": "Known vascular connective disorder"
+                    }
+                ],
+                "seq": 2
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Aortitis or large vessel vasculitis, known or suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Aortitis or large vessel vasculitis",
+                "children": [
+                    {
+                        "member_id": "mdg_1.3.1",
+                        "content": "Infectious vasculitis (eg, syphilis)",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of infectious vasculitis, such as syphilis, in the context of aortitis or large vessel vasculitis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 12,
+                        "clinical_criteria": "Infectious vasculitis evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.3.2",
+                        "content": "Inflammatory vasculitis (eg, Takayasu arteritis, giant cell arteritis, systemic lupus erythematosus)",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of inflammatory vasculitis, such as Takayasu arteritis, giant cell arteritis, or systemic lupus erythematosus, with aortitis or large vessel vasculitis, known or suspected?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 13,
+                        "clinical_criteria": "Inflammatory vasculitis evidence"
+                    }
+                ],
+                "seq": 11
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Breast reconstruction (free flap), and need for preoperative planning",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record indicating the need for preoperative planning for breast reconstruction using a free flap?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 14,
+                "clinical_criteria": "Preoperative planning for breast reconstruction"
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Gastrointestinal bleeding (active)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of active gastrointestinal bleeding in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 15,
+                "clinical_criteria": "Active gastrointestinal bleeding"
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Liver disorder evaluation needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Liver disorder evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.6.1",
+                        "content": "Altered or obstructed arterial, venous, or portal flow, suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of altered or obstructed arterial, venous, or portal flow in the context of a liver disorder evaluation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 17,
+                        "clinical_criteria": "Suspected altered or obstructed flow"
+                    },
+                    {
+                        "member_id": "mdg_1.6.2",
+                        "content": "Preoperative planning for correction of portal hypertension (eg, placement of transjugular intrahepatic portosystemic shunt)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of preoperative planning for correction of portal hypertension, such as placement of a transjugular intrahepatic portosystemic shunt, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 18,
+                        "clinical_criteria": "Preoperative planning for portal hypertension"
+                    },
+                    {
+                        "member_id": "mdg_1.6.3",
+                        "content": "Preoperative planning for liver resection or transplant",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of preoperative planning for liver resection or transplant in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 19,
+                        "clinical_criteria": "Preoperative planning for liver resection"
+                    },
+                    {
+                        "member_id": "mdg_1.6.4",
+                        "content": "Preoperative planning for repair of hepatic artery aneurysm",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of preoperative planning for repair of hepatic artery aneurysm in the medical record, considering liver disorder evaluation and abdominal/pelvic CT angiography (CTA)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 20,
+                        "clinical_criteria": "Preoperative planning for hepatic artery aneurysm"
+                    },
+                    {
+                        "member_id": "mdg_1.6.5",
+                        "content": "Preoperative planning for repair of hepatic venous thrombosis (ie, Budd-Chiari syndrome)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of preoperative planning for repair of hepatic venous thrombosis (Budd-Chiari syndrome) in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 21,
+                        "clinical_criteria": "Preoperative planning for hepatic venous thrombosis"
+                    },
+                    {
+                        "member_id": "mdg_1.6.6",
+                        "content": "Preprocedural planning for catheter placement prior to hepatic artery infusion therapy",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of preprocedural planning for catheter placement prior to hepatic artery infusion therapy in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 22,
+                        "clinical_criteria": "Preprocedural planning for catheter placement"
+                    },
+                    {
+                        "member_id": "mdg_1.6.7",
+                        "content": "Vascular complications following liver surgery, suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of suspected vascular complications following liver surgery?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 23,
+                        "clinical_criteria": "Suspected vascular complications"
+                    }
+                ],
+                "seq": 16
+            },
+            {
+                "member_id": "mdg_1.7",
+                "content": "Mass or tumor (abdominal or pelvic), as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Mass or tumor evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.7.1",
+                        "content": "Arterial blood supply evaluation needed",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record indicating the need for arterial blood supply evaluation due to a mass or tumor in the abdominal or pelvic region?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 25,
+                        "clinical_criteria": "Arterial blood supply evaluation"
+                    },
+                    {
+                        "member_id": "mdg_1.7.2",
+                        "content": "Patient candidate for therapeutic intervention (eg, surgery, endovascular treatment, ablation)",
+                        "logical_relation": "ALL",
+                        "question": "Is the patient a candidate for therapeutic intervention such as surgery, endovascular treatment, or ablation due to a mass or tumor in the abdominal or pelvic region?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 26,
+                        "clinical_criteria": "Candidate for therapeutic intervention"
+                    },
+                    {
+                        "member_id": "mdg_1.7.3",
+                        "content": "Tumor of liver, pancreas, stomach, kidney, spleen, or retroperitoneum",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of a tumor in the liver, pancreas, stomach, kidney, spleen, or retroperitoneum in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 27,
+                        "clinical_criteria": "Tumor in specified organs"
+                    }
+                ],
+                "seq": 24
+            },
+            {
+                "member_id": "mdg_1.8",
+                "content": "Medium vessel vasculitis, suspected (eg, vasculitis affecting main visceral arteries)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of suspected medium vessel vasculitis, such as vasculitis affecting main visceral arteries?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 28,
+                "clinical_criteria": "Suspected medium vessel vasculitis"
+            },
+            {
+                "member_id": "mdg_1.9",
+                "content": "Mesenteric ischemia (acute or chronic) evaluation needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Mesenteric ischemia evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.9.1",
+                        "content": "Acute mesenteric ischemia signs or symptoms (eg, abdominal pain out of proportion to physical examination)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of acute mesenteric ischemia signs or symptoms, such as abdominal pain out of proportion to physical examination, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 30,
+                        "clinical_criteria": "Acute mesenteric ischemia signs"
+                    },
+                    {
+                        "member_id": "mdg_1.9.2",
+                        "content": "Chronic mesenteric ischemia signs or symptoms (eg, postprandial abdominal pain, weight loss, food avoidance)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of chronic mesenteric ischemia signs or symptoms, such as postprandial abdominal pain, weight loss, or food avoidance, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 31,
+                        "clinical_criteria": "Chronic mesenteric ischemia signs"
+                    },
+                    {
+                        "member_id": "mdg_1.9.3",
+                        "content": "Follow-up of stent placement in mesenteric vessels",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of follow-up for stent placement in mesenteric vessels in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 32,
+                        "clinical_criteria": "Follow-up of stent placement"
+                    }
+                ],
+                "seq": 29
+            },
+            {
+                "member_id": "mdg_1.10",
+                "content": "Perineal reconstruction (free flap), and need for preoperative planning",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of the need for preoperative planning for perineal reconstruction using a free flap in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 33,
+                "clinical_criteria": "Preoperative planning for perineal reconstruction"
+            },
+            {
+                "member_id": "mdg_1.11",
+                "content": "Peripheral arterial disease, as indicated by ALL of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Peripheral arterial disease evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.11.1",
+                        "content": "Ankle-brachial index less than or equal to 0.9, or other noninvasive documentation of obstructive occlusive disease",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record of an ankle-brachial index less than or equal to 0.9 or other noninvasive evidence of obstructive occlusive disease in a patient with peripheral arterial disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 35,
+                        "clinical_criteria": "Ankle-brachial index ≤ 0.9"
+                    },
+                    {
+                        "member_id": "mdg_1.11.2",
+                        "content": "Arterial disease signs or symptoms, as indicated by 1 or more of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Arterial disease signs or symptoms",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.11.2.1",
+                                "content": "Claudication symptoms, chronic (eg, pain; muscle cramping; fatigue; aching or numbness of leg muscles, buttock, or hip associated with walking at reproducible distance and relieved by rest within 10 minutes)",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient exhibit chronic claudication symptoms such as pain, muscle cramping, fatigue, aching, or numbness of leg muscles, buttock, or hip associated with walking at a reproducible distance and relieved by rest within 10 minutes?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 37,
+                                "clinical_criteria": "Chronic claudication symptoms"
+                            },
+                            {
+                                "member_id": "mdg_1.11.2.2",
+                                "content": "Nonhealing lower extremity wound",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a nonhealing lower extremity wound in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 38,
+                                "clinical_criteria": "Nonhealing lower extremity wound"
+                            },
+                            {
+                                "member_id": "mdg_1.11.2.3",
+                                "content": "Rest pain or numbness of foot on elevation, relieved by dependency",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of rest pain or numbness of the foot on elevation, relieved by dependency, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 39,
+                                "clinical_criteria": "Rest pain or numbness"
+                            },
+                            {
+                                "member_id": "mdg_1.11.2.4",
+                                "content": "Ulcer or gangrene on lower extremity",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have an ulcer or gangrene on the lower extremity with signs or symptoms of arterial disease or peripheral arterial disease?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 40,
+                                "clinical_criteria": "Ulcer or gangrene on extremity"
+                            }
+                        ],
+                        "seq": 36
+                    }
+                ],
+                "seq": 34
+            },
+            {
+                "member_id": "mdg_1.12",
+                "content": "Preprocedural planning needed prior to transcatheter aortic valve implantation or replacement",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of preprocedural planning for transcatheter aortic valve implantation or replacement in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 41,
+                "clinical_criteria": "Preprocedural planning for valve implantation"
+            },
+            {
+                "member_id": "mdg_1.13",
+                "content": "Renal artery pathology, known or suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Renal artery pathology evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.13.1",
+                        "content": "Fibromuscular dysplasia",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of fibromuscular dysplasia related to renal artery pathology?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 43,
+                        "clinical_criteria": "Fibromuscular dysplasia evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.13.2",
+                        "content": "Postoperative assessment of angioplasty, embolization, or stent placement",
+                        "logical_relation": "ANY",
+                        "question": "Has the patient undergone postoperative assessment following angioplasty, embolization, or stent placement for renal artery pathology, known or suspected?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 44,
+                        "clinical_criteria": "Postoperative assessment needed"
+                    },
+                    {
+                        "member_id": "mdg_1.13.3",
+                        "content": "Renal artery aneurysm or pseudoaneurysm",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a renal artery aneurysm or pseudoaneurysm?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 45,
+                        "clinical_criteria": "Renal artery aneurysm evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.13.4",
+                        "content": "Renal artery arteriovenous fistula",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a renal artery arteriovenous fistula or renal artery pathology, known or suspected?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 46,
+                        "clinical_criteria": "Renal artery fistula evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.13.5",
+                        "content": "Renal artery dissection",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the patient's medical record of renal artery dissection?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 47,
+                        "clinical_criteria": "Renal artery dissection evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.13.6",
+                        "content": "Renal artery embolism",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of renal artery embolism?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 48,
+                        "clinical_criteria": "Renal artery embolism evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.13.7",
+                        "content": "Renal artery stenosis, suspected, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Suspected renal artery stenosis",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.13.7.1",
+                                "content": "Accelerated, resistant, or malignant hypertension",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of accelerated, resistant, or malignant hypertension in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 50,
+                                "clinical_criteria": "Accelerated or resistant hypertension"
+                            },
+                            {
+                                "member_id": "mdg_1.13.7.2",
+                                "content": "Atrophic kidney (unexplained), or size discrepancy between the 2 kidneys of greater than 1.5 cm",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of an atrophic kidney or a size discrepancy between the two kidneys of greater than 1.5 cm in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 51,
+                                "clinical_criteria": "Atrophic kidney or size discrepancy"
+                            },
+                            {
+                                "member_id": "mdg_1.13.7.3",
+                                "content": "Azotemia or worsening renal function after administration of ACE inhibitor or angiotensin receptor blocker",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the patient's medical record of azotemia or worsening renal function after administration of an ACE inhibitor or angiotensin receptor blocker?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 52,
+                                "clinical_criteria": "Azotemia or worsening renal function"
+                            },
+                            {
+                                "member_id": "mdg_1.13.7.4",
+                                "content": "Onset of hypertension in patient younger than 30 years",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of the onset of hypertension in a patient younger than 30 years with suspected renal artery stenosis or known or suspected renal artery pathology?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 53,
+                                "clinical_criteria": "Hypertension onset < 30 years"
+                            },
+                            {
+                                "member_id": "mdg_1.13.7.5",
+                                "content": "Onset of hypertension in patient older than 55 years",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of the onset of hypertension in a patient older than 55 years with renal artery stenosis or renal artery pathology?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 54,
+                                "clinical_criteria": "Hypertension onset > 55 years"
+                            },
+                            {
+                                "member_id": "mdg_1.13.7.6",
+                                "content": "Pulmonary edema (sudden and unexplained)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of sudden and unexplained pulmonary edema in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 55,
+                                "clinical_criteria": "Sudden unexplained pulmonary edema"
+                            },
+                            {
+                                "member_id": "mdg_1.13.7.7",
+                                "content": "Renal failure (unexplained)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of unexplained renal failure in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 56,
+                                "clinical_criteria": "Unexplained renal failure"
+                            }
+                        ],
+                        "seq": 49
+                    }
+                ],
+                "seq": 42
+            },
+            {
+                "member_id": "mdg_1.14",
+                "content": "Renal transplant evaluation needed, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Renal transplant evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_1.14.1",
+                        "content": "Postoperative evaluation of transplant recipient for suspected rejection",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a postoperative evaluation of a transplant recipient for suspected rejection in the medical record, specifically in the context of renal transplant evaluation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 58,
+                        "clinical_criteria": "Suspected transplant rejection"
+                    },
+                    {
+                        "member_id": "mdg_1.14.2",
+                        "content": "Postoperative evaluation of transplant recipient for suspected vascular complication (eg, renal artery thrombosis, renal artery stenosis, pseudoaneurysm, arteriovenous fistula) and renal ultrasound inconclusive",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a postoperative evaluation of a transplant recipient for suspected vascular complications such as renal artery thrombosis, renal artery stenosis, pseudoaneurysm, or arteriovenous fistula, and was the renal ultrasound inconclusive?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 59,
+                        "clinical_criteria": "Suspected vascular complication"
+                    },
+                    {
+                        "member_id": "mdg_1.14.3",
+                        "content": "Preoperative evaluation of graft sites of potential recipient",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a preoperative evaluation of graft sites for potential renal transplant recipients in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 60,
+                        "clinical_criteria": "Preoperative evaluation of graft sites"
+                    },
+                    {
+                        "member_id": "mdg_1.14.4",
+                        "content": "Preoperative evaluation of vascular anatomy of potential donor",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a preoperative evaluation of vascular anatomy for a potential donor in the context of renal transplant evaluation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 61,
+                        "clinical_criteria": "Preoperative evaluation of donor anatomy"
+                    }
+                ],
+                "seq": 57
+            },
+            {
+                "member_id": "mdg_1.15",
+                "content": "Renal vein thrombosis, suspected",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record indicating a suspicion of renal vein thrombosis?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 62,
+                "clinical_criteria": "Suspected renal vein thrombosis"
+            },
+            {
+                "member_id": "mdg_1.16",
+                "content": "Renovascular hypertension, suspected, as indicated by ALL of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Suspected renovascular hypertension",
+                "children": [
+                    {
+                        "member_id": "mdg_1.16.1",
+                        "content": "Duplex ultrasonography results indeterminate (eg, due to bowel gas or obesity)",
+                        "logical_relation": "ALL",
+                        "question": "Are there indeterminate results from duplex ultrasonography due to factors such as bowel gas or obesity in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 64,
+                        "clinical_criteria": "Indeterminate ultrasonography results"
+                    },
+                    {
+                        "member_id": "mdg_1.16.2",
+                        "content": "Patient is candidate for surgical or endovascular intervention.",
+                        "logical_relation": "ALL",
+                        "question": "Is there evidence in the patient's medical record that they are a candidate for surgical or endovascular intervention due to renovascular hypertension?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 65,
+                        "clinical_criteria": "Candidate for intervention"
+                    },
+                    {
+                        "member_id": "mdg_1.16.3",
+                        "content": "Strong clinical suspicion of renovascular hypertension (eg, renal bruit, resistant hypertension, known fibromuscular dysplasia, sudden onset of severe hypertension, onset of hypertension in patient younger than 30 years, sudden unexplained pulmonary edema)",
+                        "logical_relation": "ALL",
+                        "question": "Is there strong clinical suspicion of renovascular hypertension in the patient, such as renal bruit, resistant hypertension, known fibromuscular dysplasia, sudden onset of severe hypertension, onset of hypertension in a patient younger than 30 years, or sudden unexplained pulmonary edema?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 66,
+                        "clinical_criteria": "Strong suspicion of renovascular hypertension"
+                    }
+                ],
+                "seq": 63
+            },
+            {
+                "member_id": "mdg_1.17",
+                "content": "Retroperitoneal bleed, suspected",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record indicating a suspected retroperitoneal bleed?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 67,
+                "clinical_criteria": "Suspected retroperitoneal bleed"
+            },
+            {
+                "member_id": "mdg_1.18",
+                "content": "Splenic artery aneurysm or pseudoaneurysm evaluation needed",
+                "logical_relation": "ANY",
+                "question": "Is there a need for evaluation of a splenic artery aneurysm or pseudoaneurysm as documented in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 68,
+                "clinical_criteria": "Splenic artery aneurysm evaluation"
+            },
+            {
+                "member_id": "mdg_1.19",
+                "content": "Trauma of abdomen or pelvis, known or suspected",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of trauma to the abdomen or pelvis, known or suspected, in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 69,
+                "clinical_criteria": "Known or suspected abdominal trauma"
+            },
+            {
+                "member_id": "mdg_1.20",
+                "content": "Vascular graft complication, suspected (eg, infection, thrombosis, pseudoaneurysm)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of a suspected vascular graft complication such as infection, thrombosis, or pseudoaneurysm?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 70,
+                "clinical_criteria": "Suspected vascular graft complication"
+            },
+            {
+                "member_id": "mdg_1.21",
+                "content": "Repeat evaluation of specific area or structure with same imaging modality, and ALL of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Repeat evaluation needed",
+                "children": [
+                    {
+                        "member_id": "mdg_1.21.1",
+                        "content": "Clinical need for repeat imaging, as indicated by 1 or more of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Clinical need for repeat imaging",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.21.1.1",
+                                "content": "Change in clinical status (eg, worsening symptoms or new associated symptoms), and findings may impact treatment",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a change in clinical status, such as worsening symptoms or new associated symptoms, that may impact treatment in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 73,
+                                "clinical_criteria": "Change in clinical status"
+                            },
+                            {
+                                "member_id": "mdg_1.21.1.2",
+                                "content": "Need for interval reassessment that may impact treatment plan",
+                                "logical_relation": "ANY",
+                                "question": "Is there a documented need for interval reassessment that may impact the treatment plan in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 74,
+                                "clinical_criteria": "Interval reassessment needed"
+                            },
+                            {
+                                "member_id": "mdg_1.21.1.3",
+                                "content": "Need for re-imaging either prior to or after performance of invasive procedure",
+                                "logical_relation": "ANY",
+                                "question": "Is there a documented need for re-imaging either prior to or after the performance of an invasive procedure in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 75,
+                                "clinical_criteria": "Re-imaging needed for procedure"
+                            }
+                        ],
+                        "seq": 72
+                    }
+                ],
+                "seq": 71
+            }
+        ],
+        "seq": 0
+    }
+]

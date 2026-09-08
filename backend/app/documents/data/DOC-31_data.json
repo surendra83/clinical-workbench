@@ -1,0 +1,272 @@
+[
+    {
+        "member_id": "mdg_1.1.1",
+        "content": "Progressive or severe neurologic deficits consistent with spinal cord compression (eg, bladder or bowel incontinence)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of progressive or severe neurologic deficits consistent with spinal cord compression, such as bladder or bowel incontinence, in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 0,
+        "clinical_criteria": "Progressive neurologic deficits"
+    },
+    {
+        "member_id": "mdg_1.1.2",
+        "content": "Imaging findings of lumbar cord compression that correlate with clinical findings",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of imaging findings of lumbar cord compression that correlate with clinical findings in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 1,
+        "clinical_criteria": "Lumbar cord compression"
+    },
+    {
+        "member_id": "mdg_1.2.1.1",
+        "content": "Bowel dysfunction",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of bowel dysfunction in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 2,
+        "clinical_criteria": "Bowel dysfunction"
+    },
+    {
+        "member_id": "mdg_1.2.1.2",
+        "content": "Bladder dysfunction (eg, incontinence or urinary retention)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of bladder dysfunction, such as incontinence or urinary retention, in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 3,
+        "clinical_criteria": "Bladder dysfunction"
+    },
+    {
+        "member_id": "mdg_1.2.1.3",
+        "content": "Saddle anesthesia",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of saddle anesthesia in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 4,
+        "clinical_criteria": "Saddle anesthesia"
+    },
+    {
+        "member_id": "mdg_1.2.1.4",
+        "content": "Bilateral lower extremity neurologic abnormalities",
+        "logical_relation": "ALL",
+        "question": "Does the patient have bilateral lower extremity neurologic abnormalities? If yes, left or right?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 5,
+        "clinical_criteria": "Bilateral neurologic abnormalities"
+    },
+    {
+        "member_id": "mdg_1.2.1.5",
+        "content": "New decrease in rectal tone or sacral reflexes",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of a new decrease in rectal tone or sacral reflexes in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 6,
+        "clinical_criteria": "Decrease in rectal tone"
+    },
+    {
+        "member_id": "mdg_1.3.1",
+        "content": "Rapidly progressive or very severe symptoms of neurogenic claudication with imaging findings of lumbar spinal stenosis that correlate with clinical findings",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of rapidly progressive or very severe symptoms of neurogenic claudication with imaging findings of lumbar spinal stenosis that correlate with clinical findings in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 7,
+        "clinical_criteria": "Severe neurogenic claudication"
+    },
+    {
+        "member_id": "mdg_1.3.2.1",
+        "content": "Symptoms that are persistent and disabling",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of symptoms that are persistent and disabling?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 8,
+        "clinical_criteria": "Persistent disabling symptoms"
+    },
+    {
+        "member_id": "mdg_1.3.2.2",
+        "content": "Imaging findings of lumbar spinal stenosis that correlate with clinical findings",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of imaging findings of lumbar spinal stenosis that correlate with clinical findings?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 9,
+        "clinical_criteria": "Lumbar spinal stenosis"
+    },
+    {
+        "member_id": "mdg_1.3.2.3",
+        "content": "Failure of 3 months of nonoperative therapy",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record indicating the patient's failure of 3 months of nonoperative therapy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 10,
+        "clinical_criteria": "Failure of nonoperative therapy"
+    },
+    {
+        "member_id": "mdg_1.4.1",
+        "content": "Rapidly progressive or severe neurologic deficits (eg, bowel or bladder dysfunction)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of rapidly progressive or severe neurologic deficits, such as bowel or bladder dysfunction, in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 11,
+        "clinical_criteria": "Severe neurologic deficits"
+    },
+    {
+        "member_id": "mdg_1.4.2.1.1",
+        "content": "Low back pain",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of low back pain in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 12,
+        "clinical_criteria": "Low back pain"
+    },
+    {
+        "member_id": "mdg_1.4.2.1.2",
+        "content": "Neurogenic claudication",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of neurogenic claudication in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 13,
+        "clinical_criteria": "Neurogenic claudication"
+    },
+    {
+        "member_id": "mdg_1.4.2.1.3",
+        "content": "Radicular pain",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of radicular pain in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 14,
+        "clinical_criteria": "Radicular pain"
+    },
+    {
+        "member_id": "mdg_1.4.2.2.1",
+        "content": "Listhesis demonstrated on imaging",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of listhesis demonstrated on imaging in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 15,
+        "clinical_criteria": "Listhesis on imaging"
+    },
+    {
+        "member_id": "mdg_1.4.2.2.2",
+        "content": "Symptoms that correlate with findings on MRI or other imaging",
+        "logical_relation": "ALL",
+        "question": "Are there symptoms documented in the patient's medical record that correlate with findings on MRI or other imaging?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 16,
+        "clinical_criteria": "Symptoms correlate with imaging"
+    },
+    {
+        "member_id": "mdg_1.4.2.2.3",
+        "content": "Failure of 3 months of nonoperative therapy",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record indicating the failure of 3 months of nonoperative therapy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 17,
+        "clinical_criteria": "Failure of nonoperative therapy"
+    },
+    {
+        "member_id": "mdg_1.5.1",
+        "content": "Patient has unremitting radicular pain or progressive weakness secondary to nerve root compression.",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of the patient having unremitting radicular pain or progressive weakness due to nerve root compression?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 18,
+        "clinical_criteria": "Radicular pain or weakness"
+    },
+    {
+        "member_id": "mdg_1.5.2",
+        "content": "Imaging findings of lumbar disk disease that correlate with clinical findings",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of imaging findings of lumbar disk disease that correlate with clinical findings?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 19,
+        "clinical_criteria": "Lumbar disk disease"
+    },
+    {
+        "member_id": "mdg_1.5.3.1",
+        "content": "Medication (eg, NSAIDs, analgesics)",
+        "logical_relation": "ANY",
+        "question": "Is there evidence in the medical record that the patient is using medications such as NSAIDs or analgesics?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 20,
+        "clinical_criteria": "Use of medications"
+    },
+    {
+        "member_id": "mdg_1.5.3.2",
+        "content": "Physical therapy",
+        "logical_relation": "ANY",
+        "question": "Has the patient undergone physical therapy as documented in the medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 21,
+        "clinical_criteria": "Physical therapy"
+    },
+    {
+        "member_id": "mdg_1.5.3.3",
+        "content": "Epidural or oral corticosteroid",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of the patient receiving epidural or oral corticosteroids?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 22,
+        "clinical_criteria": "Corticosteroid treatment"
+    },
+    {
+        "member_id": "mdg_1.6",
+        "content": "Dorsal rhizotomy for spasticity (eg, cerebral palsy)",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of a dorsal rhizotomy performed for spasticity, such as in cases of cerebral palsy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 23,
+        "clinical_criteria": "Dorsal rhizotomy for spasticity"
+    },
+    {
+        "member_id": "mdg_1.7",
+        "content": "Signs or symptoms of lumbar disease (eg, pain, motor weakness, bowel or bladder incontinence) secondary to tumor or neoplasm",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of signs or symptoms of lumbar disease, such as pain, motor weakness, or bowel or bladder incontinence, secondary to tumor or neoplasm in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 24,
+        "clinical_criteria": "Lumbar disease from tumor"
+    },
+    {
+        "member_id": "mdg_1.8",
+        "content": "Signs or symptoms of lumbar disease (eg, pain, motor weakness, bowel or bladder incontinence) secondary to infectious process (eg, epidural abscess)",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of signs or symptoms of lumbar disease, such as pain, motor weakness, or bowel or bladder incontinence, secondary to an infectious process like an epidural abscess in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 25,
+        "clinical_criteria": "Lumbar disease from infection"
+    },
+    {
+        "member_id": "mdg_1.9",
+        "content": "Signs or symptoms of lumbar disease (eg, pain, motor weakness, bowel or bladder incontinence) secondary to acute trauma",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of signs or symptoms of lumbar disease, such as pain, motor weakness, or bowel or bladder incontinence, secondary to acute trauma in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 26,
+        "clinical_criteria": "Lumbar disease from trauma"
+    }
+]

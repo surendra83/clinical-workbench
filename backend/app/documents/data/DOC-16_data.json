@@ -1,0 +1,1476 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Acquired red cell aplasia, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Acquired red cell aplasia",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Immunocompromised patient with aplasia associated with parvovirus B19 infection",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of an immunocompromised patient with acquired red cell aplasia associated with parvovirus B19 infection?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 1,
+                "clinical_criteria": "Immunocompromised with parvovirus B19"
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Immunologic acquired red cell aplasia, with failure of or inability to tolerate first-line therapy (eg, prednisone, cyclophosphamide, cyclosporine)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of immunologic acquired red cell aplasia with failure of or inability to tolerate first-line therapy such as prednisone, cyclophosphamide, or cyclosporine?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 2,
+                "clinical_criteria": "Failure of first-line therapy"
+            }
+        ],
+        "seq": 0
+    },
+    {
+        "member_id": "mdg_2",
+        "content": "Acute disseminated encephalomyelitis, with failure of treatment with corticosteroids, or corticosteroids contraindicated",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of acute disseminated encephalomyelitis with failure of treatment with corticosteroids or corticosteroids contraindicated?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 3,
+        "clinical_criteria": "Failure of corticosteroid treatment"
+    },
+    {
+        "member_id": "mdg_3",
+        "content": "Allogeneic hematopoietic stem cell transplant and 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Allogeneic stem cell transplant",
+        "children": [
+            {
+                "member_id": "mdg_3.1",
+                "content": "Chronic graft vs host disease and recurrent sinopulmonary infection",
+                "logical_relation": "ANY",
+                "question": "Does the patient have chronic graft vs host disease and recurrent sinopulmonary infection following an allogeneic hematopoietic stem cell transplant?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 5,
+                "clinical_criteria": "Chronic graft vs host disease"
+            },
+            {
+                "member_id": "mdg_3.2",
+                "content": "Serum IgG less than 400 mg/dL (4 g/L) and age 18 years or younger",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record that the patient has a serum IgG level less than 400 mg/dL and is 18 years or younger?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 6,
+                "clinical_criteria": "Low IgG, age 18 or younger"
+            },
+            {
+                "member_id": "mdg_3.3",
+                "content": "Serum IgG less than 400 mg/dL (4 g/L) and severe or recurrent infection (eg, sinopulmonary infection requiring hospitalization)",
+                "logical_relation": "ANY",
+                "question": "Does the patient have a serum IgG level less than 400 mg/dL and experience severe or recurrent infections such as sinopulmonary infections requiring hospitalization?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 7,
+                "clinical_criteria": "Low IgG, severe infection"
+            }
+        ],
+        "seq": 4
+    },
+    {
+        "member_id": "mdg_4",
+        "content": "Anti-CD20 monoclonal antibody-related secondary hypogammaglobulinemia, as indicated by ALL of the following",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Anti-CD20 related hypogammaglobulinemia",
+        "children": [
+            {
+                "member_id": "mdg_4.1",
+                "content": "History of recurrent or severe infection (eg, sinopulmonary infection requiring hospitalization)",
+                "logical_relation": "ALL",
+                "question": "Does the patient have a history of recurrent or severe infection, such as sinopulmonary infection requiring hospitalization, in the context of anti-CD20 monoclonal antibody-related secondary hypogammaglobulinemia?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 9,
+                "clinical_criteria": "Recurrent or severe infection"
+            },
+            {
+                "member_id": "mdg_4.2",
+                "content": "Serum IgG 400 mg/dL (4 g/L) or less",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record of the patient's serum IgG level being 400 mg/dL (4 g/L) or less in the context of anti-CD20 monoclonal antibody-related secondary hypogammaglobulinemia?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 10,
+                "clinical_criteria": "Low serum IgG"
+            }
+        ],
+        "seq": 8
+    },
+    {
+        "member_id": "mdg_5",
+        "content": "Antiphospholipid syndrome, catastrophic",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of catastrophic antiphospholipid syndrome in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 11,
+        "clinical_criteria": "Catastrophic antiphospholipid syndrome"
+    },
+    {
+        "member_id": "mdg_6",
+        "content": "Autoimmune bullous disease, as indicated by ALL of the following",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Autoimmune bullous disease",
+        "children": [
+            {
+                "member_id": "mdg_6.1",
+                "content": "Contraindications to, failure of, or significant side effects from systemic corticosteroids or immunosuppressive treatment",
+                "logical_relation": "ALL",
+                "question": "Is there documentation of contraindications to, failure of, or significant side effects from systemic corticosteroids or immunosuppressive treatment in a patient with autoimmune bullous disease?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 13,
+                "clinical_criteria": "Failure of corticosteroids"
+            },
+            {
+                "member_id": "mdg_6.2",
+                "content": "Dermatologic condition, as indicated by 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Dermatologic condition",
+                "children": [
+                    {
+                        "member_id": "mdg_6.2.1",
+                        "content": "Bullous pemphigoid",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of bullous pemphigoid as a dermatologic condition or autoimmune bullous disease in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 15,
+                        "clinical_criteria": "Bullous pemphigoid"
+                    },
+                    {
+                        "member_id": "mdg_6.2.2",
+                        "content": "Epidermolysis bullosa acquisita",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of epidermolysis bullosa acquisita in the patient's medical record, considering dermatologic condition and autoimmune bullous disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 16,
+                        "clinical_criteria": "Epidermolysis bullosa acquisita"
+                    },
+                    {
+                        "member_id": "mdg_6.2.3",
+                        "content": "Linear IgA bullous dermatosis",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of Linear IgA bullous dermatosis in the patient's medical record, considering dermatologic conditions and autoimmune bullous disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 17,
+                        "clinical_criteria": "Linear IgA bullous dermatosis"
+                    },
+                    {
+                        "member_id": "mdg_6.2.4",
+                        "content": "Mucous membrane (cicatricial) pemphigoid",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of mucous membrane (cicatricial) pemphigoid in the patient's medical record, considering dermatologic condition and autoimmune bullous disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 18,
+                        "clinical_criteria": "Mucous membrane pemphigoid"
+                    },
+                    {
+                        "member_id": "mdg_6.2.5",
+                        "content": "Pemphigoid gestationis",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of pemphigoid gestationis in the patient's medical record, considering dermatologic condition and autoimmune bullous disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 19,
+                        "clinical_criteria": "Pemphigoid gestationis"
+                    },
+                    {
+                        "member_id": "mdg_6.2.6",
+                        "content": "Pemphigus foliaceus",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of pemphigus foliaceus in the patient's medical record, considering dermatologic condition and autoimmune bullous disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 20,
+                        "clinical_criteria": "Pemphigus foliaceus"
+                    },
+                    {
+                        "member_id": "mdg_6.2.7",
+                        "content": "Pemphigus vulgaris",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of pemphigus vulgaris as a dermatologic condition or autoimmune bullous disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 21,
+                        "clinical_criteria": "Pemphigus vulgaris"
+                    }
+                ],
+                "seq": 14
+            },
+            {
+                "member_id": "mdg_6.3",
+                "content": "Extensive and debilitating disease",
+                "logical_relation": "ALL",
+                "question": "Is there documentation of extensive and debilitating autoimmune bullous disease in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 22,
+                "clinical_criteria": "Extensive debilitating disease"
+            }
+        ],
+        "seq": 12
+    },
+    {
+        "member_id": "mdg_7",
+        "content": "Autoimmune encephalitis",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of autoimmune encephalitis in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 23,
+        "clinical_criteria": "Autoimmune encephalitis"
+    },
+    {
+        "member_id": "mdg_8",
+        "content": "Autoimmune hemolytic anemia, for severe life-threatening disease",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of autoimmune hemolytic anemia for severe life-threatening disease?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 24,
+        "clinical_criteria": "Severe life-threatening anemia"
+    },
+    {
+        "member_id": "mdg_9",
+        "content": "Chimeric antigen receptor (CAR) T-cell therapy-related toxicity, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "CAR T-cell therapy toxicity",
+        "children": [
+            {
+                "member_id": "mdg_9.1",
+                "content": "Cytokine release syndrome, severe and refractory to high-dose corticosteroids and anti-interleukin-6 receptor antibody (anti-IL-6) (eg, tocilizumab)",
+                "logical_relation": "ANY",
+                "question": "Is there evidence in the patient's medical record of cytokine release syndrome that is severe and refractory to high-dose corticosteroids and anti-interleukin-6 receptor antibody, such as tocilizumab, related to chimeric antigen receptor (CAR) T-cell therapy-related toxicity?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 26,
+                "clinical_criteria": "Severe cytokine release syndrome"
+            },
+            {
+                "member_id": "mdg_9.2",
+                "content": "Serum IgG less than 400 mg/dL (4 g/L) and age 18 years or younger",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record that the patient has a serum IgG level less than 400 mg/dL and is 18 years or younger?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 27,
+                "clinical_criteria": "Low IgG, age 18 or younger"
+            },
+            {
+                "member_id": "mdg_9.3",
+                "content": "Serum IgG less than 400 mg/dL (4 g/L) and history of recurrent or severe infection (eg, sinopulmonary infection requiring hospitalization)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of the patient's serum IgG level being less than 400 mg/dL and a history of recurrent or severe infection, such as sinopulmonary infection requiring hospitalization?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 28,
+                "clinical_criteria": "Low IgG, severe infection"
+            }
+        ],
+        "seq": 25
+    },
+    {
+        "member_id": "mdg_10",
+        "content": "Chronic inflammatory demyelinating polyneuropathy",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of chronic inflammatory demyelinating polyneuropathy in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 29,
+        "clinical_criteria": "Chronic demyelinating polyneuropathy"
+    },
+    {
+        "member_id": "mdg_11",
+        "content": "Dermatomyositis or polymyositis refractory to other immunosuppressive therapy or if immune globulin is being used as steroid-sparing option",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record that the patient has dermatomyositis or polymyositis refractory to other immunosuppressive therapy or is using immune globulin as a steroid-sparing option?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 30,
+        "clinical_criteria": "Refractory dermatomyositis or polymyositis"
+    },
+    {
+        "member_id": "mdg_12",
+        "content": "Fetal-neonatal alloimmune thrombocytopenia, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Fetal-neonatal thrombocytopenia",
+        "children": [
+            {
+                "member_id": "mdg_12.1",
+                "content": "Newborn, if thrombocytopenia persists after transfusion of antigen-negative compatible platelets",
+                "logical_relation": "ANY",
+                "question": "Does the newborn have persistent thrombocytopenia after transfusion of antigen-negative compatible platelets?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 32,
+                "clinical_criteria": "Persistent thrombocytopenia in newborn"
+            },
+            {
+                "member_id": "mdg_12.2",
+                "content": "Pregnant patient and 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Pregnant patient with thrombocytopenia",
+                "children": [
+                    {
+                        "member_id": "mdg_12.2.1",
+                        "content": "Family history of disease",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have a family history of disease relevant to fetal-neonatal alloimmune thrombocytopenia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 34,
+                        "clinical_criteria": "Family history of thrombocytopenia"
+                    },
+                    {
+                        "member_id": "mdg_12.2.2",
+                        "content": "Platelet alloantibodies found on screening",
+                        "logical_relation": "ANY",
+                        "question": "Are platelet alloantibodies found on screening in a pregnant patient with fetal-neonatal alloimmune thrombocytopenia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 35,
+                        "clinical_criteria": "Platelet alloantibodies detected"
+                    },
+                    {
+                        "member_id": "mdg_12.2.3",
+                        "content": "Previously affected pregnancy",
+                        "logical_relation": "ANY",
+                        "question": "Has the patient had a previously affected pregnancy with fetal-neonatal alloimmune thrombocytopenia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 36,
+                        "clinical_criteria": "Previously affected pregnancy"
+                    }
+                ],
+                "seq": 33
+            }
+        ],
+        "seq": 31
+    },
+    {
+        "member_id": "mdg_13",
+        "content": "Guillain-Barre syndrome, as indicated by ALL of the following",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Guillain-Barre syndrome",
+        "children": [
+            {
+                "member_id": "mdg_13.1",
+                "content": "Diagnosis of Guillain-Barre syndrome",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record confirming a diagnosis of Guillain-Barre syndrome?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 38,
+                "clinical_criteria": "Diagnosis of Guillain-Barre"
+            },
+            {
+                "member_id": "mdg_13.2",
+                "content": "Four weeks or less have elapsed since symptom onset.",
+                "logical_relation": "ALL",
+                "question": "Has four weeks or less elapsed since the onset of symptoms in a patient with Guillain-Barre syndrome?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 39,
+                "clinical_criteria": "Symptoms onset within four weeks"
+            },
+            {
+                "member_id": "mdg_13.3",
+                "content": "Symptom evaluation, as indicated by 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Symptom evaluation",
+                "children": [
+                    {
+                        "member_id": "mdg_13.3.1",
+                        "content": "Patient able to walk only with assistance, or worse symptom severity",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record that the patient is able to walk only with assistance or has worse symptom severity related to Guillain-Barre syndrome?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 41,
+                        "clinical_criteria": "Assisted walking or worse"
+                    },
+                    {
+                        "member_id": "mdg_13.3.2",
+                        "content": "Progressive symptoms",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of progressive symptoms in the patient's medical record related to symptom evaluation or Guillain-Barre syndrome?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 42,
+                        "clinical_criteria": "Progressive symptoms"
+                    }
+                ],
+                "seq": 40
+            }
+        ],
+        "seq": 37
+    },
+    {
+        "member_id": "mdg_14",
+        "content": "Hematologic malignancy, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Hematologic malignancy",
+        "children": [
+            {
+                "member_id": "mdg_14.1",
+                "content": "Acute lymphoblastic leukemia and serum IgG less than 400 mg/dL (4 g/L)",
+                "logical_relation": "ANY",
+                "question": "Does the patient have acute lymphoblastic leukemia with serum IgG less than 400 mg/dL, and is there evidence of a hematologic malignancy in the medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 44,
+                "clinical_criteria": "Acute lymphoblastic leukemia"
+            },
+            {
+                "member_id": "mdg_14.2",
+                "content": "Chronic lymphocytic leukemia and 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Chronic lymphocytic leukemia",
+                "children": [
+                    {
+                        "member_id": "mdg_14.2.1",
+                        "content": "Corticosteroid-refractory autoimmune hemolytic anemia",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of corticosteroid-refractory autoimmune hemolytic anemia in a patient with chronic lymphocytic leukemia or hematologic malignancy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 46,
+                        "clinical_criteria": "Refractory autoimmune hemolytic anemia"
+                    },
+                    {
+                        "member_id": "mdg_14.2.2",
+                        "content": "History of recurrent or severe infection (eg, sinopulmonary infection requiring hospitalization), and serum IgG less than 500 mg/dL (5 g/L)",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have a history of recurrent or severe infection, such as sinopulmonary infection requiring hospitalization, and serum IgG less than 500 mg/dL (5 g/L)?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 47,
+                        "clinical_criteria": "Recurrent severe infection"
+                    }
+                ],
+                "seq": 45
+            },
+            {
+                "member_id": "mdg_14.3",
+                "content": "Multiple myeloma and 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Multiple myeloma",
+                "children": [
+                    {
+                        "member_id": "mdg_14.3.1",
+                        "content": "Patient receiving bispecific antibody (eg, elranatamab-bcmm, talquetamab-tgvs, teclistamab-cqyv), with serum IgG 400 mg/dL (4 g/L) or less at start of therapy",
+                        "logical_relation": "ANY",
+                        "question": "Is the patient receiving a bispecific antibody such as elranatamab-bcmm, talquetamab-tgvs, or teclistamab-cqyv, with serum IgG 400 mg/dL (4 g/L) or less at the start of therapy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 49,
+                        "clinical_criteria": "Bispecific antibody therapy"
+                    },
+                    {
+                        "member_id": "mdg_14.3.2",
+                        "content": "Patient receiving chimeric antigen receptor (CAR) T-cell therapy (eg, idecabtagene vicleucel, ciltacabtagene autoleucel) or within 1 year of starting CAR T-cell therapy, with serum IgG 400 mg/dL (4 g/L) or less at start of therapy",
+                        "logical_relation": "ANY",
+                        "question": "Is the patient receiving chimeric antigen receptor (CAR) T-cell therapy or within 1 year of starting CAR T-cell therapy, with serum IgG 400 mg/dL (4 g/L) or less at the start of therapy, and has multiple myeloma?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 50,
+                        "clinical_criteria": "CAR T-cell therapy"
+                    },
+                    {
+                        "member_id": "mdg_14.3.3",
+                        "content": "Recurrent life-threatening infection",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of recurrent life-threatening infection in the patient's medical record with a diagnosis of multiple myeloma or hematologic malignancy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 51,
+                        "clinical_criteria": "Recurrent life-threatening infection"
+                    },
+                    {
+                        "member_id": "mdg_14.3.4",
+                        "content": "Serum IgG 400 mg/dL (4 g/L) or less",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of a serum IgG level of 400 mg/dL (4 g/L) or less in a patient with multiple myeloma or hematologic malignancy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 52,
+                        "clinical_criteria": "Low serum IgG"
+                    }
+                ],
+                "seq": 48
+            },
+            {
+                "member_id": "mdg_14.4",
+                "content": "Non-Hodgkin lymphoma and ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Non-Hodgkin lymphoma",
+                "children": [
+                    {
+                        "member_id": "mdg_14.4.1",
+                        "content": "History of recurrent or severe infection (eg, sinopulmonary infection requiring hospitalization)",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of a history of recurrent or severe infection, such as sinopulmonary infection requiring hospitalization, in a patient with Non-Hodgkin lymphoma and hematologic malignancy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 54,
+                        "clinical_criteria": "Recurrent severe infection"
+                    },
+                    {
+                        "member_id": "mdg_14.4.2",
+                        "content": "Serum IgG 400 mg/dL (4 g/L) or less",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record of the patient's serum IgG level being 400 mg/dL (4 g/L) or less, in the context of Non-Hodgkin lymphoma and hematologic malignancy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 55,
+                        "clinical_criteria": "Low serum IgG"
+                    }
+                ],
+                "seq": 53
+            }
+        ],
+        "seq": 43
+    },
+    {
+        "member_id": "mdg_15",
+        "content": "Hemolytic disease of newborn, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Hemolytic disease of newborn",
+        "children": [
+            {
+                "member_id": "mdg_15.1",
+                "content": "Total serum bilirubin level within 2 mg/dL (34 micromoles/L) of age-adjusted and gestation-adjusted threshold for initiation of exchange transfusion",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record that the total serum bilirubin level is within 2 mg/dL (34 micromoles/L) of the age-adjusted and gestation-adjusted threshold for initiation of exchange transfusion in a newborn with hemolytic disease?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 57,
+                "clinical_criteria": "High serum bilirubin level"
+            },
+            {
+                "member_id": "mdg_15.2",
+                "content": "Total serum bilirubin still rising despite intensive phototherapy",
+                "logical_relation": "ANY",
+                "question": "Is there evidence in the medical record that the total serum bilirubin is still rising despite intensive phototherapy in a newborn with hemolytic disease?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 58,
+                "clinical_criteria": "Rising bilirubin despite phototherapy"
+            }
+        ],
+        "seq": 56
+    },
+    {
+        "member_id": "mdg_16",
+        "content": "Hemolytic transfusion reaction and 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Hemolytic transfusion reaction",
+        "children": [
+            {
+                "member_id": "mdg_16.1",
+                "content": "After incompatible blood transfusion for severe life-threatening disease unresponsive to other therapies",
+                "logical_relation": "ANY",
+                "question": "Has the patient received an incompatible blood transfusion for a severe life-threatening disease unresponsive to other therapies?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 60,
+                "clinical_criteria": "Incompatible blood transfusion"
+            },
+            {
+                "member_id": "mdg_16.2",
+                "content": "Sickle cell disease and life-threatening post-transfusion hemolysis",
+                "logical_relation": "ANY",
+                "question": "Does the patient have sickle cell disease and has experienced life-threatening post-transfusion hemolysis with a hemolytic transfusion reaction?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 61,
+                "clinical_criteria": "Sickle cell with hemolysis"
+            }
+        ],
+        "seq": 59
+    },
+    {
+        "member_id": "mdg_17",
+        "content": "Hemophagocytic syndrome, for severe, persistent, or worsening disease",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of hemophagocytic syndrome for severe, persistent, or worsening disease?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 62,
+        "clinical_criteria": "Severe hemophagocytic syndrome"
+    },
+    {
+        "member_id": "mdg_18",
+        "content": "HIV-positive status and 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "HIV-positive status",
+        "children": [
+            {
+                "member_id": "mdg_18.1",
+                "content": "Active bleeding and platelet count less than 10,000/mm3 (10 x10^9/L)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of active bleeding and a platelet count less than 10,000/mm3 in a patient with HIV-positive status?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 64,
+                "clinical_criteria": "Active bleeding, low platelets"
+            },
+            {
+                "member_id": "mdg_18.2",
+                "content": "Hypogammaglobulinemia and ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Hypogammaglobulinemia",
+                "children": [
+                    {
+                        "member_id": "mdg_18.2.1",
+                        "content": "Age 18 years or younger",
+                        "logical_relation": "ALL",
+                        "question": "Is the patient 18 years or younger with hypogammaglobulinemia and HIV-positive status?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 66,
+                        "clinical_criteria": "Age 18 or younger"
+                    },
+                    {
+                        "member_id": "mdg_18.2.2",
+                        "content": "Serum IgG level less than 400 mg/dL (4 g/L)",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of a serum IgG level less than 400 mg/dL in the patient's medical record, considering the presence of hypogammaglobulinemia and HIV-positive status?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 67,
+                        "clinical_criteria": "Low serum IgG"
+                    }
+                ],
+                "seq": 65
+            }
+        ],
+        "seq": 63
+    },
+    {
+        "member_id": "mdg_19",
+        "content": "Idiopathic (immune) thrombocytopenic purpura and need for rapid rise in platelet count to prevent or control bleeding",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of idiopathic (immune) thrombocytopenic purpura and a need for a rapid rise in platelet count to prevent or control bleeding?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 68,
+        "clinical_criteria": "Rapid rise in platelet count"
+    },
+    {
+        "member_id": "mdg_20",
+        "content": "Immune checkpoint inhibitor-related toxicity",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of immune checkpoint inhibitor-related toxicity in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 69,
+        "clinical_criteria": "Checkpoint inhibitor toxicity"
+    },
+    {
+        "member_id": "mdg_21",
+        "content": "Infection prophylaxis, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Infection prophylaxis",
+        "children": [
+            {
+                "member_id": "mdg_21.1",
+                "content": "Hepatitis A infection prophylaxis, as indicated by 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Hepatitis A prophylaxis",
+                "children": [
+                    {
+                        "member_id": "mdg_21.1.1",
+                        "content": "Hepatitis A virus exposure within previous 14 days and 1 or more of the following",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Recent Hepatitis A exposure",
+                        "children": [
+                            {
+                                "member_id": "mdg_21.1.1.1",
+                                "content": "Age younger than 12 months or 40 years or older",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient is younger than 12 months or 40 years or older and has been exposed to Hepatitis A virus within the previous 14 days?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 73,
+                                "clinical_criteria": "Age criteria for Hepatitis A"
+                            },
+                            {
+                                "member_id": "mdg_21.1.1.2",
+                                "content": "Chronic liver disease",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have chronic liver disease with a history of Hepatitis A virus exposure within the previous 14 days?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 74,
+                                "clinical_criteria": "Chronic liver disease"
+                            },
+                            {
+                                "member_id": "mdg_21.1.1.3",
+                                "content": "Hepatitis A vaccine contraindicated",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient has a contraindication to the Hepatitis A vaccine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 75,
+                                "clinical_criteria": "Vaccine contraindication"
+                            },
+                            {
+                                "member_id": "mdg_21.1.1.4",
+                                "content": "Immunocompromised patient",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the immunocompromised patient has been exposed to Hepatitis A virus within the previous 14 days?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 76,
+                                "clinical_criteria": "Immunocompromised status"
+                            }
+                        ],
+                        "seq": 72
+                    },
+                    {
+                        "member_id": "mdg_21.1.2",
+                        "content": "Traveler to area with high or intermediate hepatitis A endemicity and 1 or more of the following",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Traveler to endemic area",
+                        "children": [
+                            {
+                                "member_id": "mdg_21.1.2.1",
+                                "content": "Age younger than 6 months or 40 years or older",
+                                "logical_relation": "ANY",
+                                "question": "Is the patient a traveler to an area with high or intermediate hepatitis A endemicity and younger than 6 months or 40 years or older?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 78,
+                                "clinical_criteria": "Age criteria for travelers"
+                            },
+                            {
+                                "member_id": "mdg_21.1.2.2",
+                                "content": "Chronic liver disease",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have chronic liver disease and is a traveler to an area with high or intermediate hepatitis A endemicity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 79,
+                                "clinical_criteria": "Chronic liver disease"
+                            },
+                            {
+                                "member_id": "mdg_21.1.2.3",
+                                "content": "Hepatitis A vaccine contraindicated",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient has a contraindication to the Hepatitis A vaccine?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 80,
+                                "clinical_criteria": "Vaccine contraindication"
+                            },
+                            {
+                                "member_id": "mdg_21.1.2.4",
+                                "content": "Immunocompromised patient",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient is immunocompromised and has traveled to an area with high or intermediate hepatitis A endemicity?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 81,
+                                "clinical_criteria": "Immunocompromised status"
+                            }
+                        ],
+                        "seq": 77
+                    }
+                ],
+                "seq": 71
+            },
+            {
+                "member_id": "mdg_21.2",
+                "content": "Measles infection prophylaxis, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Measles prophylaxis",
+                "children": [
+                    {
+                        "member_id": "mdg_21.2.1",
+                        "content": "Measles exposure within previous 6 days",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient been exposed to measles within the previous 6 days?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 83,
+                        "clinical_criteria": "Recent measles exposure"
+                    },
+                    {
+                        "member_id": "mdg_21.2.2",
+                        "content": "Patient nonimmune to measles or with severe immunocompromise (eg, severe primary immunodeficiency, HIV infection with immunosuppression)",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that the patient is nonimmune to measles or has severe immunocompromise, such as severe primary immunodeficiency or HIV infection with immunosuppression?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 84,
+                        "clinical_criteria": "Nonimmune or immunocompromised"
+                    }
+                ],
+                "seq": 82
+            },
+            {
+                "member_id": "mdg_21.3",
+                "content": "Rubella infection prophylaxis, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Rubella prophylaxis",
+                "children": [
+                    {
+                        "member_id": "mdg_21.3.1",
+                        "content": "Pregnant patient nonimmune to rubella",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that the pregnant patient is nonimmune to rubella and requires rubella infection prophylaxis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 86,
+                        "clinical_criteria": "Nonimmune pregnant patient"
+                    },
+                    {
+                        "member_id": "mdg_21.3.2",
+                        "content": "Rubella exposure within previous 3 days",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient been exposed to rubella within the previous 3 days?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 87,
+                        "clinical_criteria": "Recent rubella exposure"
+                    }
+                ],
+                "seq": 85
+            },
+            {
+                "member_id": "mdg_21.4",
+                "content": "Varicella infection prophylaxis, as indicated by ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Varicella prophylaxis",
+                "children": [
+                    {
+                        "member_id": "mdg_21.4.1",
+                        "content": "Patient at risk of varicella complications (eg, immunocompromised patient, neonate with maternal infection in perinatal period, premature neonate exposed postnatally, pregnant patient)",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record indicating that the patient is at risk of varicella complications, such as being immunocompromised, a neonate with maternal infection in the perinatal period, a premature neonate exposed postnatally, or a pregnant patient?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 89,
+                        "clinical_criteria": "Risk of varicella complications"
+                    },
+                    {
+                        "member_id": "mdg_21.4.2",
+                        "content": "Patient nonimmune to varicella",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that the patient is nonimmune to varicella and requires varicella infection prophylaxis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 90,
+                        "clinical_criteria": "Nonimmune to varicella"
+                    },
+                    {
+                        "member_id": "mdg_21.4.3",
+                        "content": "Varicella exposure within previous 10 days",
+                        "logical_relation": "ALL",
+                        "question": "Has the patient been exposed to varicella within the previous 10 days for infection prophylaxis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 91,
+                        "clinical_criteria": "Recent varicella exposure"
+                    },
+                    {
+                        "member_id": "mdg_21.4.4",
+                        "content": "Varicella zoster-specific immune globulin unavailable",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record indicating that varicella zoster-specific immune globulin is unavailable for varicella infection prophylaxis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 92,
+                        "clinical_criteria": "Immune globulin unavailable"
+                    }
+                ],
+                "seq": 88
+            }
+        ],
+        "seq": 70
+    },
+    {
+        "member_id": "mdg_22",
+        "content": "Kawasaki disease",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of Kawasaki disease in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 93,
+        "clinical_criteria": "Kawasaki disease"
+    },
+    {
+        "member_id": "mdg_23",
+        "content": "Kidney transplant and 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Kidney transplant",
+        "children": [
+            {
+                "member_id": "mdg_23.1",
+                "content": "Postoperative immune globulin needed for ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Postoperative immune globulin",
+                "children": [
+                    {
+                        "member_id": "mdg_23.1.1",
+                        "content": "Antibody-mediated transplant rejection",
+                        "logical_relation": "ALL",
+                        "question": "Is there evidence in the medical record of antibody-mediated transplant rejection in a patient who has undergone a kidney transplant and requires postoperative immune globulin?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 96,
+                        "clinical_criteria": "Antibody-mediated rejection"
+                    },
+                    {
+                        "member_id": "mdg_23.1.2",
+                        "content": "Planned plasmapheresis",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of planned plasmapheresis in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 97,
+                        "clinical_criteria": "Planned plasmapheresis"
+                    }
+                ],
+                "seq": 95
+            },
+            {
+                "member_id": "mdg_23.2",
+                "content": "Preoperative and perioperative immune globulin needed for ALL of the following",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Preoperative immune globulin",
+                "children": [
+                    {
+                        "member_id": "mdg_23.2.1",
+                        "content": "Kidney transplant recipient has baseline anti-HLA antibody titer less than 1:16 to donor kidney.",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation that the kidney transplant recipient has a baseline anti-HLA antibody titer less than 1:16 to the donor kidney?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 99,
+                        "clinical_criteria": "Low anti-HLA antibody titer"
+                    },
+                    {
+                        "member_id": "mdg_23.2.2",
+                        "content": "Living donor transplant",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that the patient is a living donor for a kidney transplant?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 100,
+                        "clinical_criteria": "Living donor transplant"
+                    }
+                ],
+                "seq": 98
+            }
+        ],
+        "seq": 94
+    },
+    {
+        "member_id": "mdg_24",
+        "content": "Lambert-Eaton syndrome, when steroids and other immunosuppressive treatments do not control symptoms",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record that the patient has Lambert-Eaton syndrome and that steroids and other immunosuppressive treatments do not control symptoms?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 101,
+        "clinical_criteria": "Uncontrolled Lambert-Eaton syndrome"
+    },
+    {
+        "member_id": "mdg_25",
+        "content": "Multifocal motor neuropathy",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of multifocal motor neuropathy in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 102,
+        "clinical_criteria": "Multifocal motor neuropathy"
+    },
+    {
+        "member_id": "mdg_26",
+        "content": "Multiple sclerosis, as indicated by ALL of the following",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Multiple sclerosis",
+        "children": [
+            {
+                "member_id": "mdg_26.1",
+                "content": "Clinical findings of multiple sclerosis, as indicated by 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Clinical findings of MS",
+                "children": [
+                    {
+                        "member_id": "mdg_26.1.1",
+                        "content": "Relapsing-remitting multiple sclerosis",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of relapsing-remitting multiple sclerosis in the patient's medical record, with clinical findings of multiple sclerosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 105,
+                        "clinical_criteria": "Relapsing-remitting MS"
+                    },
+                    {
+                        "member_id": "mdg_26.1.2",
+                        "content": "Severe refractory optic neuritis and 1 or more of the following",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Severe refractory optic neuritis",
+                        "children": [
+                            {
+                                "member_id": "mdg_26.1.2.1",
+                                "content": "Corticosteroid therapy contraindicated",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that corticosteroid therapy is contraindicated for a patient with severe refractory optic neuritis and clinical findings of multiple sclerosis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 107,
+                                "clinical_criteria": "Corticosteroid contraindication"
+                            },
+                            {
+                                "member_id": "mdg_26.1.2.2",
+                                "content": "No vision recovery after 3 months of corticosteroid therapy",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating no vision recovery after 3 months of corticosteroid therapy in a patient with severe refractory optic neuritis and clinical findings of multiple sclerosis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 108,
+                                "clinical_criteria": "No vision recovery"
+                            }
+                        ],
+                        "seq": 106
+                    }
+                ],
+                "seq": 104
+            },
+            {
+                "member_id": "mdg_26.2",
+                "content": "Treatment with standard immunomodulatory drugs (ie, interferon beta or glatiramer acetate) is not indicated due to 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Immunomodulatory drugs not indicated",
+                "children": [
+                    {
+                        "member_id": "mdg_26.2.1",
+                        "content": "Failure of previous treatment",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of failure of previous treatment with standard immunomodulatory drugs such as interferon beta or glatiramer acetate in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 110,
+                        "clinical_criteria": "Failure of previous treatment"
+                    },
+                    {
+                        "member_id": "mdg_26.2.2",
+                        "content": "Intolerance to attempted previous treatment",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of intolerance to attempted previous treatment with standard immunomodulatory drugs such as interferon beta or glatiramer acetate in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 111,
+                        "clinical_criteria": "Intolerance to treatment"
+                    },
+                    {
+                        "member_id": "mdg_26.2.3",
+                        "content": "Patient pregnant, post partum, or breast-feeding",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record that the patient is pregnant, post partum, or breast-feeding and has multiple sclerosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 112,
+                        "clinical_criteria": "Pregnant or breastfeeding"
+                    },
+                    {
+                        "member_id": "mdg_26.2.4",
+                        "content": "Patient refusal",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of the patient's refusal of treatment with standard immunomodulatory drugs such as interferon beta or glatiramer acetate due to multiple sclerosis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 113,
+                        "clinical_criteria": "Patient refusal"
+                    }
+                ],
+                "seq": 109
+            }
+        ],
+        "seq": 103
+    },
+    {
+        "member_id": "mdg_27",
+        "content": "Multisystem inflammatory syndrome in child in setting of coronavirus disease 2019 (COVID-19) infection",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of multisystem inflammatory syndrome in a child in the setting of coronavirus disease 2019 (COVID-19) infection in the medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 114,
+        "clinical_criteria": "MIS-C with COVID-19"
+    },
+    {
+        "member_id": "mdg_28",
+        "content": "Myasthenia gravis, as indicated by ALL of the following",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Myasthenia gravis",
+        "children": [
+            {
+                "member_id": "mdg_28.1",
+                "content": "Immune globulin not to be used for chronic maintenance therapy",
+                "logical_relation": "ALL",
+                "question": "Is there evidence in the medical record that immune globulin is being used for chronic maintenance therapy in a patient with myasthenia gravis?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 116,
+                "clinical_criteria": "No chronic immune globulin"
+            },
+            {
+                "member_id": "mdg_28.2",
+                "content": "Treatment of myasthenia gravis needed, as indicated by 1 or more of the following",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Treatment needed for myasthenia",
+                "children": [
+                    {
+                        "member_id": "mdg_28.2.1",
+                        "content": "Adult or juvenile myasthenia gravis and 1 or more of the following",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Adult or juvenile myasthenia",
+                        "children": [
+                            {
+                                "member_id": "mdg_28.2.1.1",
+                                "content": "Acute crisis",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of an acute crisis in a patient with adult or juvenile myasthenia gravis in the medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 119,
+                                "clinical_criteria": "Acute crisis"
+                            },
+                            {
+                                "member_id": "mdg_28.2.1.2",
+                                "content": "Acute exacerbation",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of an acute exacerbation in a patient with adult or juvenile myasthenia gravis in the medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 120,
+                                "clinical_criteria": "Acute exacerbation"
+                            },
+                            {
+                                "member_id": "mdg_28.2.1.3",
+                                "content": "Need for stabilization before surgery",
+                                "logical_relation": "ANY",
+                                "question": "Is there a documented need for stabilization before surgery in a patient with adult or juvenile myasthenia gravis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 121,
+                                "clinical_criteria": "Stabilization before surgery"
+                            },
+                            {
+                                "member_id": "mdg_28.2.1.4",
+                                "content": "Symptomatic patient resistant to or intolerant of immunosuppressive therapy",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient is symptomatic and resistant to or intolerant of immunosuppressive therapy for adult or juvenile myasthenia gravis?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 122,
+                                "clinical_criteria": "Resistant to immunosuppressive therapy"
+                            }
+                        ],
+                        "seq": 118
+                    },
+                    {
+                        "member_id": "mdg_28.2.2",
+                        "content": "Neonatal myasthenia gravis",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record indicating the treatment of neonatal myasthenia gravis?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 123,
+                        "clinical_criteria": "Neonatal myasthenia gravis"
+                    }
+                ],
+                "seq": 117
+            }
+        ],
+        "seq": 115
+    },
+    {
+        "member_id": "mdg_29",
+        "content": "Opsoclonus-myoclonus syndrome",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of opsoclonus-myoclonus syndrome in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 124,
+        "clinical_criteria": "Opsoclonus-myoclonus syndrome"
+    },
+    {
+        "member_id": "mdg_30",
+        "content": "Post-transfusion purpura",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of post-transfusion purpura in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 125,
+        "clinical_criteria": "Post-transfusion purpura"
+    },
+    {
+        "member_id": "mdg_31",
+        "content": "Pregnancy-associated idiopathic (immune) thrombocytopenic purpura, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Pregnancy-associated thrombocytopenic purpura",
+        "children": [
+            {
+                "member_id": "mdg_31.1",
+                "content": "Any bleeding during pregnancy",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of any bleeding during pregnancy in the medical record, particularly in the context of pregnancy-associated idiopathic (immune) thrombocytopenic purpura?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 127,
+                "clinical_criteria": "Bleeding during pregnancy"
+            },
+            {
+                "member_id": "mdg_31.2",
+                "content": "Platelet count less than 30,000/mm3 (30 x10^9/L) at any time during pregnancy",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of a platelet count less than 30,000/mm3 (30 x10^9/L) at any time during pregnancy in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 128,
+                "clinical_criteria": "Low platelet count"
+            },
+            {
+                "member_id": "mdg_31.3",
+                "content": "Platelet count less than level considered safe for invasive procedures (eg, cesarean birth, neuraxial anesthesia)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of a platelet count less than the level considered safe for invasive procedures in the context of pregnancy-associated idiopathic (immune) thrombocytopenic purpura?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 129,
+                "clinical_criteria": "Unsafe platelet count for procedures"
+            }
+        ],
+        "seq": 126
+    },
+    {
+        "member_id": "mdg_32",
+        "content": "Primary immunodeficiency, as indicated by 1 or more of the following",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Primary immunodeficiency",
+        "children": [
+            {
+                "member_id": "mdg_32.1",
+                "content": "Agammaglobulinemia (eg, less than 200 mg/dL (2 g/L))",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of agammaglobulinemia with immunoglobulin levels less than 200 mg/dL (2 g/L) in the context of primary immunodeficiency?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 131,
+                "clinical_criteria": "Agammaglobulinemia"
+            },
+            {
+                "member_id": "mdg_32.2",
+                "content": "Common variable immunodeficiency (CVID)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of common variable immunodeficiency (CVID) in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 132,
+                "clinical_criteria": "Common variable immunodeficiency"
+            },
+            {
+                "member_id": "mdg_32.3",
+                "content": "Hyper-IgM syndrome (HIM)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of Hyper-IgM syndrome (HIM) in the context of primary immunodeficiency?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 133,
+                "clinical_criteria": "Hyper-IgM syndrome"
+            },
+            {
+                "member_id": "mdg_32.4",
+                "content": "Primary hypogammaglobulinemia",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of primary hypogammaglobulinemia in the patient's medical record, specifically in the context of primary immunodeficiency?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 134,
+                "clinical_criteria": "Primary hypogammaglobulinemia"
+            },
+            {
+                "member_id": "mdg_32.5",
+                "content": "Serum IgG less than 400 mg/dL (4 g/L) and inadequate immunization response (ie, 4-fold increase in titers) to protein and polysaccharide antigens",
+                "logical_relation": "ANY",
+                "question": "Is there evidence in the patient's medical record of serum IgG levels less than 400 mg/dL and an inadequate immunization response to protein and polysaccharide antigens?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 135,
+                "clinical_criteria": "Low IgG, inadequate response"
+            }
+        ],
+        "seq": 130
+    },
+    {
+        "member_id": "mdg_33",
+        "content": "Rasmussen encephalitis, for short-term amelioration of symptoms",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of Rasmussen encephalitis for short-term amelioration of symptoms?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 136,
+        "clinical_criteria": "Rasmussen encephalitis"
+    },
+    {
+        "member_id": "mdg_34",
+        "content": "Stevens-Johnson syndrome or toxic epidermal necrolysis, for life-threatening disease",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of Stevens-Johnson syndrome or toxic epidermal necrolysis for life-threatening disease?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 137,
+        "clinical_criteria": "Life-threatening Stevens-Johnson syndrome"
+    },
+    {
+        "member_id": "mdg_35",
+        "content": "Stiff-person syndrome, with failure of, or inability to receive or tolerate, GABA agonists (eg, benzodiazepine, baclofen)",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record of a diagnosis of stiff-person syndrome with failure of, or inability to receive or tolerate, GABA agonists such as benzodiazepine or baclofen?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 138,
+        "clinical_criteria": "Stiff-person syndrome"
+    },
+    {
+        "member_id": "mdg_36",
+        "content": "Systemic lupus erythematosus, for disease unresponsive to other immunosuppressive therapies",
+        "logical_relation": "NONE",
+        "question": "Is there evidence in the medical record that the patient has systemic lupus erythematosus unresponsive to other immunosuppressive therapies?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 139,
+        "clinical_criteria": "Unresponsive systemic lupus erythematosus"
+    }
+]

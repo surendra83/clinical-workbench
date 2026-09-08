@@ -1,0 +1,172 @@
+[
+    {
+        "member_id": "mdg_1.1.1",
+        "content": "Significant functional or lifestyle-altering impairment from pain despite maximally tolerated nonoperative therapy (eg, medication, smoking cessation, exercise program)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of significant functional or lifestyle-altering impairment from pain despite maximally tolerated nonoperative therapy in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 0,
+        "clinical_criteria": "Impairment despite nonoperative therapy"
+    },
+    {
+        "member_id": "mdg_1.1.2",
+        "content": "Patient has sufficient mobility to benefit from treatment, and is without other disease that further precludes walking (eg, severe heart failure).",
+        "logical_relation": "ALL",
+        "question": "Does the patient have sufficient mobility to benefit from treatment and is without other disease that further precludes walking, such as severe heart failure?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 1,
+        "clinical_criteria": "Sufficient mobility, no precluding disease"
+    },
+    {
+        "member_id": "mdg_1.1.3",
+        "content": "Documentation of significant occlusive arterial disease (eg, ankle-brachial index, imaging, angiography)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of significant occlusive arterial disease, such as ankle-brachial index, imaging, or angiography, in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 2,
+        "clinical_criteria": "Significant occlusive arterial disease"
+    },
+    {
+        "member_id": "mdg_1.1.4",
+        "content": "Lesion(s) thought to be hemodynamically significant and likely limiting perfusion",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of lesion(s) thought to be hemodynamically significant and likely limiting perfusion?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 3,
+        "clinical_criteria": "Hemodynamically significant lesions"
+    },
+    {
+        "member_id": "mdg_1.1.5",
+        "content": "Lesion(s) amenable to percutaneous intervention",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of lesion(s) amenable to percutaneous intervention?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 4,
+        "clinical_criteria": "Lesions amenable to intervention"
+    },
+    {
+        "member_id": "mdg_1.2.1.1",
+        "content": "Pain at rest",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of pain at rest in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 5,
+        "clinical_criteria": "Pain at rest"
+    },
+    {
+        "member_id": "mdg_1.2.1.2",
+        "content": "Nonhealing wound or ulcer from ischemia (eg, wound progresses, or fails to reduce in size by 50% or more despite 4 weeks of appropriate medical therapy)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of a nonhealing wound or ulcer from ischemia that progresses or fails to reduce in size by 50% or more despite 4 weeks of appropriate medical therapy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 6,
+        "clinical_criteria": "Nonhealing ischemic wound or ulcer"
+    },
+    {
+        "member_id": "mdg_1.2.1.3",
+        "content": "Gangrene",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of gangrene in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 7,
+        "clinical_criteria": "Presence of gangrene"
+    },
+    {
+        "member_id": "mdg_1.2.1.4",
+        "content": "Evidence of acute arterial occlusion (eg, neurologic dysfunction, acute pain onset)",
+        "logical_relation": "ANY",
+        "question": "Is there evidence of acute arterial occlusion, such as neurologic dysfunction or acute pain onset, in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 8,
+        "clinical_criteria": "Acute arterial occlusion evidence"
+    },
+    {
+        "member_id": "mdg_1.2.2",
+        "content": "Documentation of significant occlusive arterial disease (eg, ankle-brachial index, imaging, angiography)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of significant occlusive arterial disease, such as ankle-brachial index, imaging, or angiography, in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 9,
+        "clinical_criteria": "Significant occlusive arterial disease"
+    },
+    {
+        "member_id": "mdg_1.2.3",
+        "content": "Lesion(s) thought to be hemodynamically significant and likely limiting perfusion",
+        "logical_relation": "ALL",
+        "question": "Is there evidence in the medical record of lesion(s) thought to be hemodynamically significant and likely limiting perfusion?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 10,
+        "clinical_criteria": "Hemodynamically significant lesions"
+    },
+    {
+        "member_id": "mdg_1.2.4",
+        "content": "Lesion(s) amenable to percutaneous intervention",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of lesion(s) amenable to percutaneous intervention?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 11,
+        "clinical_criteria": "Lesions amenable to intervention"
+    },
+    {
+        "member_id": "mdg_1.3",
+        "content": "Procedure performed as part of staged revascularization strategy (eg, surgical bypass performed recently with clinical indications criteria met at that time)",
+        "logical_relation": "",
+        "question": "Is there documentation in the medical record that the procedure was performed as part of a staged revascularization strategy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 12,
+        "clinical_criteria": "Staged revascularization strategy"
+    },
+    {
+        "member_id": "mdg_1.4",
+        "content": "Acute limb ischemia and procedure performed concomitantly to address additional chronically obstructive lesions (ie, catheter-based thrombolysis to treat acute thromboembolic lesion, and angioplasty with or without stenting to address chronically stenotic lesion(s) causing pre-existing critical limb ischemia)",
+        "logical_relation": "",
+        "question": "Is there documentation in the medical record of acute limb ischemia and a procedure performed concomitantly to address additional chronically obstructive lesions, such as catheter-based thrombolysis and angioplasty with or without stenting?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 13,
+        "clinical_criteria": "Acute limb ischemia, concomitant procedure"
+    },
+    {
+        "member_id": "mdg_1.5",
+        "content": "In-stent restenosis in previously stented patient",
+        "logical_relation": "",
+        "question": "Is there documentation of in-stent restenosis in a previously stented patient in the medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 14,
+        "clinical_criteria": "In-stent restenosis"
+    },
+    {
+        "member_id": "mdg_1.6",
+        "content": "Patient with lower extremity arterial stenosis who requires large-diameter vascular access for coronary, large vascular (eg, aortic) or valvular intervention (eg, transcatheter aortic valve replacement), and alternative access is unsuitable or unavailable",
+        "logical_relation": "",
+        "question": "Does the patient have lower extremity arterial stenosis and require large-diameter vascular access for coronary, large vascular, or valvular intervention, with alternative access being unsuitable or unavailable?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 15,
+        "clinical_criteria": "Lower extremity stenosis, large-diameter access"
+    },
+    {
+        "member_id": "mdg_1.7",
+        "content": "Peripheral artery aneurysm at risk for rupture or thromboembolic complications (eg, popliteal artery aneurysm) and amenable to stent placement",
+        "logical_relation": "",
+        "question": "Is there documentation in the medical record of a peripheral artery aneurysm at risk for rupture or thromboembolic complications and amenable to stent placement?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 16,
+        "clinical_criteria": "Aneurysm at risk, stent amenable"
+    }
+]

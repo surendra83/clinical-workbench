@@ -1,0 +1,218 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Procedure is indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Procedure indication criteria",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Advanced joint disease, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Advanced joint disease criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Positive radiographic findings (eg, shoulder joint destruction, severe joint space narrowing, cystic changes)",
+                        "logical_relation": "ALL",
+                        "question": "Does the patient have positive radiographic findings such as shoulder joint destruction, severe joint space narrowing, or cystic changes?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 2,
+                        "clinical_criteria": "Positive radiographic findings"
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Nonoperative therapy has been tried and failed (eg, anti-inflammatory medications, physical therapy, analgesics).",
+                        "logical_relation": "ALL",
+                        "question": "Has nonoperative therapy, such as anti-inflammatory medications, physical therapy, or analgesics, been tried and failed for advanced joint disease?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 3,
+                        "clinical_criteria": "Nonoperative therapy failure"
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Osteonecrosis of the humeral head",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of osteonecrosis of the humeral head in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 6,
+                "clinical_criteria": "Osteonecrosis of humeral head"
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Massive rotator cuff tear",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of a massive rotator cuff tear in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 7,
+                "clinical_criteria": "Massive rotator cuff tear"
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Failed rotator cuff repair",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of a failed rotator cuff repair?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 8,
+                "clinical_criteria": "Failed rotator cuff repair"
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Rotator cuff-deficient arthropathy",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record indicating the presence of rotator cuff-deficient arthropathy?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 9,
+                "clinical_criteria": "Rotator cuff-deficient arthropathy"
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Proximal humerus fracture with rotator cuff deficiency or malunion",
+                "logical_relation": "ANY",
+                "question": "Does the patient have a proximal humerus fracture with rotator cuff deficiency or malunion?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 10,
+                "clinical_criteria": "Proximal humerus fracture"
+            },
+            {
+                "member_id": "mdg_1.7",
+                "content": "Complex fracture of proximal humerus",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of a complex fracture of the proximal humerus in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 11,
+                "clinical_criteria": "Complex proximal humerus fracture"
+            },
+            {
+                "member_id": "mdg_1.8",
+                "content": "Reconstruction after tumor resection",
+                "logical_relation": "ANY",
+                "question": "Has the patient undergone reconstruction after tumor resection in the shoulder? If yes, left or right?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 12,
+                "clinical_criteria": "Reconstruction post-tumor resection"
+            },
+            {
+                "member_id": "mdg_1.9",
+                "content": "Replacement (revision) of previous arthroplasty or hemiarthroplasty needed because of 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Replacement revision criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.9.1",
+                        "content": "Instability of glenoid or humeral components",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of instability of glenoid or humeral components?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 14,
+                        "clinical_criteria": "Instability of components"
+                    },
+                    {
+                        "member_id": "mdg_1.9.2",
+                        "content": "Fracture or mechanical failure of implant",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of a fracture or mechanical failure of an implant in the shoulder? If yes, left or right?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 15,
+                        "clinical_criteria": "Implant fracture or failure"
+                    },
+                    {
+                        "member_id": "mdg_1.9.3",
+                        "content": "Glenoid erosion from humeral prosthetic component of hemiarthroplasty",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of glenoid erosion from the humeral prosthetic component of hemiarthroplasty?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 16,
+                        "clinical_criteria": "Glenoid erosion evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.9.4",
+                        "content": "Rotator cuff failure",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the medical record of rotator cuff failure requiring replacement or revision of previous arthroplasty or hemiarthroplasty?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 17,
+                        "clinical_criteria": "Rotator cuff failure"
+                    },
+                    {
+                        "member_id": "mdg_1.9.5",
+                        "content": "Infection",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence of infection in the patient's medical record related to shoulder arthroplasty? If yes, left or right?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 18,
+                        "clinical_criteria": "Infection evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.9.6",
+                        "content": "Proximal migration of humeral head",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the patient's medical record of proximal migration of the humeral head?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 19,
+                        "clinical_criteria": "Proximal migration evidence"
+                    },
+                    {
+                        "member_id": "mdg_1.9.7",
+                        "content": "Periprosthetic fracture",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a periprosthetic fracture in the patient's medical record related to shoulder arthroplasty? If yes, left or right?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 20,
+                        "clinical_criteria": "Periprosthetic fracture evidence"
+                    }
+                ],
+                "seq": 13
+            }
+        ],
+        "seq": 0
+    },
+    {
+        "member_id": "mdg_1.1.3.1",
+        "content": "Disabling pain",
+        "logical_relation": "ANY",
+        "question": "Does the patient experience disabling pain in the shoulder? If yes, left or right?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 4,
+        "clinical_criteria": "Disabling pain presence"
+    },
+    {
+        "member_id": "mdg_1.1.3.2",
+        "content": "Functional disability",
+        "logical_relation": "ANY",
+        "question": "Does the patient have functional disability related to advanced joint disease or a procedure indicated for shoulder arthroplasty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 5,
+        "clinical_criteria": "Functional disability presence"
+    }
+]

@@ -1,0 +1,272 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Head CT angiography (CTA) may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Head CT angiography indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Aneurysm or arteriovenous malformation, known or suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Aneurysm or AVM indication",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Follow-up of known aneurysm or arteriovenous malformation",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of a follow-up for a known aneurysm or arteriovenous malformation?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Follow-up of known aneurysm",
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Initial evaluation of suspected aneurysm or arteriovenous malformation (eg, acute severe headache or diagnosis of intracerebral or subarachnoid hemorrhage)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of an initial evaluation for a suspected aneurysm or arteriovenous malformation in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Initial evaluation of suspected aneurysm",
+                        "seq": 3
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "Intracerebral hemorrhage, known, and hematoma expansion suspected",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of intracerebral hemorrhage with suspected hematoma expansion in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Intracerebral hemorrhage suspected",
+                        "seq": 4
+                    },
+                    {
+                        "member_id": "mdg_1.1.4",
+                        "content": "Postoperative evaluation of intracranial aneurysm after surgical therapy",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of a postoperative evaluation of an intracranial aneurysm after surgical therapy in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Postoperative evaluation of aneurysm",
+                        "seq": 5
+                    },
+                    {
+                        "member_id": "mdg_1.1.5",
+                        "content": "Preoperative or preprocedural planning prior to endovascular therapy (eg, coiling, embolism)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of preoperative or preprocedural planning prior to endovascular therapy for an aneurysm or arteriovenous malformation in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Preoperative planning for endovascular therapy",
+                        "seq": 6
+                    },
+                    {
+                        "member_id": "mdg_1.1.6",
+                        "content": "Subarachnoid hemorrhage, and evaluation of possible intracranial vasospasm needed",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of subarachnoid hemorrhage and evaluation of possible intracranial vasospasm needed in the patient's medical record, considering the presence of an aneurysm or arteriovenous malformation, known or suspected?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Subarachnoid hemorrhage evaluation",
+                        "seq": 7
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Intracranial arterial dissection, suspected",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record indicating a suspicion of intracranial arterial dissection?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Suspected intracranial arterial dissection",
+                "seq": 8
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Intracranial arterial occlusive disease, suspected, when imaging results will impact patient management",
+                "logical_relation": "NONE",
+                "question": "Is there evidence in the medical record of suspected intracranial arterial occlusive disease where imaging results will impact patient management?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Suspected intracranial occlusive disease",
+                "seq": 9
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Intracranial vasculitis, suspected",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record indicating suspected intracranial vasculitis?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Suspected intracranial vasculitis",
+                "seq": 10
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Intracranial venous occlusive disease, suspected",
+                "logical_relation": "NONE",
+                "question": "Is there evidence in the medical record of suspected intracranial venous occlusive disease?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Suspected intracranial venous occlusive disease",
+                "seq": 11
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Preoperative planning for delineation of vascular supply of vascular neoplasm",
+                "logical_relation": "NONE",
+                "question": "Is there documentation of preoperative planning for delineation of vascular supply of a vascular neoplasm in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Preoperative planning for vascular neoplasm",
+                "seq": 12
+            },
+            {
+                "member_id": "mdg_1.7",
+                "content": "Preprocedural planning for carotid endarterectomy or percutaneous intervention for acute stroke, when performed in conjunction with neck CTA",
+                "logical_relation": "NONE",
+                "question": "Is there documentation of preprocedural planning for carotid endarterectomy or percutaneous intervention for acute stroke in conjunction with neck CTA in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Preprocedural planning for carotid endarterectomy",
+                "seq": 13
+            },
+            {
+                "member_id": "mdg_1.8",
+                "content": "Screening for cerebral artery aneurysm in patient with 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Screening for cerebral artery aneurysm",
+                "children": [
+                    {
+                        "member_id": "mdg_1.8.1",
+                        "content": "Autosomal dominant polycystic kidney disease",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of autosomal dominant polycystic kidney disease in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Autosomal dominant polycystic kidney disease",
+                        "seq": 15
+                    },
+                    {
+                        "member_id": "mdg_1.8.2",
+                        "content": "Two or more family members with intracranial aneurysm or subarachnoid hemorrhage",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have two or more family members with intracranial aneurysm or subarachnoid hemorrhage?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Family history of aneurysm",
+                        "seq": 16
+                    }
+                ],
+                "seq": 14
+            },
+            {
+                "member_id": "mdg_1.9",
+                "content": "Tinnitus, pulsatile",
+                "logical_relation": "NONE",
+                "question": "Is there documentation of pulsatile tinnitus in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Pulsatile tinnitus",
+                "seq": 17
+            },
+            {
+                "member_id": "mdg_1.10",
+                "content": "Traumatic injury to cervicocerebral vessels, suspected",
+                "logical_relation": "NONE",
+                "question": "Is there documentation in the medical record of a suspected traumatic injury to cervicocerebral vessels?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Suspected traumatic injury",
+                "seq": 18
+            },
+            {
+                "member_id": "mdg_1.11",
+                "content": "Vascular malformation of brain or skull base, for confirmation of diagnosis or preoperative planning",
+                "logical_relation": "NONE",
+                "question": "Is there documentation of a vascular malformation of the brain or skull base for confirmation of diagnosis or preoperative planning in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Vascular malformation confirmation",
+                "seq": 19
+            },
+            {
+                "member_id": "mdg_1.12",
+                "content": "Repeat evaluation of specific area or structure with same imaging modality, and ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Repeat evaluation with same modality",
+                "children": [
+                    {
+                        "member_id": "mdg_1.12.1",
+                        "content": "Clinical need for repeat imaging, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Clinical need for repeat imaging",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.12.1.1",
+                                "content": "Change in clinical status (eg, worsening symptoms or new associated symptoms), and findings may impact treatment",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a change in clinical status, such as worsening symptoms or new associated symptoms, that may impact treatment in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Change in clinical status",
+                                "seq": 22
+                            },
+                            {
+                                "member_id": "mdg_1.12.1.2",
+                                "content": "Need for interval reassessment that may impact treatment plan",
+                                "logical_relation": "ANY",
+                                "question": "Is there a documented need for interval reassessment that may impact the treatment plan, specifically for repeat evaluation of a specific area or structure with the same imaging modality, or for head CT angiography (CTA)?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Interval reassessment needed",
+                                "seq": 23
+                            },
+                            {
+                                "member_id": "mdg_1.12.1.3",
+                                "content": "Need for re-imaging either prior to or after performance of invasive procedure",
+                                "logical_relation": "ANY",
+                                "question": "Is there a documented need for re-imaging either prior to or after the performance of an invasive procedure in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Re-imaging needed for procedure",
+                                "seq": 24
+                            }
+                        ],
+                        "seq": 21
+                    },
+                    {
+                        "member_id": "mdg_1.12.2",
+                        "content": "Prior imaging results of specific area or structure with same imaging modality documented and available for comparison",
+                        "logical_relation": "NONE",
+                        "question": "Are prior imaging results of the head with the same imaging modality documented and available for comparison?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Prior imaging results available",
+                        "seq": 25
+                    }
+                ],
+                "seq": 20
+            }
+        ],
+        "seq": 0
+    }
+]

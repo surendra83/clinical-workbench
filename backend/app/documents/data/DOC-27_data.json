@@ -1,0 +1,782 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Positron emission tomography (PET), with or without simultaneous computed tomography (PET-CT), for tumor imaging may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "PET-CT for tumor imaging",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Cancer or neoplasm, initial evaluation or staging needed (from diagnosis through initial staging), as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Initial evaluation or staging",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "Additional imaging information required to assess 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Additional imaging information",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.1.1",
+                                "content": "Anatomic extent of tumor, if results will assist with selection of optimal antitumor treatment",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record regarding the anatomic extent of the tumor to assist with the selection of optimal antitumor treatment, considering the need for additional imaging information for cancer or neoplasm, initial evaluation or staging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 3,
+                                "clinical_criteria": "Anatomic extent of tumor"
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.2",
+                                "content": "Appropriateness of patient for invasive diagnostic or therapeutic procedure",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record regarding the appropriateness of the patient for an invasive diagnostic or therapeutic procedure, specifically in the context of cancer or neoplasm, initial evaluation or staging needed, and the requirement for additional imaging information?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 4,
+                                "clinical_criteria": "Appropriateness for procedure"
+                            },
+                            {
+                                "member_id": "mdg_1.1.1.3",
+                                "content": "Optimal anatomic location for invasive procedure",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating the optimal anatomic location for an invasive procedure related to cancer or neoplasm, initial evaluation or staging, and the need for additional imaging information?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 5,
+                                "clinical_criteria": "Optimal anatomic location"
+                            }
+                        ],
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "PET or PET-CT not yet performed (prior to initiation of treatment)",
+                        "logical_relation": "NONE",
+                        "question": "Has the patient undergone PET or PET-CT prior to the initiation of treatment for cancer or neoplasm, where initial evaluation or staging is needed?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 6,
+                        "clinical_criteria": "PET-CT not yet performed"
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "Solid tumor malignancy, biopsy-proven or strongly suspected",
+                        "logical_relation": "NONE",
+                        "question": "Is there documentation in the medical record of a biopsy-proven or strongly suspected solid tumor malignancy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 7,
+                        "clinical_criteria": "Solid tumor malignancy"
+                    },
+                    {
+                        "member_id": "mdg_1.1.4",
+                        "content": "Treatment not yet initiated",
+                        "logical_relation": "NONE",
+                        "question": "Has treatment been initiated for cancer or neoplasm, and is there a need for initial evaluation or staging through PET or PET-CT for tumor imaging?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 8,
+                        "clinical_criteria": "Treatment not yet initiated"
+                    },
+                    {
+                        "member_id": "mdg_1.1.5",
+                        "content": "Type of tumor is 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Type of tumor",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.1.5.1",
+                                "content": "Adrenal cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of adrenal cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 10,
+                                "clinical_criteria": "Adrenal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.2",
+                                "content": "Anal cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of anal cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 11,
+                                "clinical_criteria": "Anal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.3",
+                                "content": "Bladder cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of bladder cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 12,
+                                "clinical_criteria": "Bladder cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.4",
+                                "content": "Bone cancer, primary (eg, osteosarcoma or Ewing sarcoma family of tumors)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of primary bone cancer, such as osteosarcoma or Ewing sarcoma family of tumors, and is initial evaluation or staging needed?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 13,
+                                "clinical_criteria": "Primary bone cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.5",
+                                "content": "Brain and spinal cord cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of brain and spinal cord cancer requiring initial evaluation or staging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 14,
+                                "clinical_criteria": "Brain and spinal cord cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.6",
+                                "content": "Breast cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of breast cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 15,
+                                "clinical_criteria": "Breast cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.7",
+                                "content": "Cervical cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of cervical cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 16,
+                                "clinical_criteria": "Cervical cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.8",
+                                "content": "Colorectal cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of colorectal cancer requiring initial evaluation or staging, and is PET or PET-CT indicated for tumor imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 17,
+                                "clinical_criteria": "Colorectal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.9",
+                                "content": "Endometrial cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of endometrial cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 18,
+                                "clinical_criteria": "Endometrial cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.10",
+                                "content": "Esophageal or gastroesophageal junction cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of esophageal or gastroesophageal junction cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 19,
+                                "clinical_criteria": "Esophageal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.11",
+                                "content": "Gallbladder cancer and cholangiocarcinoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of gallbladder cancer or cholangiocarcinoma requiring initial evaluation or staging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 20,
+                                "clinical_criteria": "Gallbladder cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.12",
+                                "content": "Gastric cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of gastric cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 21,
+                                "clinical_criteria": "Gastric cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.13",
+                                "content": "Head and neck cancer (nonthyroid, non-central nervous system)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of head and neck cancer (nonthyroid, non-central nervous system) for which tumor imaging with PET or PET-CT is indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 22,
+                                "clinical_criteria": "Head and neck cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.14",
+                                "content": "Hodgkin lymphoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating that the patient has Hodgkin lymphoma and requires initial evaluation or staging through PET or PET-CT imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 23,
+                                "clinical_criteria": "Hodgkin lymphoma"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.15",
+                                "content": "Kidney cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of kidney cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 24,
+                                "clinical_criteria": "Kidney cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.16",
+                                "content": "Liver cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of liver cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 25,
+                                "clinical_criteria": "Liver cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.17",
+                                "content": "Lung cancer, non-small cell type",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of lung cancer, non-small cell type, with a type of tumor that is 1 or more of the following: cancer or neoplasm, initial evaluation or staging needed, or positron emission tomography (PET) with or without simultaneous computed tomography (PET-CT) for tumor imaging indicated?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 26,
+                                "clinical_criteria": "Non-small cell lung cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.18",
+                                "content": "Lung cancer, small cell type",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of lung cancer, small cell type, and is a PET or PET-CT scan indicated for tumor imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 27,
+                                "clinical_criteria": "Small cell lung cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.19",
+                                "content": "Lung nodule, solitary",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of a solitary lung nodule in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 28,
+                                "clinical_criteria": "Solitary lung nodule"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.20",
+                                "content": "Melanoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating that the patient has melanoma and requires initial evaluation or staging for cancer or neoplasm?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 29,
+                                "clinical_criteria": "Melanoma"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.21",
+                                "content": "Multiple myeloma, smoldering myeloma, or solitary plasmacytoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of multiple myeloma, smoldering myeloma, or solitary plasmacytoma?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 30,
+                                "clinical_criteria": "Multiple myeloma"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.22",
+                                "content": "Neuroblastoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of neuroblastoma requiring initial evaluation or staging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 31,
+                                "clinical_criteria": "Neuroblastoma"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.23",
+                                "content": "Neuroendocrine cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating that the patient has neuroendocrine cancer and requires initial evaluation or staging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 32,
+                                "clinical_criteria": "Neuroendocrine cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.24",
+                                "content": "Non-Hodgkin lymphoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of Non-Hodgkin lymphoma requiring initial evaluation or staging with PET or PET-CT imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 33,
+                                "clinical_criteria": "Non-Hodgkin lymphoma"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.25",
+                                "content": "Ovarian cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of ovarian cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 34,
+                                "clinical_criteria": "Ovarian cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.26",
+                                "content": "Pancreatic cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of pancreatic cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 35,
+                                "clinical_criteria": "Pancreatic cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.27",
+                                "content": "Paraneoplastic syndrome, including neurologic syndrome",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of paraneoplastic syndrome, including neurologic syndrome, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 36,
+                                "clinical_criteria": "Paraneoplastic syndrome"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.28",
+                                "content": "Pleural mesothelioma, malignant",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of pleural mesothelioma, malignant, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 37,
+                                "clinical_criteria": "Pleural mesothelioma"
+                            },
+                            {
+                                "member_id": "mdg_1.1.5.29",
+                                "content": "Prostate cancer and 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Prostate cancer",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.1.5.29.1",
+                                        "content": "Equivocal initial bone scan results, and prostate-specific membrane antigen (PSMA), C-11 choline, F-18 fluciclovine, or F-18 sodium fluoride tracer used",
+                                        "logical_relation": "ANY",
+                                        "question": "Does the patient have equivocal initial bone scan results and has a prostate-specific membrane antigen (PSMA), C-11 choline, F-18 fluciclovine, or F-18 sodium fluoride tracer been used for prostate cancer?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 39,
+                                        "clinical_criteria": "Equivocal bone scan results"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.1.5.29.2",
+                                        "content": "PSMA tracer (eg, F-18 piflufolastat, F-18 flotufolastat PSMA, Ga-68 PSMA-11) used",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of PSMA tracer use for prostate cancer, type of tumor, or cancer or neoplasm where initial evaluation or staging is needed, and PET or PET-CT for tumor imaging is indicated?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 40,
+                                        "clinical_criteria": "PSMA tracer used"
+                                    }
+                                ],
+                                "seq": 38
+                            }
+                        ],
+                        "seq": 9
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Cancer or neoplasm, subsequent evaluation or staging needed (after initiation or completion of treatment), as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Subsequent evaluation or staging",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Need for re-imaging, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Need for re-imaging",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.1.1",
+                                "content": "Imaging required before initiation of tumor-specific therapy (eg, targeted radionuclide therapy)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of imaging performed before the initiation of tumor-specific therapy in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 43,
+                                "clinical_criteria": "Imaging before therapy"
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.2",
+                                "content": "Recurrent or residual disease suspected, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Recurrent or residual disease",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.1.2.1",
+                                        "content": "Abnormal finding on physical examination",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of an abnormal finding on physical examination in the medical record related to recurrent or residual disease, need for re-imaging, or cancer or neoplasm evaluation or staging?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 45,
+                                        "clinical_criteria": "Abnormal physical finding"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.2.2",
+                                        "content": "Abnormal laboratory test or other imaging study",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of an abnormal laboratory test or other imaging study in the medical record for recurrent or residual disease, need for re-imaging, or cancer or neoplasm evaluation or staging?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 46,
+                                        "clinical_criteria": "Abnormal lab test"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.2.3",
+                                        "content": "Evaluation of treatment response",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of an evaluation of treatment response for cancer or neoplasm, with subsequent evaluation or staging needed after initiation or completion of treatment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 47,
+                                        "clinical_criteria": "Treatment response evaluation"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.2.4",
+                                        "content": "New symptom",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of a new symptom in the patient's medical record related to recurrent or residual disease, need for re-imaging, or cancer or neoplasm evaluation or staging?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 48,
+                                        "clinical_criteria": "New symptom"
+                                    }
+                                ],
+                                "seq": 44
+                            }
+                        ],
+                        "seq": 42
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Type of tumor is 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Type of tumor",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.2.1",
+                                "content": "Adrenal cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of adrenal cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 50,
+                                "clinical_criteria": "Adrenal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.2",
+                                "content": "Anal cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of anal cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 51,
+                                "clinical_criteria": "Anal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.3",
+                                "content": "Bladder cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of bladder cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 52,
+                                "clinical_criteria": "Bladder cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.4",
+                                "content": "Bone cancer, primary (eg, osteosarcoma or Ewing sarcoma family of tumors)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of primary bone cancer, such as osteosarcoma or Ewing sarcoma family of tumors, with a type of tumor that is 1 or more of the following, and cancer or neoplasm requiring subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 53,
+                                "clinical_criteria": "Primary bone cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.5",
+                                "content": "Brain and spinal cord cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of brain and spinal cord cancer, and is a PET or PET-CT scan indicated for tumor imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 54,
+                                "clinical_criteria": "Brain and spinal cord cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.6",
+                                "content": "Breast cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of breast cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 55,
+                                "clinical_criteria": "Breast cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.7",
+                                "content": "Cervical cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating the presence of cervical cancer?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 56,
+                                "clinical_criteria": "Cervical cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.8",
+                                "content": "Colorectal cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of colorectal cancer requiring subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 57,
+                                "clinical_criteria": "Colorectal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.9",
+                                "content": "Endometrial cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of endometrial cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 58,
+                                "clinical_criteria": "Endometrial cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.10",
+                                "content": "Esophageal or gastroesophageal junction cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of esophageal or gastroesophageal junction cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 59,
+                                "clinical_criteria": "Esophageal cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.11",
+                                "content": "Gastric cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of gastric cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 60,
+                                "clinical_criteria": "Gastric cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.12",
+                                "content": "Gestational trophoblastic neoplasia",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of gestational trophoblastic neoplasia in the patient's medical record, considering the type of tumor and the need for subsequent evaluation or staging after treatment, and the potential indication for PET or PET-CT imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 61,
+                                "clinical_criteria": "Gestational trophoblastic neoplasia"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.13",
+                                "content": "Head and neck cancer (nonthyroid, non-central nervous system)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of head and neck cancer (nonthyroid, non-central nervous system) where the type of tumor is 1 or more of the following, or where cancer or neoplasm requires subsequent evaluation or staging after initiation or completion of treatment, or where PET or PET-CT for tumor imaging is indicated for 1 or more of the following?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 62,
+                                "clinical_criteria": "Head and neck cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.14",
+                                "content": "Hodgkin lymphoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient has Hodgkin lymphoma and requires subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 63,
+                                "clinical_criteria": "Hodgkin lymphoma"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.15",
+                                "content": "Lung cancer, non-small cell type",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of lung cancer, non-small cell type, with a tumor type that is 1 or more of the following: cancer or neoplasm, subsequent evaluation or staging needed after initiation or completion of treatment, or positron emission tomography (PET) with or without simultaneous computed tomography (PET-CT) for tumor imaging?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 64,
+                                "clinical_criteria": "Non-small cell lung cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.16",
+                                "content": "Lung cancer, small cell type",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of lung cancer, small cell type, with a tumor that requires subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 65,
+                                "clinical_criteria": "Small cell lung cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.17",
+                                "content": "Melanoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating that the patient has melanoma and requires subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 66,
+                                "clinical_criteria": "Melanoma"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.18",
+                                "content": "Multiple myeloma, smoldering myeloma, or solitary plasmacytoma",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have multiple myeloma, smoldering myeloma, or solitary plasmacytoma?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 67,
+                                "clinical_criteria": "Multiple myeloma"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.19",
+                                "content": "Neuroendocrine cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating that the patient has neuroendocrine cancer and requires subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 68,
+                                "clinical_criteria": "Neuroendocrine cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.20",
+                                "content": "Non-Hodgkin lymphoma",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating that the patient has Non-Hodgkin lymphoma and requires subsequent evaluation or staging after initiation or completion of treatment?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 69,
+                                "clinical_criteria": "Non-Hodgkin lymphoma"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.21",
+                                "content": "Ovarian cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of ovarian cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 70,
+                                "clinical_criteria": "Ovarian cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.22",
+                                "content": "Pancreatic cancer",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of pancreatic cancer in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 71,
+                                "clinical_criteria": "Pancreatic cancer"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.23",
+                                "content": "Pleural mesothelioma, malignant",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of pleural mesothelioma, malignant, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 72,
+                                "clinical_criteria": "Pleural mesothelioma"
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.24",
+                                "content": "Prostate cancer and 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Prostate cancer",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.24.1",
+                                        "content": "Equivocal initial bone scan results, and prostate-specific membrane antigen (PSMA), C-11 choline, F-18 fluciclovine, or F-18 sodium fluoride tracer used",
+                                        "logical_relation": "ANY",
+                                        "question": "Does the patient have equivocal initial bone scan results, and has a prostate-specific membrane antigen (PSMA), C-11 choline, F-18 fluciclovine, or F-18 sodium fluoride tracer been used for prostate cancer, type of tumor, or for subsequent evaluation or staging needed after initiation or completion of treatment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 74,
+                                        "clinical_criteria": "Equivocal bone scan results"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.24.2",
+                                        "content": "PSMA tracer (eg, F-18 piflufolastat, F-18 flotufolastat PSMA, Ga-68 PSMA-11) used",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of PSMA tracer use, such as F-18 piflufolastat, F-18 flotufolastat PSMA, or Ga-68 PSMA-11, for prostate cancer where subsequent evaluation or staging is needed after initiation or completion of treatment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 75,
+                                        "clinical_criteria": "PSMA tracer used"
+                                    }
+                                ],
+                                "seq": 73
+                            }
+                        ],
+                        "seq": 49
+                    }
+                ],
+                "seq": 41
+            }
+        ],
+        "seq": 0
+    }
+]

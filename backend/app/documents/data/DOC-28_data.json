@@ -1,0 +1,476 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Electrophysiologic study and intracardiac catheter ablation are indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Electrophysiologic study indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Pre-excitation syndrome (eg, Wolff-Parkinson-White)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of pre-excitation syndrome, such as Wolff-Parkinson-White, in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 1,
+                "clinical_criteria": "Pre-excitation syndrome"
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Re-entrant atrial tachycardia (AV node or bundle branch)",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of re-entrant atrial tachycardia involving the AV node or bundle branch in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 2,
+                "clinical_criteria": "Re-entrant atrial tachycardia"
+            },
+            {
+                "member_id": "mdg_1.3",
+                "content": "Accessory pathway tachycardia",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of accessory pathway tachycardia in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 3,
+                "clinical_criteria": "Accessory pathway tachycardia"
+            },
+            {
+                "member_id": "mdg_1.4",
+                "content": "Focal or multifocal atrial tachycardia",
+                "logical_relation": "ANY",
+                "question": "Is there documentation of focal or multifocal atrial tachycardia in the patient's medical record?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 4,
+                "clinical_criteria": "Focal or multifocal tachycardia"
+            },
+            {
+                "member_id": "mdg_1.5",
+                "content": "Atrial flutter",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record of atrial flutter?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 5,
+                "clinical_criteria": "Atrial flutter"
+            },
+            {
+                "member_id": "mdg_1.6",
+                "content": "Junctional tachycardia when medical therapy is ineffective or contraindicated",
+                "logical_relation": "ANY",
+                "question": "Is there documentation in the medical record that the patient has junctional tachycardia and that medical therapy is ineffective or contraindicated?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "seq": 6,
+                "clinical_criteria": "Junctional tachycardia"
+            },
+            {
+                "member_id": "mdg_1.7",
+                "content": "Atrial fibrillation, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Atrial fibrillation criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.7.1",
+                        "content": "Catheter ablation or repeat ablation is appropriate, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Catheter ablation appropriateness",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.7.1.1",
+                                "content": "Ventricular rate not controlled adequately with medications",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient's ventricular rate is not controlled adequately with medications?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 9,
+                                "clinical_criteria": "Ventricular rate control"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.2",
+                                "content": "Heart failure and biventricular pacing percentage cannot be achieved with pharmacologic therapy.",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that heart failure and biventricular pacing percentage cannot be achieved with pharmacologic therapy?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 10,
+                                "clinical_criteria": "Heart failure pacing issue"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.3",
+                                "content": "Intolerance to rate control medications",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record indicating the patient's intolerance to rate control medications?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 11,
+                                "clinical_criteria": "Intolerance to medications"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.4",
+                                "content": "Tachycardia-mediated cardiomyopathy suspected",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that tachycardia-mediated cardiomyopathy is suspected in the patient?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 12,
+                                "clinical_criteria": "Tachycardia-mediated cardiomyopathy"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.5",
+                                "content": "Accessory pathway identified",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record of an accessory pathway identified in the patient?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 13,
+                                "clinical_criteria": "Accessory pathway identification"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.6",
+                                "content": "Hypertrophic obstructive cardiomyopathy, and rhythm control with medication has failed, is contraindicated, is not tolerated, or is not preferred",
+                                "logical_relation": "ANY",
+                                "question": "Is there evidence in the medical record that the patient has hypertrophic obstructive cardiomyopathy and rhythm control with medication has failed, is contraindicated, is not tolerated, or is not preferred?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 14,
+                                "clinical_criteria": "Hypertrophic cardiomyopathy issue"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.7",
+                                "content": "Tachy-brady syndrome",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of tachy-brady syndrome in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 15,
+                                "clinical_criteria": "Tachy-brady syndrome"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.8",
+                                "content": "Heart failure with reduced or preserved ejection fraction with reasonable expectation of benefit from catheter ablation",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation in the medical record that the patient has heart failure with reduced or preserved ejection fraction and a reasonable expectation of benefit from catheter ablation?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 16,
+                                "clinical_criteria": "Heart failure with ejection fraction"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.9",
+                                "content": "Observed or inducible supraventricular tachycardia implicated as a trigger for atrial fibrillation (eg, AV nodal re-entry tachycardia, AV re-entry tachycardia, focal atrial tachycardia)",
+                                "logical_relation": "ANY",
+                                "question": "Is there documentation of observed or inducible supraventricular tachycardia, such as AV nodal re-entry tachycardia, AV re-entry tachycardia, or focal atrial tachycardia, in the patient's medical record?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 17,
+                                "clinical_criteria": "Supraventricular tachycardia trigger"
+                            },
+                            {
+                                "member_id": "mdg_1.7.1.10",
+                                "content": "Symptomatic atrial fibrillation (eg, palpitations, chest pain, dyspnea) and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Symptomatic atrial fibrillation",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.7.1.10.1",
+                                        "content": "Rhythm control desired",
+                                        "logical_relation": "ALL",
+                                        "question": "Is rhythm control desired for a patient with symptomatic atrial fibrillation, including symptoms such as palpitations, chest pain, or dyspnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 19,
+                                        "clinical_criteria": "Rhythm control desired"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.7.1.10.2",
+                                        "content": "Rhythm control is judged to be feasible (eg, ablation has reasonable chance of success).",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there documentation in the patient's medical record that rhythm control is judged to be feasible, such as through ablation with a reasonable chance of success, in the context of symptomatic atrial fibrillation with palpitations, chest pain, or dyspnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 20,
+                                        "clinical_criteria": "Feasibility of rhythm control"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.7.1.10.3",
+                                        "content": "Antiarrhythmic medication has failed, is not tolerated, or is not preferred.",
+                                        "logical_relation": "ALL",
+                                        "question": "Has antiarrhythmic medication failed, not been tolerated, or not been preferred in the treatment of symptomatic atrial fibrillation, including symptoms such as palpitations, chest pain, or dyspnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 21,
+                                        "clinical_criteria": "Antiarrhythmic medication issue"
+                                    }
+                                ],
+                                "seq": 18
+                            }
+                        ],
+                        "seq": 8
+                    },
+                    {
+                        "member_id": "mdg_1.7.2",
+                        "content": "Reversible cause of atrial fibrillation absent (eg, hyperthyroidism)",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record that a reversible cause of atrial fibrillation, such as hyperthyroidism, is absent?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 22,
+                        "clinical_criteria": "Reversible cause absent"
+                    },
+                    {
+                        "member_id": "mdg_1.7.3",
+                        "content": "Patient able to be anticoagulated during procedure and for at least 3 months afterward",
+                        "logical_relation": "ALL",
+                        "question": "Is the patient able to be anticoagulated during the procedure and for at least 3 months afterward?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 23,
+                        "clinical_criteria": "Anticoagulation ability"
+                    }
+                ],
+                "seq": 7
+            },
+            {
+                "member_id": "mdg_1.8",
+                "content": "Ventricular arrhythmia, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Ventricular arrhythmia criteria",
+                "children": [
+                    {
+                        "member_id": "mdg_1.8.1",
+                        "content": "Ischemic heart disease (ischemic cardiomyopathy or prior myocardial infarction), as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Ischemic heart disease criteria",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.8.1.1",
+                                "content": "Recurrent sustained (lasting 30 seconds or more) monomorphic ventricular tachycardia, and antiarrhythmic therapy and ICD interventions (eg, shock, pacing) have failed, are not tolerated, or are not preferred.",
+                                "logical_relation": "ANY",
+                                "question": "Does the patient have recurrent sustained monomorphic ventricular tachycardia lasting 30 seconds or more, and have antiarrhythmic therapy and ICD interventions failed, are not tolerated, or are not preferred?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 26,
+                                "clinical_criteria": "Recurrent sustained tachycardia"
+                            },
+                            {
+                                "member_id": "mdg_1.8.1.2",
+                                "content": "First episode of monomorphic sustained (lasting 30 seconds or more) ventricular tachycardia in patient with ICD to reduce risk of recurrent ventricular tachycardia or ICD intervention (eg, shock, pacing)",
+                                "logical_relation": "ANY",
+                                "question": "Has the patient experienced a first episode of monomorphic sustained ventricular tachycardia lasting 30 seconds or more, with an ICD to reduce the risk of recurrent ventricular tachycardia or ICD intervention?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "seq": 27,
+                                "clinical_criteria": "First episode tachycardia"
+                            },
+                            {
+                                "member_id": "mdg_1.8.1.3",
+                                "content": "Prior myocardial infarction with recurrent episodes of symptomatic sustained (lasting 30 seconds or more) ventricular tachycardia and ALL of the following:",
+                                "logical_relation": "ALL",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Post-myocardial infarction tachycardia",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.8.1.3.1",
+                                        "content": "Prior endocardial catheter ablation not successful",
+                                        "logical_relation": "ALL",
+                                        "question": "Has the patient undergone prior endocardial catheter ablation that was not successful, with a history of prior myocardial infarction and recurrent episodes of symptomatic sustained ventricular tachycardia lasting 30 seconds or more, ischemic heart disease, and ventricular arrhythmia?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 29,
+                                        "clinical_criteria": "Unsuccessful catheter ablation"
+                                    },
+                                    {
+                                        "member_id": "mdg_1.8.1.3.2",
+                                        "content": "Evidence of subepicardial substrate (eg, from ECG, mapping, or imaging)",
+                                        "logical_relation": "ALL",
+                                        "question": "Is there evidence of subepicardial substrate from ECG, mapping, or imaging in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "seq": 30,
+                                        "clinical_criteria": "Subepicardial substrate evidence"
+                                    }
+                                ],
+                                "seq": 28
+                            }
+                        ],
+                        "seq": 25
+                    },
+                    {
+                        "member_id": "mdg_1.8.2",
+                        "content": "Nonischemic cardiomyopathy with recurrent sustained (lasting 30 seconds or more) monomorphic ventricular tachycardia, and antiarrhythmic therapy has failed, is not tolerated, or is not preferred.",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have nonischemic cardiomyopathy with recurrent sustained monomorphic ventricular tachycardia, and has antiarrhythmic therapy failed, not been tolerated, or not preferred?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 31,
+                        "clinical_criteria": "Nonischemic cardiomyopathy tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.3",
+                        "content": "Nonischemic cardiomyopathy with electrical storm (3 or more episodes of ventricular arrhythmia or appropriate ICD intervention within 24-hour period), and antiarrhythmic therapy has failed or is not tolerated.",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have nonischemic cardiomyopathy with electrical storm, characterized by 3 or more episodes of ventricular arrhythmia or appropriate ICD intervention within a 24-hour period, and has antiarrhythmic therapy failed or is not tolerated?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 32,
+                        "clinical_criteria": "Electrical storm in cardiomyopathy"
+                    },
+                    {
+                        "member_id": "mdg_1.8.4",
+                        "content": "Nonischemic cardiomyopathy and suspected epicardial substrate or circuit",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have nonischemic cardiomyopathy with suspected epicardial substrate or circuit and ventricular arrhythmia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 33,
+                        "clinical_criteria": "Suspected epicardial substrate"
+                    },
+                    {
+                        "member_id": "mdg_1.8.5",
+                        "content": "Arrhythmogenic right ventricular cardiomyopathy with recurrent sustained (lasting 30 seconds or more) ventricular tachycardia or frequent appropriate ICD interventions (eg, shock or pacing), and antiarrhythmic therapy has failed, is not tolerated, or is not preferred.",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have arrhythmogenic right ventricular cardiomyopathy with recurrent sustained ventricular tachycardia or frequent appropriate ICD interventions, and has antiarrhythmic therapy failed, is not tolerated, or is not preferred?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 34,
+                        "clinical_criteria": "Arrhythmogenic cardiomyopathy tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.6",
+                        "content": "Brugada syndrome with recurrent sustained (lasting 30 seconds or more) ventricular tachycardia or frequent appropriate ICD interventions (eg, shock or pacing)",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have Brugada syndrome with recurrent sustained ventricular tachycardia or frequent appropriate ICD interventions?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 35,
+                        "clinical_criteria": "Brugada syndrome tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.7",
+                        "content": "Lamin A/C mutation with recurrent ventricular tachycardia",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have a Lamin A/C mutation with recurrent ventricular tachycardia?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 36,
+                        "clinical_criteria": "Lamin A/C mutation tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.8",
+                        "content": "Hypertrophic obstructive cardiomyopathy with recurrent sustained (lasting 30 seconds or more) monomorphic ventricular tachycardia or recurrent appropriate ICD interventions (eg, shock or pacing), and antiarrhythmic therapy has failed, is not tolerated, or is not preferred.",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have hypertrophic obstructive cardiomyopathy with recurrent sustained monomorphic ventricular tachycardia or recurrent appropriate ICD interventions, and has antiarrhythmic therapy failed, is not tolerated, or is not preferred?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 37,
+                        "clinical_criteria": "Hypertrophic cardiomyopathy tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.9",
+                        "content": "Frequent premature ventricular contractions (eg, greater than 15% of beats) suspected to be contributing to cardiomyopathy (eg, reduced ejection fraction), and antiarrhythmic therapy has failed, is not tolerated, or is not preferred.",
+                        "logical_relation": "ANY",
+                        "question": "Is there evidence in the patient's medical record of frequent premature ventricular contractions contributing to cardiomyopathy, with antiarrhythmic therapy having failed, not being tolerated, or not being preferred?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 38,
+                        "clinical_criteria": "Frequent PVCs contributing"
+                    },
+                    {
+                        "member_id": "mdg_1.8.10",
+                        "content": "Nonresponder to cardiac resynchronization therapy with frequent unifocal premature ventricular contractions limiting optimal biventricular pacing despite pharmacologic therapy",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record that the patient is a nonresponder to cardiac resynchronization therapy with frequent unifocal premature ventricular contractions limiting optimal biventricular pacing despite pharmacologic therapy?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 39,
+                        "clinical_criteria": "Nonresponder to CRT"
+                    },
+                    {
+                        "member_id": "mdg_1.8.11",
+                        "content": "Symptomatic frequent premature ventricular contractions (eg, greater than 15% of beats) originating from the right ventricular outflow tract in otherwise normal heart",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of symptomatic frequent premature ventricular contractions originating from the right ventricular outflow tract in an otherwise normal heart in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 40,
+                        "clinical_criteria": "Symptomatic PVCs from RVOT"
+                    },
+                    {
+                        "member_id": "mdg_1.8.12",
+                        "content": "Focally triggered ventricular fibrillation refractory to antiarrhythmic medications triggered by a similar premature ventricular contraction",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of focally triggered ventricular fibrillation refractory to antiarrhythmic medications triggered by a similar premature ventricular contraction?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 41,
+                        "clinical_criteria": "Focally triggered VF"
+                    },
+                    {
+                        "member_id": "mdg_1.8.13",
+                        "content": "Idiopathic symptomatic (outflow tract or non-outflow tract) ventricular arrhythmia in otherwise normal heart, and antiarrhythmic medications are ineffective, not tolerated, or not preferred.",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of idiopathic symptomatic ventricular arrhythmia in an otherwise normal heart, and are antiarrhythmic medications ineffective, not tolerated, or not preferred?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 42,
+                        "clinical_criteria": "Idiopathic ventricular arrhythmia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.14",
+                        "content": "Re-entrant ventricular tachycardia (eg, bundle branch, His-Purkinje, or fascicular)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation of re-entrant ventricular tachycardia, such as bundle branch, His-Purkinje, or fascicular, in the patient's medical record?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 43,
+                        "clinical_criteria": "Re-entrant ventricular tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.15",
+                        "content": "Congenital heart disease with recurrent sustained (lasting 30 seconds or more) ventricular tachycardia or recurrent appropriate ICD shocks",
+                        "logical_relation": "ANY",
+                        "question": "Does the patient have congenital heart disease with recurrent sustained ventricular tachycardia or recurrent appropriate ICD shocks?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 44,
+                        "clinical_criteria": "Congenital heart disease tachycardia"
+                    },
+                    {
+                        "member_id": "mdg_1.8.16",
+                        "content": "Sarcoidosis with recurrent ventricular tachycardia refractory to medical therapy (eg, immunosuppressive and antiarrhythmic medications)",
+                        "logical_relation": "ANY",
+                        "question": "Is there documentation in the medical record of sarcoidosis with recurrent ventricular tachycardia that is refractory to medical therapy, such as immunosuppressive and antiarrhythmic medications?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "seq": 45,
+                        "clinical_criteria": "Sarcoidosis with refractory tachycardia"
+                    }
+                ],
+                "seq": 24
+            }
+        ],
+        "seq": 0
+    }
+]

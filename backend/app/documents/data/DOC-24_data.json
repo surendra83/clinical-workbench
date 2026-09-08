@@ -1,0 +1,559 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Sleep center PSG may be indicated for 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Sleep center PSG indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Adult with obesity hypoventilation syndrome, suspected, as indicated by ALL of the following:",
+                "logical_relation": "ALL",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Obesity hypoventilation syndrome",
+                "children": [
+                    {
+                        "member_id": "mdg_1.1.1",
+                        "content": "BMI greater than 30",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation in the medical record of a BMI greater than 30 in an adult with obesity hypoventilation syndrome?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "BMI greater than 30",
+                        "seq": 2
+                    },
+                    {
+                        "member_id": "mdg_1.1.2",
+                        "content": "Daytime hypercapnia with PaCO2 greater than 45 mm Hg (6.0 kPa) without other etiology (eg, kyphoscoliosis, lung parenchymal disease, myopathy, severe hypothyroidism)",
+                        "logical_relation": "ALL",
+                        "question": "Is there documentation of daytime hypercapnia with PaCO2 greater than 45 mm Hg without other etiology in an adult with obesity hypoventilation syndrome?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "Daytime hypercapnia PaCO2 > 45",
+                        "seq": 3
+                    },
+                    {
+                        "member_id": "mdg_1.1.3",
+                        "content": "TSH level does not demonstrate hypothyroidism.",
+                        "logical_relation": "ALL",
+                        "question": "Is there evidence in the medical record that the patient's TSH level does not demonstrate hypothyroidism in the context of adult with obesity hypoventilation syndrome?",
+                        "classification_type": "indication",
+                        "category": "Explicit",
+                        "clinical_criteria": "TSH level normal",
+                        "seq": 4
+                    }
+                ],
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Adult with obstructive sleep apnea, suspected, as indicated by 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Obstructive sleep apnea suspected",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Initial sleep center PSG test, as indicated by ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Initial sleep center PSG test",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.1.1",
+                                "content": "Home PSG is not appropriate, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Home PSG not appropriate",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.1.1.1",
+                                        "content": "Chronic opioid use",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of chronic opioid use in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Chronic opioid use",
+                                        "seq": 8
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.2",
+                                        "content": "Clinically significant neurologic or neuromuscular disease (eg, amyotrophic lateral sclerosis, Charcot-Marie-Tooth disease, Duchenne muscular dystrophy)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the patient's medical record of a clinically significant neurologic or neuromuscular disease such as amyotrophic lateral sclerosis, Charcot-Marie-Tooth disease, or Duchenne muscular dystrophy?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Neurologic or neuromuscular disease",
+                                        "seq": 9
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.3",
+                                        "content": "Complex sleep disorder, suspected (eg, narcolepsy, cataplexy, periodic limb movement disorder)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of a suspected complex sleep disorder such as narcolepsy, cataplexy, or periodic limb movement disorder?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Complex sleep disorder suspected",
+                                        "seq": 10
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.4",
+                                        "content": "Home PSG services not available",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that home PSG services are not available for an adult with suspected obstructive sleep apnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Home PSG services unavailable",
+                                        "seq": 11
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.5",
+                                        "content": "Hypoventilation syndrome",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record indicating the patient has hypoventilation syndrome?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Hypoventilation syndrome",
+                                        "seq": 12
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.6",
+                                        "content": "Moderate-to-severe chronic obstructive pulmonary disease or other lung disease (eg, FEV1 less than 60% predicted)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of the patient having moderate-to-severe chronic obstructive pulmonary disease or other lung disease, such as FEV1 less than 60% predicted?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Moderate-to-severe lung disease",
+                                        "seq": 13
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.7",
+                                        "content": "Moderate-to-severe heart failure (eg, New York Heart Association functional class III or IV)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of the patient having moderate-to-severe heart failure, such as New York Heart Association functional class III or IV?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Moderate-to-severe heart failure",
+                                        "seq": 14
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.8",
+                                        "content": "Nocturnal oxygen use",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of nocturnal oxygen use for an adult with suspected obstructive sleep apnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Nocturnal oxygen use",
+                                        "seq": 15
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.9",
+                                        "content": "Ongoing suspicion of obstructive sleep apnea despite initial negative home sleep study",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there ongoing suspicion of obstructive sleep apnea in the patient despite an initial negative home sleep study?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Ongoing suspicion of OSA",
+                                        "seq": 16
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.10",
+                                        "content": "Patient unable to properly operate or tolerate home study equipment",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that the patient is unable to properly operate or tolerate home study equipment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Unable to operate equipment",
+                                        "seq": 17
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.11",
+                                        "content": "Previous home PSG results inadequate for suspected obstructive sleep apnea or upper airway resistance syndrome",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record indicating that previous home PSG results were inadequate for suspected obstructive sleep apnea or upper airway resistance syndrome?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Inadequate home PSG results",
+                                        "seq": 18
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.1.12",
+                                        "content": "Sleep center PSG coincident with CPAP titration as split-night study (ie, performed if moderate or severe obstructive sleep apnea documented during first 2 hours, minimum, of study night and at least 3 hours remain in the night for the CPAP titration component)",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone a sleep center PSG coincident with CPAP titration as a split-night study, with moderate or severe obstructive sleep apnea documented during the first 2 hours and at least 3 hours remaining for the CPAP titration component?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "PSG with CPAP titration",
+                                        "seq": 19
+                                    }
+                                ],
+                                "seq": 7
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.2",
+                                "content": "Signs or symptoms suggestive of moderate-risk to high-risk obstructive sleep apnea, including 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Moderate to high-risk OSA",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.1.2.1",
+                                        "content": "Epworth Sleepiness Scale score of 10 or greater",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of an Epworth Sleepiness Scale score of 10 or greater in the patient's medical record, considering signs or symptoms suggestive of moderate-risk to high-risk obstructive sleep apnea, initial sleep center PSG test, adult with obstructive sleep apnea suspected, or sleep center PSG indication?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Epworth score 10 or greater",
+                                        "seq": 21
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.2.2",
+                                        "content": "Excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and high risk for injury (eg, falling asleep while driving)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and high risk for injury, such as falling asleep while driving, in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Daytime sleepiness, high injury risk",
+                                        "seq": 22
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.1.2.3",
+                                        "content": "Excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and risk factor for sleep apnea, as indicated by 1 or more of the following:",
+                                        "logical_relation": "ANY",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "Daytime sleepiness, sleep apnea risk",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.2.1.2.3.1",
+                                                "content": "BMI greater than 30",
+                                                "logical_relation": "ANY",
+                                                "question": "Is there documentation in the medical record that the patient has a BMI greater than 30 and experiences excessive daytime sleepiness, fatigue, or awakening with gasping or choking, or is at risk for sleep apnea?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "clinical_criteria": "BMI greater than 30",
+                                                "seq": 24
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.1.2.3.2",
+                                                "content": "Resistant hypertension, as indicated by ALL of the following:",
+                                                "logical_relation": "ANY",
+                                                "question": "",
+                                                "classification_type": "indication",
+                                                "category": "",
+                                                "clinical_criteria": "Resistant hypertension",
+                                                "children": [
+                                                    {
+                                                        "member_id": "mdg_1.2.1.2.3.2.1",
+                                                        "content": "Medication regimen includes 3 or more antihypertensive drugs at therapeutic dosages, including one diuretic.",
+                                                        "logical_relation": "ALL",
+                                                        "question": "Is there documentation in the medical record that the patient's medication regimen includes 3 or more antihypertensive drugs at therapeutic dosages, including one diuretic, for the management of resistant hypertension?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "3+ antihypertensive drugs",
+                                                        "seq": 26
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.2.1.2.3.2.2",
+                                                        "content": "Office blood pressure above goal",
+                                                        "logical_relation": "ALL",
+                                                        "question": "Is there documentation in the patient's medical record of office blood pressure above goal in the context of resistant hypertension, excessive daytime sleepiness, fatigue, awakening with gasping or choking, risk factors for sleep apnea, signs or symptoms suggestive of moderate-risk to high-risk obstructive sleep apnea, or adult with suspected obstructive sleep apnea?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "Blood pressure above goal",
+                                                        "seq": 27
+                                                    }
+                                                ],
+                                                "seq": 25
+                                            }
+                                        ],
+                                        "seq": 23
+                                    }
+                                ],
+                                "seq": 20
+                            }
+                        ],
+                        "seq": 6
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Repeat sleep center PSG test, as indicated by ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Repeat sleep center PSG test",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.2.1",
+                                "content": "Appropriate testing situation, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Appropriate testing situation",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.1.1",
+                                        "content": "Assessment of treatment adequacy independent of symptoms (eg, CPAP device-generated data of concern, first-episode transient ischemic attack, new-onset atrial fibrillation)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record assessing treatment adequacy independent of symptoms, such as CPAP device-generated data of concern, first-episode transient ischemic attack, or new-onset atrial fibrillation?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Treatment adequacy assessment",
+                                        "seq": 30
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.2",
+                                        "content": "Bariatric surgery performed in adult with known obstructive sleep apnea",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that the patient has undergone bariatric surgery and has known obstructive sleep apnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Bariatric surgery performed",
+                                        "seq": 31
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.3",
+                                        "content": "Oral appliance to treat obstructive sleep apnea after final adjustments of fit",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that an oral appliance has been used to treat obstructive sleep apnea after final adjustments of fit?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Oral appliance used",
+                                        "seq": 32
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.4",
+                                        "content": "Postintervention signs or symptoms suggestive of persistent moderate-risk to high-risk obstructive sleep apnea, including 1 or more of the following:",
+                                        "logical_relation": "ANY",
+                                        "question": "",
+                                        "classification_type": "indication",
+                                        "category": "",
+                                        "clinical_criteria": "Postintervention signs of OSA",
+                                        "children": [
+                                            {
+                                                "member_id": "mdg_1.2.2.1.4.1",
+                                                "content": "Epworth Sleepiness Scale score of 10 or greater",
+                                                "logical_relation": "ANY",
+                                                "question": "Is there documentation in the medical record of an Epworth Sleepiness Scale score of 10 or greater for an adult with suspected obstructive sleep apnea?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "clinical_criteria": "Epworth score 10 or greater",
+                                                "seq": 34
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.2.1.4.2",
+                                                "content": "Excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and high risk for injury (eg, falling asleep while driving)",
+                                                "logical_relation": "ANY",
+                                                "question": "Is there documentation in the medical record of excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and high risk for injury, such as falling asleep while driving, in an adult with suspected obstructive sleep apnea?",
+                                                "classification_type": "indication",
+                                                "category": "Explicit",
+                                                "clinical_criteria": "Daytime sleepiness, high injury risk",
+                                                "seq": 35
+                                            },
+                                            {
+                                                "member_id": "mdg_1.2.2.1.4.3",
+                                                "content": "Excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and risk factor for sleep apnea, as indicated by 1 or more of the following:",
+                                                "logical_relation": "ANY",
+                                                "question": "",
+                                                "classification_type": "indication",
+                                                "category": "",
+                                                "clinical_criteria": "Daytime sleepiness, sleep apnea risk",
+                                                "children": [
+                                                    {
+                                                        "member_id": "mdg_1.2.2.1.4.3.1",
+                                                        "content": "BMI greater than 30",
+                                                        "logical_relation": "ANY",
+                                                        "question": "Is there documentation in the medical record of a BMI greater than 30 in a patient with excessive daytime sleepiness, fatigue, or awakening with gasping or choking, and risk factor for sleep apnea?",
+                                                        "classification_type": "indication",
+                                                        "category": "Explicit",
+                                                        "clinical_criteria": "BMI greater than 30",
+                                                        "seq": 37
+                                                    },
+                                                    {
+                                                        "member_id": "mdg_1.2.2.1.4.3.2",
+                                                        "content": "Resistant hypertension, as indicated by ALL of the following:",
+                                                        "logical_relation": "ANY",
+                                                        "question": "",
+                                                        "classification_type": "indication",
+                                                        "category": "",
+                                                        "clinical_criteria": "Resistant hypertension",
+                                                        "children": [
+                                                            {
+                                                                "member_id": "mdg_1.2.2.1.4.3.2.1",
+                                                                "content": "Medication regimen includes 3 or more antihypertensive drugs at therapeutic dosages, including one diuretic.",
+                                                                "logical_relation": "ALL",
+                                                                "question": "Is there documentation in the medical record that the patient's medication regimen includes 3 or more antihypertensive drugs at therapeutic dosages, including one diuretic, in the context of resistant hypertension, excessive daytime sleepiness, fatigue, or awakening with gasping or choking, risk factor for sleep apnea, postintervention signs or symptoms suggestive of persistent moderate-risk to high-risk obstructive sleep apnea, appropriate testing situation, repeat sleep center PSG test, adult with obstructive sleep apnea suspected, or sleep center PSG indication?",
+                                                                "classification_type": "indication",
+                                                                "category": "Explicit",
+                                                                "clinical_criteria": "3+ antihypertensive drugs",
+                                                                "seq": 39
+                                                            },
+                                                            {
+                                                                "member_id": "mdg_1.2.2.1.4.3.2.2",
+                                                                "content": "Office blood pressure above goal",
+                                                                "logical_relation": "ALL",
+                                                                "question": "Is there documentation in the patient's medical record of office blood pressure above goal in the context of resistant hypertension, excessive daytime sleepiness, fatigue, awakening with gasping or choking, risk factor for sleep apnea, postintervention signs or symptoms suggestive of persistent moderate-risk to high-risk obstructive sleep apnea, appropriate testing situation, repeat sleep center PSG test, adult with obstructive sleep apnea suspected, or sleep center PSG indication?",
+                                                                "classification_type": "indication",
+                                                                "category": "Explicit",
+                                                                "clinical_criteria": "Blood pressure above goal",
+                                                                "seq": 40
+                                                            }
+                                                        ],
+                                                        "seq": 38
+                                                    }
+                                                ],
+                                                "seq": 36
+                                            }
+                                        ],
+                                        "seq": 33
+                                    }
+                                ],
+                                "seq": 29
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.2",
+                                "content": "Home PSG is not appropriate, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Home PSG not appropriate",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.2.1",
+                                        "content": "Clinically significant neurologic or neuromuscular disease (eg, amyotrophic lateral sclerosis, Charcot-Marie-Tooth disease, Duchenne muscular dystrophy)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation of clinically significant neurologic or neuromuscular disease, such as amyotrophic lateral sclerosis, Charcot-Marie-Tooth disease, or Duchenne muscular dystrophy, in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Neurologic or neuromuscular disease",
+                                        "seq": 42
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.2",
+                                        "content": "Complex sleep disorder, suspected (eg, narcolepsy, cataplexy, periodic limb movement disorder)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record indicating a suspected complex sleep disorder such as narcolepsy, cataplexy, or periodic limb movement disorder?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Complex sleep disorder suspected",
+                                        "seq": 43
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.3",
+                                        "content": "Home PSG services not available",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that home PSG services are not available for an adult with suspected obstructive sleep apnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Home PSG services unavailable",
+                                        "seq": 44
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.4",
+                                        "content": "Hypoventilation syndrome",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record indicating that the patient has hypoventilation syndrome?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Hypoventilation syndrome",
+                                        "seq": 45
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.5",
+                                        "content": "Moderate-to-severe chronic obstructive pulmonary disease or other lung disease (eg, FEV1 less than 60% predicted)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of moderate-to-severe chronic obstructive pulmonary disease or other lung disease, such as FEV1 less than 60% predicted?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Moderate-to-severe lung disease",
+                                        "seq": 46
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.6",
+                                        "content": "Moderate-to-severe heart failure (eg, New York Heart Association functional class III or IV)",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of the patient having moderate-to-severe heart failure, such as New York Heart Association functional class III or IV?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Moderate-to-severe heart failure",
+                                        "seq": 47
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.7",
+                                        "content": "Nocturnal oxygen use",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record of nocturnal oxygen use for an adult with suspected obstructive sleep apnea?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Nocturnal oxygen use",
+                                        "seq": 48
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.8",
+                                        "content": "Ongoing suspicion of obstructive sleep apnea despite initial negative home sleep study",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there ongoing suspicion of obstructive sleep apnea in the patient despite an initial negative home sleep study?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Ongoing suspicion of OSA",
+                                        "seq": 49
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.9",
+                                        "content": "Patient unable to properly operate or tolerate home study equipment",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record that the patient is unable to properly operate or tolerate home study equipment?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Unable to operate equipment",
+                                        "seq": 50
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.10",
+                                        "content": "Previous home PSG results inadequate for suspected obstructive sleep apnea or upper airway resistance syndrome",
+                                        "logical_relation": "ANY",
+                                        "question": "Is there documentation in the medical record indicating that previous home PSG results were inadequate for suspected obstructive sleep apnea or upper airway resistance syndrome?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Inadequate home PSG results",
+                                        "seq": 51
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.2.11",
+                                        "content": "Sleep center PSG coincident with CPAP titration as split-night study (ie, performed if moderate or severe obstructive sleep apnea documented during first 2 hours, minimum, of study night and at least 3 hours remain in the night for the CPAP titration component)",
+                                        "logical_relation": "ANY",
+                                        "question": "Has the patient undergone a sleep center PSG coincident with CPAP titration as a split-night study, with moderate or severe obstructive sleep apnea documented during the first 2 hours and at least 3 hours remaining for the CPAP titration component?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "PSG with CPAP titration",
+                                        "seq": 52
+                                    }
+                                ],
+                                "seq": 41
+                            }
+                        ],
+                        "seq": 5
+                    }
+                ],
+                "seq": 0
+            }
+        ]
+    }
+]

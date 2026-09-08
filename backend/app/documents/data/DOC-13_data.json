@@ -1,0 +1,612 @@
+[
+    {
+        "member_id": "mdg_1.1",
+        "content": "Assisted reproductive technology (eg, female patient undergoing in vitro fertilization)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record that the patient is undergoing assisted reproductive technology, such as in vitro fertilization?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 0,
+        "clinical_criteria": "Assisted reproductive technology"
+    },
+    {
+        "member_id": "mdg_1.2",
+        "content": "Cancer, as indicated by 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 1,
+        "clinical_criteria": "Cancer indication criteria"
+    },
+    {
+        "member_id": "mdg_1.2.1",
+        "content": "Breast cancer, with 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 2,
+        "clinical_criteria": "Breast cancer criteria"
+    },
+    {
+        "member_id": "mdg_1.2.2",
+        "content": "Prostate cancer, as indicated by 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 10,
+        "clinical_criteria": "Prostate cancer criteria"
+    },
+    {
+        "member_id": "mdg_1.2.2.2",
+        "content": "Metastatic prostate cancer (ie, bone or other metastasis)",
+        "logical_relation": "NONE",
+        "question": "Is there evidence in the medical record of metastatic prostate cancer, including bone or other metastasis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 14,
+        "clinical_criteria": "Metastatic prostate cancer"
+    },
+    {
+        "member_id": "mdg_1.2.1.1.1",
+        "content": "Administered in combination with tamoxifen or an aromatase inhibitor (eg, exemestane)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is being administered a GnRH agonist in combination with tamoxifen or an aromatase inhibitor for breast cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 3,
+        "clinical_criteria": "Combination with tamoxifen"
+    },
+    {
+        "member_id": "mdg_1.2.1.1.2",
+        "content": "Patient is premenopausal or male.",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is premenopausal or male with breast cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 4,
+        "clinical_criteria": "Premenopausal or male"
+    },
+    {
+        "member_id": "mdg_1.2.1.1.3",
+        "content": "Tumor is estrogen receptor positive or progesterone receptor positive.",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient's tumor is estrogen receptor positive or progesterone receptor positive in the context of breast cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 5,
+        "clinical_criteria": "Receptor positive tumor"
+    },
+    {
+        "member_id": "mdg_1.2.1.2.1",
+        "content": "Palliative treatment",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is receiving palliative treatment for breast cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 6,
+        "clinical_criteria": "Palliative treatment"
+    },
+    {
+        "member_id": "mdg_1.2.1.2.2",
+        "content": "Patient is premenopausal or perimenopausal.",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is premenopausal or perimenopausal with breast cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 7,
+        "clinical_criteria": "Premenopausal or perimenopausal"
+    },
+    {
+        "member_id": "mdg_1.2.1.3.1",
+        "content": "Patient is receiving cytotoxic agent associated with premature ovarian failure (eg, cyclophosphamide).",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is receiving a cytotoxic agent associated with premature ovarian failure, such as cyclophosphamide, for breast cancer or any other type of cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 8,
+        "clinical_criteria": "Cytotoxic agent use"
+    },
+    {
+        "member_id": "mdg_1.2.1.3.2",
+        "content": "Patient is premenopausal.",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is premenopausal with breast cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 9,
+        "clinical_criteria": "Premenopausal status"
+    },
+    {
+        "member_id": "mdg_1.2.2.1.1",
+        "content": "International Society of Urological Pathology (ISUP) Grade Group 2 to 5 (Gleason score of 7 to 10)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of the patient having an ISUP Grade Group 2 to 5 (Gleason score of 7 to 10) for prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 11,
+        "clinical_criteria": "ISUP Grade Group 2-5"
+    },
+    {
+        "member_id": "mdg_1.2.2.1.2",
+        "content": "Pretreatment PSA of 10 ng/mL (mcg/L) or greater",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of a pretreatment PSA level of 10 ng/mL or greater in the patient's medical record for prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 12,
+        "clinical_criteria": "Pretreatment PSA ≥ 10"
+    },
+    {
+        "member_id": "mdg_1.2.2.1.3",
+        "content": "Stage T2b/T2c, stage T3a/T3b, or stage 4 prostate cancer",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of the patient having stage T2b/T2c, stage T3a/T3b, or stage 4 prostate cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 13,
+        "clinical_criteria": "Prostate cancer stage"
+    },
+    {
+        "member_id": "mdg_1.2.2.3.1",
+        "content": "Extracapsular extension of tumor",
+        "logical_relation": "ANY",
+        "question": "Is there evidence in the medical record of extracapsular extension of tumor in a patient with prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 15,
+        "clinical_criteria": "Extracapsular extension"
+    },
+    {
+        "member_id": "mdg_1.2.2.3.2",
+        "content": "Invasion of seminal vesicle",
+        "logical_relation": "ANY",
+        "question": "Is there evidence in the medical record of invasion of the seminal vesicle in the context of prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 16,
+        "clinical_criteria": "Seminal vesicle invasion"
+    },
+    {
+        "member_id": "mdg_1.2.2.3.3",
+        "content": "Lymph node metastasis",
+        "logical_relation": "ANY",
+        "question": "Is there evidence of lymph node metastasis in the patient's medical record related to prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 17,
+        "clinical_criteria": "Lymph node metastasis"
+    },
+    {
+        "member_id": "mdg_1.2.2.3.4",
+        "content": "Positive biopsy margin(s)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of positive biopsy margin(s) in the medical record for a patient with prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 18,
+        "clinical_criteria": "Positive biopsy margin"
+    },
+    {
+        "member_id": "mdg_1.2.2.3.5",
+        "content": "PSA detectable",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of a detectable PSA level in the context of prostate cancer or cancer?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 19,
+        "clinical_criteria": "Detectable PSA level"
+    },
+    {
+        "member_id": "mdg_1.3",
+        "content": "Central precocious puberty, as indicated by 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 20,
+        "clinical_criteria": "Central precocious puberty"
+    },
+    {
+        "member_id": "mdg_1.3.2",
+        "content": "Subsequent course, with favorable response to prior administration of GnRH agonist",
+        "logical_relation": "NONE",
+        "question": "Is there documentation of a favorable response to a prior administration of GnRH agonist in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 33,
+        "clinical_criteria": "Favorable response to GnRH"
+    },
+    {
+        "member_id": "mdg_1.3.1.1",
+        "content": "Advanced bone age or accelerated growth velocity",
+        "logical_relation": "ALL",
+        "question": "Is there evidence in the medical record of advanced bone age or accelerated growth velocity in the context of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 21,
+        "clinical_criteria": "Advanced bone age"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.1",
+        "content": "Female with ALL of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 22,
+        "clinical_criteria": "Female criteria"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.1.1",
+        "content": "Age between 2 and 8 years when signs or symptoms of precocious puberty appear",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of a female patient aged between 2 and 8 years showing signs or symptoms of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 23,
+        "clinical_criteria": "Age 2-8 years"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.1.2",
+        "content": "Tanner stage 2 or greater clinical findings (ie, breast and pubic hair development)",
+        "logical_relation": "ALL",
+        "question": "Does the patient have Tanner stage 2 or greater clinical findings, such as breast and pubic hair development, in the context of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 24,
+        "clinical_criteria": "Tanner stage 2+"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.1.3",
+        "content": "No pregnancy",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the female patient with central precocious puberty is not pregnant?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 25,
+        "clinical_criteria": "No pregnancy"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.1.4",
+        "content": "No undiagnosed abnormal vaginal bleeding",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of no undiagnosed abnormal vaginal bleeding in a female patient with central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 26,
+        "clinical_criteria": "No abnormal bleeding"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.2.1",
+        "content": "Age between 2 and 9 years when signs or symptoms of precocious puberty appear",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient, aged between 2 and 9 years, shows signs or symptoms of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 27,
+        "clinical_criteria": "Age 2-9 years"
+    },
+    {
+        "member_id": "mdg_1.3.1.2.2.2",
+        "content": "Testicular volume 4 mL or greater",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record indicating that the patient has a testicular volume of 4 mL or greater in the context of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 28,
+        "clinical_criteria": "Testicular volume ≥ 4 mL"
+    },
+    {
+        "member_id": "mdg_1.3.1.3.1",
+        "content": "Pubertal basal level of luteinizing hormone (based on pediatric reference ranges)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of a pubertal basal level of luteinizing hormone in the medical record for a patient with central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 29,
+        "clinical_criteria": "Basal luteinizing hormone"
+    },
+    {
+        "member_id": "mdg_1.3.1.3.2",
+        "content": "Pubertal basal level of sex hormones (based on pediatric reference ranges)",
+        "logical_relation": "ANY",
+        "question": "Does the patient have a pubertal basal level of sex hormones as documented in the medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 30,
+        "clinical_criteria": "Basal sex hormones"
+    },
+    {
+        "member_id": "mdg_1.3.1.3.3",
+        "content": "Pubertal response of luteinizing hormone or sex hormone to stimulation by GnRH",
+        "logical_relation": "ANY",
+        "question": "Is there evidence in the medical record of a pubertal response of luteinizing hormone or sex hormone to stimulation by GnRH in the context of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 31,
+        "clinical_criteria": "Hormone response to GnRH"
+    },
+    {
+        "member_id": "mdg_1.3.1.4",
+        "content": "Other causes of precocious puberty ruled out by appropriate hormonal and imaging studies (eg, congenital adrenal hyperplasia, CNS tumor)",
+        "logical_relation": "NONE",
+        "question": "Have other causes of precocious puberty, such as congenital adrenal hyperplasia or CNS tumor, been ruled out by appropriate hormonal and imaging studies in the context of central precocious puberty?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 32,
+        "clinical_criteria": "Other causes ruled out"
+    },
+    {
+        "member_id": "mdg_1.4.1",
+        "content": "Prior to planned endometrial ablation for definitive treatment",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record indicating that the patient is scheduled for endometrial ablation as a definitive treatment?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 34,
+        "clinical_criteria": "Planned endometrial ablation"
+    },
+    {
+        "member_id": "mdg_1.4.2",
+        "content": "No current breast-feeding",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record indicating that the patient is not currently breast-feeding?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 35,
+        "clinical_criteria": "Not breast-feeding"
+    },
+    {
+        "member_id": "mdg_1.4.3",
+        "content": "No pregnancy currently or anticipated while receiving medication",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record confirming that the patient is not currently pregnant or anticipating pregnancy while receiving medication?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 36,
+        "clinical_criteria": "No pregnancy anticipated"
+    },
+    {
+        "member_id": "mdg_1.4.4",
+        "content": "Other causes of symptoms or bleeding ruled out (eg, by endometrial biopsy)",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that other causes of symptoms or bleeding have been ruled out, such as by endometrial biopsy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 37,
+        "clinical_criteria": "Other causes ruled out"
+    },
+    {
+        "member_id": "mdg_1.5",
+        "content": "Endometriosis, as indicated by 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 38,
+        "clinical_criteria": "Endometriosis criteria"
+    },
+    {
+        "member_id": "mdg_1.5.1.1",
+        "content": "Age 18 years or older",
+        "logical_relation": "ALL",
+        "question": "Is the patient 18 years or older with endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 39,
+        "clinical_criteria": "Age 18+ years"
+    },
+    {
+        "member_id": "mdg_1.5.1.2.1",
+        "content": "Dysmenorrhea",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of dysmenorrhea in the patient's medical record related to endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 40,
+        "clinical_criteria": "Dysmenorrhea present"
+    },
+    {
+        "member_id": "mdg_1.5.1.2.2",
+        "content": "Dyspareunia",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of dyspareunia in the patient's medical record in the context of endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 41,
+        "clinical_criteria": "Dyspareunia present"
+    },
+    {
+        "member_id": "mdg_1.5.1.2.3",
+        "content": "Pelvic pain",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of pelvic pain in the patient's medical record related to endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 42,
+        "clinical_criteria": "Pelvic pain present"
+    },
+    {
+        "member_id": "mdg_1.5.1.3.1",
+        "content": "Oral contraceptive pills or medroxyprogesterone acetate injection",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record of the patient using oral contraceptive pills or medroxyprogesterone acetate injection for endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 43,
+        "clinical_criteria": "Contraceptive or medroxyprogesterone"
+    },
+    {
+        "member_id": "mdg_1.5.1.3.2",
+        "content": "Nonsteroidal anti-inflammatory drugs (NSAIDs)",
+        "logical_relation": "ALL",
+        "question": "Is there evidence in the medical record that the patient is using nonsteroidal anti-inflammatory drugs (NSAIDs) for endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 44,
+        "clinical_criteria": "NSAIDs usage"
+    },
+    {
+        "member_id": "mdg_1.5.1.4",
+        "content": "No current breast-feeding",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record that the patient is not currently breast-feeding and has endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 45,
+        "clinical_criteria": "Not breast-feeding"
+    },
+    {
+        "member_id": "mdg_1.5.1.5",
+        "content": "No pregnancy currently or anticipated while receiving medication",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record that the patient is not currently pregnant or anticipating pregnancy while receiving medication for endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 46,
+        "clinical_criteria": "No pregnancy anticipated"
+    },
+    {
+        "member_id": "mdg_1.5.1.6",
+        "content": "No vaginal bleeding of unknown cause",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record indicating that the patient has no vaginal bleeding of unknown cause and has endometriosis?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 47,
+        "clinical_criteria": "No unknown bleeding"
+    },
+    {
+        "member_id": "mdg_1.6",
+        "content": "Gender incongruence, as indicated by 1 or more of the following:",
+        "logical_relation": "ANY",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "seq": 48,
+        "clinical_criteria": "Gender incongruence criteria"
+    },
+    {
+        "member_id": "mdg_1.6.1.1",
+        "content": "Marked and sustained gender incongruence as assessed and documented by clinician experienced in care of transgender and gender-diverse people",
+        "logical_relation": "ALL",
+        "question": "Is there documentation by a clinician experienced in the care of transgender and gender-diverse people that the patient has marked and sustained gender incongruence?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 49,
+        "clinical_criteria": "Sustained gender incongruence"
+    },
+    {
+        "member_id": "mdg_1.6.1.2",
+        "content": "Pubertal development of Tanner stage 2 or greater",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record indicating that the patient has reached pubertal development of Tanner stage 2 or greater with gender incongruence?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 50,
+        "clinical_criteria": "Tanner stage 2+"
+    },
+    {
+        "member_id": "mdg_1.6.2.1",
+        "content": "Marked and sustained gender incongruence as assessed and documented by clinician experienced in care of transgender and gender-diverse people",
+        "logical_relation": "ALL",
+        "question": "Is there documentation by a clinician experienced in the care of transgender and gender-diverse people that the patient has marked and sustained gender incongruence?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 51,
+        "clinical_criteria": "Sustained gender incongruence"
+    },
+    {
+        "member_id": "mdg_1.6.2.2",
+        "content": "Favorable response to initial course of GnRH agonist",
+        "logical_relation": "ALL",
+        "question": "Is there documentation of a favorable response to an initial course of GnRH agonist in the patient's medical record, specifically in the context of gender incongruence?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 52,
+        "clinical_criteria": "Favorable response to GnRH"
+    },
+    {
+        "member_id": "mdg_1.7.1",
+        "content": "Age 18 years or older",
+        "logical_relation": "ALL",
+        "question": "Is there documentation in the medical record that the patient is 18 years or older?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 53,
+        "clinical_criteria": "Age 18+ years"
+    },
+    {
+        "member_id": "mdg_1.7.2",
+        "content": "Goal to reduce leiomyoma (fibroid) size or bleeding prior to operative intervention",
+        "logical_relation": "ALL",
+        "question": "Is there evidence in the medical record that the patient is undergoing treatment to reduce leiomyoma (fibroid) size or bleeding prior to operative intervention?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 54,
+        "clinical_criteria": "Reduce fibroid size"
+    },
+    {
+        "member_id": "mdg_1.7.3.1",
+        "content": "Abnormal uterine bleeding",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of abnormal uterine bleeding in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 55,
+        "clinical_criteria": "Abnormal uterine bleeding"
+    },
+    {
+        "member_id": "mdg_1.7.3.2",
+        "content": "Bulk-related symptoms (eg, pelvic pain or pressure, dyspareunia, urinary symptoms)",
+        "logical_relation": "ANY",
+        "question": "Is there documentation in the medical record of bulk-related symptoms such as pelvic pain, pressure, dyspareunia, or urinary symptoms?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 56,
+        "clinical_criteria": "Bulk-related symptoms"
+    },
+    {
+        "member_id": "mdg_1.7.3.3",
+        "content": "Iron deficiency anemia",
+        "logical_relation": "ANY",
+        "question": "Is there documentation of iron deficiency anemia in the patient's medical record?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 57,
+        "clinical_criteria": "Iron deficiency anemia"
+    },
+    {
+        "member_id": "mdg_1.7.4",
+        "content": "No current breast-feeding",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record indicating that the patient is not currently breast-feeding?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 58,
+        "clinical_criteria": "Not breast-feeding"
+    },
+    {
+        "member_id": "mdg_1.7.5",
+        "content": "No pregnancy currently or anticipated while receiving medication",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record confirming that the patient is not currently pregnant or anticipating pregnancy while receiving medication?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 59,
+        "clinical_criteria": "No pregnancy anticipated"
+    },
+    {
+        "member_id": "mdg_1.7.6",
+        "content": "Other causes of symptoms or bleeding ruled out (eg, by endometrial biopsy)",
+        "logical_relation": "NONE",
+        "question": "Is there documentation in the medical record that other causes of symptoms or bleeding have been ruled out, such as by endometrial biopsy?",
+        "classification_type": "indication",
+        "category": "Explicit",
+        "seq": 60,
+        "clinical_criteria": "Other causes ruled out"
+    }
+]

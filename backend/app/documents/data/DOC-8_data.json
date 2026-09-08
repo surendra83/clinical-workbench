@@ -1,0 +1,182 @@
+[
+    {
+        "member_id": "mdg_1",
+        "content": "Continuous glucose monitoring may be indicated when ALL of the following are present:",
+        "logical_relation": "ALL",
+        "question": "",
+        "classification_type": "indication",
+        "category": "",
+        "clinical_criteria": "Continuous glucose monitoring indication",
+        "children": [
+            {
+                "member_id": "mdg_1.1",
+                "content": "Diabetes (eg, type 1 diabetes mellitus, type 2 diabetes mellitus, insulin-deficient diabetes)",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record of diabetes, such as type 1 diabetes mellitus, type 2 diabetes mellitus, or insulin-deficient diabetes?",
+                "classification_type": "indication",
+                "category": "Explicit",
+                "clinical_criteria": "Documentation of diabetes",
+                "seq": 1
+            },
+            {
+                "member_id": "mdg_1.2",
+                "content": "Type of monitoring is 1 or more of the following:",
+                "logical_relation": "ANY",
+                "question": "",
+                "classification_type": "indication",
+                "category": "",
+                "clinical_criteria": "Type of monitoring",
+                "children": [
+                    {
+                        "member_id": "mdg_1.2.1",
+                        "content": "Long-term continuous glucose monitoring needed, as indicated by 1 or more of the following:",
+                        "logical_relation": "ANY",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Long-term monitoring needed",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.1.1",
+                                "content": "Adult or child treated with intensive insulin regimen (eg, 3 or more daily insulin injections, use of continuous subcutaneous insulin infusion pump)",
+                                "logical_relation": "none",
+                                "question": "Is there documentation that the patient, whether adult or child, is being treated with an intensive insulin regimen, such as 3 or more daily insulin injections or the use of a continuous subcutaneous insulin infusion pump?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Intensive insulin regimen",
+                                "seq": 4
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.2",
+                                "content": "Adult or child with type 1 diabetes",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record that the patient, an adult or child with type 1 diabetes, requires long-term continuous glucose monitoring?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Type 1 diabetes",
+                                "seq": 5
+                            },
+                            {
+                                "member_id": "mdg_1.2.1.3",
+                                "content": "Adult treated with basal-only insulin, with or without noninsulin antihyperglycemic therapy",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record that the adult patient is treated with basal-only insulin, with or without noninsulin antihyperglycemic therapy?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Basal-only insulin treatment",
+                                "seq": 6
+                            }
+                        ],
+                        "seq": 3
+                    },
+                    {
+                        "member_id": "mdg_1.2.2",
+                        "content": "Short-term continuous glucose monitoring needed, as indicated by ALL of the following:",
+                        "logical_relation": "ALL",
+                        "question": "",
+                        "classification_type": "indication",
+                        "category": "",
+                        "clinical_criteria": "Short-term monitoring needed",
+                        "children": [
+                            {
+                                "member_id": "mdg_1.2.2.1",
+                                "content": "Additional information about blood glucose needed, as indicated by 1 or more of the following:",
+                                "logical_relation": "ANY",
+                                "question": "",
+                                "classification_type": "indication",
+                                "category": "",
+                                "clinical_criteria": "Additional blood glucose info",
+                                "children": [
+                                    {
+                                        "member_id": "mdg_1.2.2.1.1",
+                                        "content": "Assessment of glycemic control (eg, time in target range) needed for treatment decision making",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation in the medical record of an assessment of glycemic control, such as time in target range, needed for treatment decision making?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Glycemic control assessment",
+                                        "seq": 9
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.2",
+                                        "content": "Dawn phenomenon, known or suspected",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation in the medical record indicating the presence or suspicion of the dawn phenomenon?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Dawn phenomenon",
+                                        "seq": 10
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.3",
+                                        "content": "Hypoglycemic unawareness (ie, patient does not have symptoms with hypoglycemia)",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation in the medical record indicating that the patient has hypoglycemic unawareness, meaning they do not have symptoms with hypoglycemia?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Hypoglycemic unawareness",
+                                        "seq": 11
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.4",
+                                        "content": "Nocturnal hypoglycemia, known or suspected",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation of nocturnal hypoglycemia, known or suspected, in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Nocturnal hypoglycemia",
+                                        "seq": 12
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.5",
+                                        "content": "Postprandial hyperglycemia, known or suspected",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation of postprandial hyperglycemia, known or suspected, in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Postprandial hyperglycemia",
+                                        "seq": 13
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.6",
+                                        "content": "Significant change to diabetes treatment regimen (eg, initiation of insulin, change from multiple-dose insulin to insulin pump therapy)",
+                                        "logical_relation": "none",
+                                        "question": "Has there been a significant change to the patient's diabetes treatment regimen, such as initiation of insulin or change from multiple-dose insulin to insulin pump therapy?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Change in treatment regimen",
+                                        "seq": 14
+                                    },
+                                    {
+                                        "member_id": "mdg_1.2.2.1.7",
+                                        "content": "Unexplained hyperglycemia",
+                                        "logical_relation": "none",
+                                        "question": "Is there documentation of unexplained hyperglycemia in the patient's medical record?",
+                                        "classification_type": "indication",
+                                        "category": "Explicit",
+                                        "clinical_criteria": "Unexplained hyperglycemia",
+                                        "seq": 15
+                                    }
+                                ],
+                                "seq": 8
+                            },
+                            {
+                                "member_id": "mdg_1.2.2.2",
+                                "content": "Monitoring limited to 3 to 14 days",
+                                "logical_relation": "none",
+                                "question": "Is there documentation in the medical record that the patient requires short-term continuous glucose monitoring limited to 3 to 14 days?",
+                                "classification_type": "indication",
+                                "category": "Explicit",
+                                "clinical_criteria": "Monitoring 3 to 14 days",
+                                "seq": 16
+                            }
+                        ],
+                        "seq": 7
+                    }
+                ],
+                "seq": 2
+            }
+        ],
+        "seq": 0
+    }
+]
