@@ -1,0 +1,56 @@
+.optum-panel{
+      background-color: #F6F6F6;
+      border: 1px solid #ccc;
+      box-shadow: inset 0 -1px 2px rgba(0,0,0,0.2); /* Embossed border effect */
+      border-radius: 6px;
+      width: 100%;
+      margin: auto;
+      padding: 0px;
+}
+.optum-panel-title{
+      font-size: 18px;
+      font-weight: bold;
+      color: #2c3e50;
+      margin-bottom: 0px;
+      text-align: left;
+      padding-bottom: 6px;
+      /* border-bottom: 1px solid #ccc; */
+}
+.optum-panel-body{
+    font-size: 16px;
+    color: #34495e;
+    line-height: 1.6;
+}
+.p10{ padding: 12px; margin-top: 10px;}
+.top-mg10{ margin-top: 10px;}
+.row-list{ display:  inline-block;}
+.optum-hrow{ display: block; height: 42px; list-style: none; margin: 0px; padding: 0px;}
+
+.optum-hrow li{ display: inline-block; margin-left: 20px;}
+.optum-hrow li:first-child{ margin-left: 4px !important;}
+
+
+.optum-textbox{ border: 1px solid #d1d1d1;  padding: 4px; height: 32px; width: 100%; border-radius: 4px; outline: none;}
+.optum-filte-texbox{
+      width: 235px;
+      height: 32px;
+      border-radius: 8px;
+      padding-left: 30px;
+}
+.dotted-box{ height: 100px; border: 2px dashed #b1adad; padding: 10px; background-color: #fff; }
+
+.medical-guideline{
+      width: 100%;
+      margin: auto;
+      padding: 0px;
+}
+.btm-mg-gap{ margin-bottom: 10px;}
+button:disabled {
+  opacity: 0.5; /* Makes the icon look faded */
+  pointer-events: none; /* Prevents interaction */
+  cursor: not-allowed; /* Shows a 'not-allowed' cursor */
+}
+.optum-filter{ display: flex;  width: 100%; margin-top: 30px;}
+.item-right{ flex: 0 0 370px; margin: auto;}
+.item-left{ flex: 1; margin: auto; }
+.item-middle{ flex: 0 0 60%; margin: auto; }

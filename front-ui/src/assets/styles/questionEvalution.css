@@ -1,0 +1,66 @@
+
+
+/*table css*/
+.optum-question-container{
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid #d1d1d1;
+  width: 100%;
+}
+.optum-question-container .optum-question-left{
+   flex: 0 0 74%; /* 80% width */
+}
+.optum-question-container .optum-question-left, .optum-question-container .optum-question-right{
+  padding: 10px 0px;
+  text-align: center;
+  height:auto;
+  min-height: 500px;
+} 
+ .optum-question-container .optum-question-right{
+   flex: 0 0 25%; /* 20% width */
+  } 
+
+.optum-table {
+  display: flex;
+  flex-direction: column;
+  gap: 0px; /* Space between rows */
+  padding: 0px;
+  background-color: #F6F6F6;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid #e8e7e7;
+}
+.optum-table-row {
+  display: flex;
+  gap: 4px;
+  height: auto;
+  align-items: flex-start; 
+}
+.optum-table-col {
+  padding:2px;
+}
+.optum-lcol{
+     flex: 0 0 20%; /* 20% width */
+     text-align: left;
+      align-items: flex-start; 
+      font-size: 14px;
+}
+.optum-rcol{
+   flex: 0 0 78%; /* 20% width */
+   text-align: left;
+    align-items: flex-start; 
+     font-size: 14px;
+}
+.rowline{ 
+    border-top:1px solid #d1d1d1;
+    padding-top: 8px;
+}
+.rowline-space{ padding-top: 8px; }
+.textBold { font-weight: 600; font-size: 14px;}
+.textbox-aria{  height: 100px; width:100%; border-radius: 8px; border: 1px solid #d1d1d1; outline: none; padding: 10px;  background-color:#ffff; color:darkslategray;}
+.buttom-pannel-row{ text-align: right; display: block; width: 100%; padding: 4px;}
+
+.mg-align{ margin-left:30px;}
+.mg-lblalign { padding: 10px;}
+
+.p-explanation{ padding: 0px; margin-top: 5px; }

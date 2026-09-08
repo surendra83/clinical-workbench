@@ -1,0 +1,20 @@
+.optum-sidepannel{
+    display: block;
+    min-width: 200px;
+}
+.optm-side-nav{ display: 100%; list-style: none; margin-top:20px;  padding: 0; text-align: left;  }
+
+.optm-side-nav li {display: block; width: auto; height: auto;}
+.optm-side-nav li a { color: #000000; width:280px; display: block;  line-height: 24px; height: 48px; margin: 0;  text-align: left; padding: 10px; padding-left: 24px; margin-bottom: 20px; }
+.optm-side-nav li a:hover { background:#4E68A0; color: #fff; cursor: pointer;} 
+
+.optm-side-nav li a.optm-nav-active { background:#4E68A0; color: #fff; cursor: pointer; width:280px; display: block;  line-height: 24px; height: 48px; margin: 0;  text-align: left; padding: 10px; padding-left: 24px; margin-bottom: 20px;  }
+
+.nav-lbl{ display: inline-block; margin-left: 10px;}
+
+.addlist_icon{
+    background: url('../images/list_add_icon.png') no-repeat;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}

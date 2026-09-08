@@ -1,28 +1,23 @@
-# Project : Clinical Workbench UI
-This repository contains the Node.js codebase for the user interface of the clinical workbench (light version). It is designed to provide a streamlined and responsive UI for clinical workflows, optimized for performance and usability.
-
-# step 1 Clinical workbench UI  installation
- - nodejs
- - React Framework
- - TypeScript
- - git 
+# Project : Clinical Workbench View
 
 
-# Step 2 
+# step 1
+ Install nodejs
 
-git clone https://github.com/optum-care/clinicalworkbench-deployments-ui.git
+
+ copy project Clinical Workbench
 
 
 ``` bash
 
- C:> CD  clinicalworkbench-deployments-ui 
- C:\clinicalworkbench-deployments-ui> 
- C:\clinicalworkbench-deployments-ui> npm install
- C:\clinicalworkbench-deployments-ui > npm run dev 
+ C:> CD  clinical_workbench_ui 
+ C:\Clinical_workbench > 
+ C:\Clinical_workbench> npm install
+ C:\Clinical_workbench > npm run dev 
 
 
 ```
 
-# Dev server run on default port check in browser:
+once dev server run check in browser:
 
 Local:http://localhost:5173/

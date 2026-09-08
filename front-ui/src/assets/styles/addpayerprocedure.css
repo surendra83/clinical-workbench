@@ -1,0 +1,15 @@
+
+.optum-form-row{ 
+  display: flex;
+  flex-direction: row; /* default is row, so this is optional */
+  justify-content: space-between; /* or use center, space-around, etc. */
+  align-items: center; /* vertically center items */
+  padding: 12px;
+}
+.optum-form-title{ font-weight: bold; padding: 0px 10px;}
+.optum-form-item{
+  flex: 1; /* makes all items take equal space */
+  padding: 5px;
+  text-align: center;
+}
+.optum-button-section{ text-align: right; display: block; height: 32px;}

@@ -1,0 +1,38 @@
+.decision-tree-panel {
+  border: 1px solid #ccc;
+  padding: 10px;
+  background: #f9f9f9;
+  position: relative;
+}
+
+.zoom-controls {
+   text-align: center;
+   transform: rotate(90deg);
+   width: 15%;
+   background: transparent;
+   position: absolute;
+   right: -50px;
+   top:90px;
+
+}
+
+.zoom-controls button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+
+.tooltip {
+  position: fixed; /* not absolute */
+  background: white;
+  border: 1px solid #333;
+  padding: 6px 10px;
+  font-size: 14px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  z-index: 1000;
+}

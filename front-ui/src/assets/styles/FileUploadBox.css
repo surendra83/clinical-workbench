@@ -1,0 +1,30 @@
+
+.upload-container{ display: block; height: auto; width: 100%;
+ padding: 0px 10px;
+}
+.drop-box {
+  position: relative;
+  width: 100%;
+  height: 125px;
+  border: 2px dashed gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+.drop-box.highlight {
+  border-color: #666;
+}
+.drop-box p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+  display: block;
+  text-align: center;
+}
+.remove-button{ display: inline-block;  cursor: pointer; margin-left: 20px;}
+.file-list{ display: block; width: 100%; padding: 2px; list-style: none; margin: 18px 0px 0px 0px;}
+.file-list li { display: inline-block; background-color: #fff; margin-left: 2px; padding:2px 12px; border: 1px solid #d1d1d1; border-radius: 15px;}

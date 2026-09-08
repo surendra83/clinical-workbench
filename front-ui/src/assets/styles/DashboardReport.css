@@ -1,0 +1,53 @@
+.dashboardContainer {
+  padding: 0px;
+  font-family: Arial, sans-serif;
+}
+.filterSection {
+  display: inline-block;
+  justify-content: center;
+}
+.rbtm_gap { margin-bottom: 15px;}
+
+.filterSection label {
+  font-weight: bold;
+  font-size: 16px;
+}
+.timeFilter { margin-left: 10px; width: 15px; height: 32px; width: 130px; border-radius: 5px; border: 1px solid #d1d1d1; padding: 4px; outline-style: none;}
+
+.taskBoxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+.taskBox {
+  width: 23%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.taskBox .dash-lbl { font-weight: 600; font-size: 20px;}
+.taskBox .lbl-count { font-weight: 500; margin-top: 10px; font-weight: bold; }
+.allTasks {
+  border: 2px solid  #007bff;
+  color: #333;
+}
+.completedTasks {
+  border: 2px solid  #28a745;
+  color: #333;
+}
+.pendingTasks {
+  border: 2px solid  #ffc107;
+  color: #333;
+}
+.overdueTasks {
+  color: #333;
+  border: 2px solid  #dc3545;
+}

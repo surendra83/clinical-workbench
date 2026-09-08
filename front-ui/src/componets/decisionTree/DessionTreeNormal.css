@@ -1,0 +1,104 @@
+.optum-dession-tree-pannel{
+    display: block;
+    width: 100%;
+    border: 1px solid #d1d1d1;
+    height: auto;
+    margin-top: 20px;
+}
+.optum-pannel-title{
+   
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 4px 10px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.optum-inside-node{
+    cursor: pointer;
+    margin-bottom: 8px;
+    border-right: none;
+    border-radius: 0px;
+}
+.hline{
+  position: relative;
+  border-top : 1px solid #d1d1d1;
+  padding-top: 5px;
+  /* border-bottom : 1px solid #d1d1d1; */
+}
+
+.optum-inner-tree{
+    margin-left: 20px;
+    border-left:1px solid #d1d1d1;
+    margin-top:20px;
+    border-right: none;
+}
+.optum-inner-tree::before{
+  content: "";
+  position: absolute;
+  margin-left: -20px;
+  height: 1px;
+  width: 20px;
+  margin-top: 15px;
+  border: 1px solid #d1d1d1;
+  background: currentColor;
+  opacity: 0.7;
+
+}
+
+.optum-local-criteria { margin-left: 30px; display: inline-block;}
+
+.optum-local-type { margin-left: 30px; display: inline-block;}
+.optum-node{ padding: 0px 2px; display: block;   }
+.optum-children-box {
+    margin-left: 20px;
+    border-left: 1px solid #d1d1d1;
+}
+
+.optum-children-box::before {
+  content: "";
+  position: absolute;
+  margin-left: -20px;
+  height: 1px;
+  width: 20px;
+  margin-top: 15px;
+  border: 1px solid #d1d1d1;
+  background: currentColor;
+  opacity: 0.7;
+
+}
+
+.optum-node-question{
+    font-size: 14px;
+    margin: 0px;
+    padding-left:42px;
+}
+.otum-criteria{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+  white-space: nowrap; 
+  margin-top: 10px;
+  list-style: 16px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.optum-type { display: inline-block; margin-left: 40px; }
+
+.optum-fb-rowcontainer {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center
+}
+.optum-fb-item1 {
+flex: 1;
+
+}
+.optum-fb-item {
+  width: auto;
+
+}
+.optum-fb-item-with{
+   width: auto;
+}

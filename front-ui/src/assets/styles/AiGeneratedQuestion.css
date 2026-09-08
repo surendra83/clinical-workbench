@@ -1,0 +1,21 @@
+.optum-aigleftCol{
+     flex: 0 0 40%; /* 20% width */
+     text-align: left;
+}
+
+.optum-aigrightCol{
+   flex: 0 0 60%; /* 20% width */
+   text-align: left;
+  /* border-left:  1px solid #B0B0B0;*/
+}
+.text-lign-center{ text-align: center;}
+
+.item-box{ 
+  flex: 1;
+  margin: auto; 
+}
+.item-box2{ 
+  flex: 0 0 130px;
+  margin: auto; 
+  text-align:left;
+}
