@@ -75,7 +75,7 @@ const MyTasks: React.FC = () => {
      
      <TaskFilter/>
      <div className='opt-label' style={{'height':'18px', 'margin':'4px'}}></div>
-     <div className="ag-theme-alpine" style={{ height: 500, width: '100%' }}>
+     <div className="ag-theme-alpine" style={{ height: 420, width: '100%' }}>
       <AgGridReact
         ref={gridRef}
         theme={themeAlpine }
