@@ -135,10 +135,10 @@ const AddPayerProcedure: React.FC = () => {
   }, []);
 
   const columnDefs: ColDef[] = [
-      { field: "cpt_code", headerName:'Procedure Code', width:150, wrapHeaderText: true,autoHeaderHeight: true },
+      { field: "cpt_code", headerName:'CPT Code', width:150, wrapHeaderText: true,autoHeaderHeight: true },
       { field: "payer", headerName:'Payer', width:120 },
       { field: "state", headerName:'State', width:90 },
-      { field: "document_type", headerName:'Document Source',width:150, wrapHeaderText: true,autoHeaderHeight: true },
+      { field: "document_type", headerName:'Document Type',width:150, wrapHeaderText: true,autoHeaderHeight: true },
       { field: 'document_title', headerName:'Description', width:470},  
       { field: 'priority', headerName:'Priority', width:120 },
       { field: 'due_date', headerName:'Dute Date', width:120 },
@@ -159,7 +159,7 @@ const AddPayerProcedure: React.FC = () => {
         onSubmit={handleSubmit}
         sx={{ maxWidth: 'auto', mx: 'auto', mt: 4,  p: 2, border: '1px solid #d1d1d1', borderRadius: 2 }}
       >
-        <div className='optum-form-title'>Add Task</div>
+        <div className='optum-form-title'>Add Template</div>
         <div className="optum-form-row">
           <div className='optum-form-item'>
               <TextField
@@ -333,7 +333,7 @@ const AddPayerProcedure: React.FC = () => {
       </LocalizationProvider>
     
       {rowData?.length!=0 ? (<div className='optum-row' style={{marginTop:'15px'}}> 
-         <strong> Today's Added Task </strong> 
+         <strong> Today's Added Templates </strong> 
          <div className="grid-box" style={{ marginTop:'10px', height: 250, width: '100%' }}>
           <AgGridReact
               ref={gridRef}
