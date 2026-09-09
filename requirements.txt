@@ -27,4 +27,3 @@ ipywidgets
 httpx
 pdfplumber
 websockets
-
