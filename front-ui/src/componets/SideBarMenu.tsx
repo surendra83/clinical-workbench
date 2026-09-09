@@ -16,12 +16,12 @@ function SideBarMenu() {
       <div className='optum-sidepannel'>
         <ul className="optm-side-nav">
             <li><NavLink to="/dashboard" className={activeNav}><DashboardIcon/><span className='nav-lbl'> Dashboard</span></NavLink> </li>  
-            <li><NavLink to="/mytask" className={activeNav}><TaskOutlinedIcon/><span className='nav-lbl'> My Tasks</span></NavLink> </li>
+            <li><NavLink to="/mytask" className={activeNav}><TaskOutlinedIcon/><span className='nav-lbl'> Guideline Template</span></NavLink> </li>
             <li><NavLink to="/add-task" className={activeNav}>
              {/* <div className='addlist_icon'></div> */}
              <PlaylistAddIcon/>
          
-            <span className='nav-lbl'> Add Task</span></NavLink> </li>
+            <span className='nav-lbl'> Add New Template</span></NavLink> </li>
            
             {/* 
             <li><NavLink to="/document-search" className={activeNav}><SearchIcon/><span className='nav-lbl'> Medical Document Search</span></NavLink></li>

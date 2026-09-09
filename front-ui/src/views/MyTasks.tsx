@@ -66,10 +66,10 @@ const MyTasks: React.FC = () => {
   
        <div className='optum-flexbox-container' style={{ marginBottom:'10px'}}>
          <div className='optum-fx-col'>
-           <strong className='lbl-headding'>My Task</strong>
+           <strong className='lbl-headding'>Template</strong>
          </div>
          <div className='optum-fx-col right-align'>
-          <button className='optum-button-primary' onClick={addTaskClick_Handler}>Add Task</button>
+          <button className='optum-button-primary' onClick={addTaskClick_Handler}>Add Template</button>
          </div>
        </div>
      

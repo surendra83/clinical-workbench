@@ -20,19 +20,19 @@ const DashboardReport: React.FC = () => {
      </div>
       <div className="taskBoxes">
         <div className="taskBox allTasks">
-          <div className='dash-lbl'>All Tasks</div>
+          <div className='dash-lbl'>All Templates</div>
           <p className='lbl-count'>30</p>
         </div>
         <div className="taskBox completedTasks">
-          <div className='dash-lbl'>Tasks Completed</div>
+          <div className='dash-lbl'>Templates Completed</div>
           <p className='lbl-count'>15</p>
         </div>
         <div className="taskBox pendingTasks">
-          <div className='dash-lbl'>Tasks Pending</div>
+          <div className='dash-lbl'>Templates Pending</div>
           <p className='lbl-count'>10</p>
         </div>
         <div className="taskBox overdueTasks">
-          <div className='dash-lbl'>Task Overdue</div>
+          <div className='dash-lbl'>Templates Overdue</div>
           <p className='lbl-count'>5</p>
         </div>
       </div>

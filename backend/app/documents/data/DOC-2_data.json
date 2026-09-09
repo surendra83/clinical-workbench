@@ -6,7 +6,7 @@
         "question": "",
         "classification_type": "indication",
         "category": "",
-        "clinical_criteria": "Aflibercept indication criteria",
+        "clinical_criteria": "aflibercept may be indicated",
         "children": [
             {
                 "member_id": "mdg_1.1",
@@ -15,67 +15,67 @@
                 "question": "",
                 "classification_type": "indication",
                 "category": "",
-                "clinical_criteria": "Clinical diagnosis required",
+                "clinical_criteria": "clinical diagnosis of conditions",
                 "children": [
                     {
                         "member_id": "mdg_1.1.1",
                         "content": "Diabetic macular edema",
                         "logical_relation": "ANY",
-                        "question": "Is there documentation of diabetic macular edema in the patient's medical record?",
+                        "question": "Is there documentation in the medical record of a clinical diagnosis of diabetic macular edema for which aflibercept may be indicated?",
                         "classification_type": "indication",
                         "category": "Explicit",
-                        "clinical_criteria": "Diabetic macular edema",
-                        "seq": 2
+                        "seq": 2,
+                        "clinical_criteria": "diabetic macular edema"
                     },
                     {
                         "member_id": "mdg_1.1.2",
                         "content": "Diabetic retinopathy",
                         "logical_relation": "ANY",
-                        "question": "Is there documentation of diabetic retinopathy in the patient's medical record?",
+                        "question": "Is there documentation in the medical record of a clinical diagnosis of diabetic retinopathy that would support the use of aflibercept?",
                         "classification_type": "indication",
                         "category": "Explicit",
-                        "clinical_criteria": "Diabetic retinopathy",
-                        "seq": 3
+                        "seq": 3,
+                        "clinical_criteria": "diabetic retinopathy diagnosis"
                     },
                     {
                         "member_id": "mdg_1.1.3",
                         "content": "Macular edema following central or branch retinal vein occlusion",
                         "logical_relation": "ANY",
-                        "question": "Is there documentation of macular edema following central or branch retinal vein occlusion in the patient's medical record?",
+                        "question": "Is there documentation of a clinical diagnosis of macular edema following central or branch retinal vein occlusion in the medical record?",
                         "classification_type": "indication",
                         "category": "Explicit",
-                        "clinical_criteria": "Macular edema post-occlusion",
-                        "seq": 4
+                        "seq": 4,
+                        "clinical_criteria": "macular edema post RVO"
                     },
                     {
                         "member_id": "mdg_1.1.4",
                         "content": "Metastatic colorectal cancer with progression of disease on initial therapy",
                         "logical_relation": "ANY",
-                        "question": "Is there documentation of metastatic colorectal cancer with progression of disease on initial therapy in the patient's medical record?",
+                        "question": "Is there documentation that the patient has metastatic colorectal cancer with progression of disease on initial therapy and a clinical diagnosis supporting the use of aflibercept when all required criteria are present?",
                         "classification_type": "indication",
                         "category": "Explicit",
-                        "clinical_criteria": "Metastatic colorectal cancer",
-                        "seq": 5
+                        "seq": 5,
+                        "clinical_criteria": "metastatic colorectal cancer progression"
                     },
                     {
                         "member_id": "mdg_1.1.5",
                         "content": "Neovascular (wet, or exudative) age-related macular degeneration",
                         "logical_relation": "ANY",
-                        "question": "Is there documentation of neovascular (wet, or exudative) age-related macular degeneration in the patient's medical record?",
+                        "question": "Is there documentation that the patient has neovascular (wet or exudative) age-related macular degeneration and a clinical diagnosis supporting the use of aflibercept when all required criteria are present?",
                         "classification_type": "indication",
                         "category": "Explicit",
-                        "clinical_criteria": "Neovascular age-related macular degeneration",
-                        "seq": 6
+                        "seq": 6,
+                        "clinical_criteria": "neovascular age-related macular degeneration"
                     },
                     {
                         "member_id": "mdg_1.1.6",
                         "content": "Retinopathy of prematurity",
                         "logical_relation": "ANY",
-                        "question": "Is there documentation of retinopathy of prematurity in the patient's medical record?",
+                        "question": "Is there documentation in the medical record of a clinical diagnosis of retinopathy of prematurity for which aflibercept treatment is being considered?",
                         "classification_type": "indication",
                         "category": "Explicit",
-                        "clinical_criteria": "Retinopathy of prematurity",
-                        "seq": 7
+                        "seq": 7,
+                        "clinical_criteria": "retinopathy of prematurity"
                     }
                 ],
                 "seq": 1
@@ -83,22 +83,22 @@
             {
                 "member_id": "mdg_1.2",
                 "content": "No active intraocular inflammation",
-                "logical_relation": "NOT",
-                "question": "Is there documentation in the medical record indicating no active intraocular inflammation?",
+                "logical_relation": "ALL",
+                "question": "Is there documentation in the medical record that the patient has no active intraocular inflammation when aflibercept is being considered?",
                 "classification_type": "indication",
                 "category": "Explicit",
-                "clinical_criteria": "No active intraocular inflammation",
-                "seq": 8
+                "seq": 8,
+                "clinical_criteria": "no active intraocular inflammation"
             },
             {
                 "member_id": "mdg_1.3",
                 "content": "No concurrent ocular or periocular infection",
-                "logical_relation": "NOT",
-                "question": "Is there documentation in the medical record indicating the absence of concurrent ocular or periocular infection?",
+                "logical_relation": "ALL",
+                "question": "Is there documentation that the patient does not have a concurrent ocular or periocular infection?",
                 "classification_type": "indication",
                 "category": "Explicit",
-                "clinical_criteria": "No concurrent ocular infection",
-                "seq": 9
+                "seq": 9,
+                "clinical_criteria": "no ocular or periocular infection"
             }
         ],
         "seq": 0
