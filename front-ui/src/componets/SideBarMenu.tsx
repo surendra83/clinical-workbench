@@ -21,7 +21,7 @@ function SideBarMenu() {
              {/* <div className='addlist_icon'></div> */}
              <PlaylistAddIcon/>
          
-            <span className='nav-lbl'> Add New Template</span></NavLink> </li>
+            <span className='nav-lbl'> Add Template</span></NavLink> </li>
            
             {/* 
             <li><NavLink to="/document-search" className={activeNav}><SearchIcon/><span className='nav-lbl'> Medical Document Search</span></NavLink></li>

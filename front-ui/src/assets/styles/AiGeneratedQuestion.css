@@ -1,10 +1,10 @@
 .optum-aigleftCol{
-     flex: 0 0 40%; /* 20% width */
+     flex: 0 0 50%; /* 20% width */
      text-align: left;
 }
 
 .optum-aigrightCol{
-   flex: 0 0 60%; /* 20% width */
+   flex: 0 0 50%; /* 20% width */
    text-align: left;
   /* border-left:  1px solid #B0B0B0;*/
 }

@@ -175,7 +175,7 @@ const MyWorkbench: React.FC = () => {
   return (
     <Box sx={{ width: '100%', typography: 'body1' }}>
       <div style={{ borderBottom: '1px solid #d1d1d1', padding:'2px', margin:'0px'}}>
-          <div className='go-back' onClick={goBackScreen}><ArrowBackIcon/> Back </div> <strong> My Task <KeyboardArrowRightIcon/></strong>
+          <div className='go-back' onClick={goBackScreen}><ArrowBackIcon/> Back </div> <strong> Template Details <KeyboardArrowRightIcon/></strong>
           <div className='row-list'> 
             { paramData?(
                 <ul className='optum-hrow'>
