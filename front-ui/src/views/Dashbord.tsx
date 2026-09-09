@@ -27,10 +27,10 @@ const Dashbord: React.FC = () => {
   }, []);
 
   const columnDefs: ColDef[] = [
-      { field: "cpt_code", headerName:'Procedure Code', width:120, wrapHeaderText: true,autoHeaderHeight: true },
+      { field: "cpt_code", headerName:'CPT Code', width:120, wrapHeaderText: true,autoHeaderHeight: true },
       { field: "payer", headerName:'Payer', width:90 },
       { field: "state", headerName:'State', width:90 },
-      { field: "document_type", headerName:'Document Source',width:130, wrapHeaderText: true,autoHeaderHeight: true },
+      { field: "document_type", headerName:'Document Type',width:130, wrapHeaderText: true,autoHeaderHeight: true },
       { field: 'document_title', headerName:'Description', cellRenderer:DiscriptionCellRender, width:370},  
       { field: 'due_date', headerName:'Dute Date', width:120 },
       { field: 'priority', headerName:'Priority', cellRenderer: PriorityCellRender, width:120 },
